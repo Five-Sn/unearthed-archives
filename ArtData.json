@@ -1,13 +1,6 @@
 {
     "works": [
         {
-            "fileName": "nicotiana-alata750.jpg",
-            "alt": "Tobacco",
-            "artist": ["Scelo"],
-            "shareDate": 20250628,
-            "tags": ["plant", "scene"]
-        },
-        {
             "fileName": "Atlas_Picmix.gif",
             "alt": "Slightly unnerving Atlas Picmix",
             "artist": ["Scelo"],
