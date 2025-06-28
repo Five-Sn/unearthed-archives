@@ -1,0 +1,228 @@
+{
+    "tracks": [
+        {
+            "fileName": "Anthropophagy.mp3",
+            "coverFileName": "N0VUM Album Zero.jpg",
+            "title": "Anthropophagy",
+            "artist": "Vespidia",
+            "description": "Dungeon",
+            "tags": ["Area"]
+        },
+        {
+            "fileName": "Cat Gacha Tongue.mp3",
+            "coverFileName": "Prismatic Wishes.jpg",
+            "title": "Cat Gacha Tongue",
+            "artist": "Vespidia",
+            "description": "Plays when you go gambling",
+            "tags": ["Misc", "Momoko"]
+        },
+        {
+            "fileName": "geosmin.mp3",
+            "coverFileName": "Prismatic Wishes.jpg",
+            "title": "geosmin",
+            "artist": "Vespidia",
+            "description": "Deirdre's Garden battle",
+            "tags": ["Battle", "Garden"]
+        },
+        {
+            "fileName": "Glimmering Garden.mp3",
+            "coverFileName": "Prismatic Wishes.jpg",
+            "title": "Glimmering Garden",
+            "artist": "Vespidia",
+            "description": "Deirdre's Garden",
+            "tags": ["Area", "Garden"]
+        },
+        {
+            "fileName": "Heart of Cold Steel.mp3",
+            "coverFileName": "Prismatic Wishes.jpg",
+            "title": "Heart of Cold Steel",
+            "artist": "Vespidia",
+            "description": "Battle",
+            "tags": ["Battle"]
+        },
+        {
+            "fileName": "Heretic.mp3",
+            "coverFileName": "Azure Wishes.jpg",
+            "title": "Heretic",
+            "artist": "Vespidia",
+            "description": "Dramatic battle",
+            "tags": ["Battle"]
+        },
+        {
+            "fileName": "Highly-Guarded Spices -gemstone MIX-.mp3",
+            "coverFileName": "Prismatic Wishes.jpg",
+            "title": "Highly-Guarded Spices -gemstone MIX-",
+            "artist": "Vespidia",
+            "description": "Battle",
+            "tags": ["Battle"]
+        },
+        {
+            "fileName": "How is it that we can breathe underwater.mp3",
+            "coverFileName": "Prismatic Wishes.jpg",
+            "title": "How is it that we can breathe underwater?",
+            "artist": "Vespidia",
+            "description": "...",
+            "tags": ["Area"]
+        },
+        {
+            "fileName": "I saw it in a dream.mp3",
+            "coverFileName": "Azure Wishes.jpg",
+            "title": "I saw it in a dream",
+            "artist": "Vespidia",
+            "description": "...",
+            "tags": ["Misc"]
+        },
+        {
+            "fileName": "If it was a -Good- Morning I_d be Fishing.mp3",
+            "coverFileName": "Azure Wishes.jpg",
+            "title": "If it was a \"Good\" Morning I'd be Fishing",
+            "artist": "Vespidia",
+            "description": "Perfect music for a cold one at the docks",
+            "tags": ["Misc", "Told my wife I was going to the bank"]
+        },
+        {
+            "fileName": "Ink Filled Lungs.wav",
+            "coverFileName": "invasive speck.png",
+            "title": "Ink-Filled Lungs",
+            "artist": "Scelo",
+            "description": "(S18 event) Nikté attempts to drown herself",
+            "tags": ["Event"]
+        },
+        {
+            "fileName": "Ìrìn Àjò.mp3",
+            "coverFileName": "Prismatic Wishes.jpg",
+            "title": "Ìrìn Àjò",
+            "artist": "Vespidia",
+            "description": "Desert",
+            "tags": ["Area", "Desert"]
+        },
+        {
+            "fileName": "It_s Morgin_ Time!.mp3",
+            "coverFileName": "Azure Wishes.jpg",
+            "title": "It's Morgin' Time!",
+            "artist": "Vespidia",
+            "description": "GUTEN MORGAN",
+            "tags": ["Character", "Morgan"]
+        },
+        {
+            "fileName": "Laying Back at Camp.mp3",
+            "coverFileName": "Azure Wishes.jpg",
+            "title": "Laying Back at Camp",
+            "artist": "Vespidia",
+            "description": "The classic town theme",
+            "tags": ["Town"]
+        },
+        {
+            "fileName": "Let_s Meet Outside the Tavern -Krynn MIX-.mp3",
+            "coverFileName": "Azure Wishes.jpg",
+            "title": "Let's Meet Outside the Tavern -Krynn MIX-",
+            "artist": "Vespidia",
+            "description": "...",
+            "tags": ["Town"]
+        },
+        {
+            "fileName": "Momos Magical Mystery Market.mp3",
+            "coverFileName": "Prismatic Wishes.jpg",
+            "title": "Momo's Magical Mystery Market",
+            "artist": "Vespidia",
+            "description": "Momoko's Shop",
+            "tags": ["Character", "Momoko"]
+        },
+        {
+            "fileName": "Nagas With Attitude.mp3",
+            "coverFileName": "",
+            "title": "Nagas With Attitude",
+            "artist": "Vespidia",
+            "description": "...",
+            "tags": ["Battle", "Desert"]
+        },
+        {
+            "fileName": "Nekofantasia.mp3",
+            "coverFileName": "Prismatic Wishes.jpg",
+            "title": "Nekofantasia",
+            "artist": "Vespidia",
+            "description": "Momoko battle",
+            "tags": ["Battle", "Momoko"]
+        },
+        {
+            "fileName": "new town theme leaked REAL !!.mp3",
+            "coverFileName": "",
+            "title": "new town theme leaked REAL !!",
+            "artist": "Vespidia",
+            "description": "desert town",
+            "tags": ["Town", "Misc"]
+        },
+        {
+            "fileName": "Nikte Contempation.mp3",
+            "coverFileName": "invasive speck.png",
+            "title": "Nikté's Contemplation",
+            "artist": "Scelo",
+            "description": "(S39 event) Nikté and Vespa speak at Vogler",
+            "tags": ["Event"]
+        },
+        {
+            "fileName": "Nikte Realization - Session 39 ver.mp3",
+            "coverFileName": "invasive speck.png",
+            "title": "Nikté's Realization - Session 39 version",
+            "artist": "Scelo",
+            "description": "(S39 event) Nikté comes around to Vespa",
+            "tags": ["Event"]
+        },
+        {
+            "fileName": "Now, Strike the Enemy!!.mp3",
+            "coverFileName": "Prismatic Wishes.jpg",
+            "title": "Now, Strike the Enemy!!",
+            "artist": "Vespidia",
+            "description": "Battle",
+            "tags": ["Battle"]
+        },
+        {
+            "fileName": "oasis.mp3",
+            "coverFileName": "Prismatic Wishes.jpg",
+            "title": "oasis",
+            "artist": "Vespidia",
+            "description": "Desert town",
+            "tags": ["Town", "Desert"]
+        },
+        {
+            "fileName": "Shadow Forest Boss Music (wip).ogg",
+            "coverFileName": "",
+            "title": "Shadow Forest Boss Music (wip)",
+            "artist": "Petra",
+            "description": "Nightmare battle",
+            "tags": ["Battle", "Boss"]
+        },
+        {
+            "fileName": "Sleeping Tumbleweeds.wav",
+            "coverFileName": "",
+            "title": "Sleeping Tumbleweeds",
+            "artist": "Scelo",
+            "description": "Nighttime",
+            "tags": ["Town", "Desert"]
+        },
+        {
+            "fileName": "Steel Yourself -in another world MIX-.mp3",
+            "coverFileName": "Azure Wishes.jpg",
+            "title": "Steel Yourself -in another world MIX-",
+            "artist": "Vespidia",
+            "description": "Battle",
+            "tags": ["Battle"]
+        },
+        {
+            "fileName": "vespa goes to the forge.mp3",
+            "coverFileName": "Prismatic Wishes.jpg",
+            "title": "vespa goes to the forge",
+            "artist": "Vespidia",
+            "description": "Plays when Vespa goes to the forge",
+            "tags": ["Misc"]
+        },
+        {
+            "fileName": "Which is Brew.mp3",
+            "coverFileName": "Prismatic Wishes.jpg",
+            "title": "Which is Brew?",
+            "artist": "Vespidia",
+            "description": "Melona's theme",
+            "tags": ["Character", "Melona"]
+        }
+    ]
+}
