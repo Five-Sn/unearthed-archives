@@ -1,0 +1,172 @@
+import {
+  Container,
+  Row,
+  Col,
+  ButtonGroup,
+  ToggleButton,
+} from "react-bootstrap";
+import { useState } from "react";
+import MusicDisplay from "../components/MusicDisplay";
+import GallerySearchBar from "../components/GallerySearchBar";
+
+const musicData = await fetch("/MusicData.json").then((r) => r.json());
+
+// Represents a music track's relevant information
+type musicItem = {
+  fileName: string;
+  coverFileName: string;
+  title: string;
+  artist: string;
+  description: string;
+  tags: Array<string>;
+};
+
+// Normalize a string (used for comparing a user's input title with track titles)
+const normalizeString = (input: string) => {
+  // normalize("NFD") decomposes composed graphenes (ex. è becomes e + `)
+  // replace() removes all non-alphanumeric characters
+  return input.toLowerCase().normalize("NFD").replace(/\W/g, "");
+  // Underscores are kept, if you wanna change this then check: https://stackoverflow.com/questions/9364400/remove-not-alphanumeric-characters-from-string
+};
+
+const getByTitleAndFilter = (
+  items: Array<musicItem>,
+  title: string,
+  filter: string
+) => {
+  // Return the existing array if there is no title and no filter
+  if (!title && !filter) {
+    console.log(
+      "No title or filter was provided- returning unfiltered results"
+    );
+    return items;
+  }
+
+  const normalizedTitle = normalizeString(title);
+  console.log(normalizedTitle);
+
+  const result = [];
+  // Cycle through musicItems
+  for (let i = 0; i < items.length; i++) {
+    // If there's no provided title or the title matches
+    // AND
+    // there's no provided filter or the filter is in the musicItem's tags
+    if (
+      (!normalizedTitle ||
+        normalizeString(items[i].title).includes(normalizedTitle)) &&
+      (!filter || items[i].tags.includes(filter))
+    ) {
+      result.push(items[i]);
+    }
+  }
+  return result;
+};
+
+const Music = () => {
+  const [titleQuery, setTitleQuery] = useState("");
+  // 0 is the default, unselected value
+  const [filterValue, setFilterValue] = useState("0");
+
+  // There are hardcoded disclaimers about area and event themes below
+  // They use specific indices in this array so remember that when changing this
+  // TODO: Change it so it's not hardcoded?
+  const filters = [
+    { name: "Battle", value: "1" },
+    { name: "Town", value: "2" },
+    { name: "Area", value: "3" },
+    { name: "Character", value: "4" },
+    { name: "Event", value: "5" },
+    { name: "Misc", value: "6" },
+  ];
+
+  // Returns the name of a filter given its value
+  const getFilterName = (value: string) => {
+    const valueNum = Number(value);
+    if (valueNum === 0) {
+      return "";
+    } else {
+      return filters[valueNum - 1].name;
+    }
+  };
+
+  // Update filter value (used when a filter button is clicked)
+  const updateFilterValue = (newValue: string) => {
+    // If the active filter is clicked, deactivate it (set the value to 0)
+    // Otherwise, set it as normal
+    newValue === filterValue ? setFilterValue("0") : setFilterValue(newValue);
+  };
+
+  // Get only the desired musicItems based on the user's search title and selected filter
+  const musics: Array<musicItem> = getByTitleAndFilter(
+    musicData["tracks"],
+    titleQuery,
+    getFilterName(filterValue)
+  );
+  // If there's only one result, let that be the only music column
+  // Otherwise, split the music items into two columns
+  // React and Bootstrap automatically handle moving around the columns to make them look good on narrow screens
+  const musicCols =
+    musics.length === 1
+      ? [musics]
+      : [
+          musics.slice(0, Math.ceil(musics.length / 2)),
+          musics.slice(Math.ceil(musics.length / 2), musics.length),
+        ];
+
+  return (
+    <>
+      <br />
+      <Container>
+        <Row>
+          <Col>
+            <h1>Unearthed Music</h1>
+          </Col>
+        </Row>
+        <GallerySearchBar
+          placeholderText="Example: nekofantasia"
+          onClick={setTitleQuery}
+        />
+        <Row className="pb-4">
+          <Col>
+            <ButtonGroup>
+              {filters.map((filter, filterId) => (
+                <ToggleButton
+                  key={filterId}
+                  id={`filter-${filterId}`}
+                  value={filter.value}
+                  checked={filterValue === filter.value}
+                  onChange={(e) => updateFilterValue(e.currentTarget.value)}
+                  variant="outline-primary"
+                  type="checkbox"
+                  name="checkbox"
+                >
+                  {filter.name}
+                </ToggleButton>
+              ))}
+            </ButtonGroup>
+            {filterValue === filters[2].value && (
+              <p className="mb-0">
+                <i>Area themes are for exploration and dungeons</i>
+              </p>
+            )}
+            {filterValue === filters[4].value && (
+              <p className="mb-0">
+                <i>Event themes are for specific, one-time scenes</i>
+              </p>
+            )}
+          </Col>
+        </Row>
+        {musicCols[0].length === 0 && (
+          <>
+            <h3>Nothing unearthed here!</h3>
+            <p>Looks like there isn't any music with that title and filter.</p>
+          </>
+        )}
+        <MusicDisplay itemCols={musicCols} />
+      </Container>
+      <br />
+    </>
+  );
+};
+
+export default Music;
