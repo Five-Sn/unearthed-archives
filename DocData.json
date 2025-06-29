@@ -1,0 +1,93 @@
+{
+    "categories": [
+        "Campaign Notes", "Summaries", "Stories", "Misc"
+    ],
+    "documents": {
+        "Campaign Notes": [
+            {
+                "title": "Unearthed Memories Notes",
+                "description": "Unearthed Memories campaign notes- the main ones",
+                "url": "https://docs.google.com/document/d/1UQHTFyYYVBdC99dOML9WFPoP2rDmrb2vaXIKvyDDWqs/edit?usp=drive_link",
+                "category": "Campaign Notes"
+            }
+        ],
+        "Summaries": [
+            {
+                "title": "Unearthed Summaries",
+                "description": "Summaries of each player character's story and connections",
+                "url": "https://docs.google.com/document/d/1txWt2yHQD7stsgMCNAUerOyUt8_Gcn69jJ7SyeQzRRg/edit?usp=drive_link",
+                "category": "Summaries"
+            },
+            {
+                "title": "Unearthed Memories recap for session 46 (Video)",
+                "description": "Recap of sessions 41 - 45 (the Heart's Hollow arc) with beautiful MS Paint visuals",
+                "url": "https://youtu.be/rnnEjtfogDw?si=6mfLR8kypFAH2IZ0",
+                "category": "Summaries"
+            },
+            {
+                "title": "Verbose Recap for Session 46 (Document)",
+                "description": "Recap of sessions 41 - 45 (the Heart's Hollow arc) with no visuals",
+                "url": "https://docs.google.com/document/d/1QlNEpwcqP7P5_3f0wfvxYAR-zL_SzohQMfEe5NjO9gQ/edit?usp=drive_link",
+                "category": "Summaries"
+            },
+            {
+                "title": "Verbose Session 23 Summary for Faeton",
+                "description": "Covers Momoko's introduction, Embers' breakdown, and Vespa and Nikté being regretful",
+                "url": "https://docs.google.com/document/d/1uCogjWqpdB80uRPIYf36efCbYbJTGM554k53nrpOhj4/edit?usp=drive_link",
+                "category": "Summaries"
+            },
+            {
+                "title": "Verbose Session 47 Summary for Natthew",
+                "description": "Covers ritual circle lore and Isaac's proposal",
+                "url": "https://docs.google.com/document/d/11eF5oelZjhZoUDetnVa65y0JiegDTBvl5bOraZ1AHzI/edit?usp=drive_link",
+                "category": "Summaries"
+            }
+        ],
+        "Stories": [
+            {
+                "title": "Misfire",
+                "description": "Short story elaborating on Embers' session 23 breakdown",
+                "url": "https://docs.google.com/document/d/1yh8USab9FgvDNrvGNpVZRkySMKTXn2xsl0IRUeNQ2P4/edit?usp=drive_link",
+                "category": "Stories"
+            },
+            {
+                "title": "Sunlight",
+                "description": "Short story about Nikté under the sun",
+                "url": "https://docs.google.com/document/d/1amlnWP24QVoxxrRkdWK36yI4_jBdb3Zi79Y6l3Cnkw8/edit?usp=drive_link",
+                "category": "Stories"
+            },
+            {
+                "title": "Symon X Symon Love Interest Number Eight",
+                "description": "Reader X Symon fanfic with no catch, twist, or anything weird",
+                "url": "https://docs.google.com/document/d/17fybEBCcOiI1_EXJqtuy-IIrK8o8shyM/edit?usp=drive_link&ouid=113170772469828515526&rtpof=true&sd=true",
+                "category": "Stories"
+            }
+        ],
+        "Misc": [
+            {
+            "title": "Gy's Notes",
+            "description": "The first few pages of Gy's notebook, serving as his diary",
+            "url": "https://docs.google.com/document/d/1OY4Bh0BcmIYfVkf4BbqwnuEnvHLqYFhcJ_uiYsUHxTA/edit?usp=drive_link",
+            "category": "Misc"
+            },
+            {
+                "title": "NPC Applications",
+                "description": "Scelo's original pitches for Nivali and NPCs, including love interests for Symon",
+                "url": "https://docs.google.com/presentation/d/1ws044u9_e7u7PxcIZStXO_pOJcO-B3zL3xobX0_6VO0/edit?usp=drive_link",
+                "category": "Misc"
+            },
+            {
+                "title": "The Gaian Guys",
+                "description": "Lore on Gaia, Krynn and Scelo's previous characters",
+                "url": "https://docs.google.com/document/d/1AqR09dZ7cGPh1wlVSxolaP0kN18K5brpPOBV-XgClNY/edit?usp=drive_link",
+                "category": "Misc"
+            },
+            {
+                "title": "Transcryption",
+                "description": "Transcriptions of several scenes from the campaign with direct dialogue",
+                "url": "https://docs.google.com/document/d/1x9tx4X41OQtSRamgkmMjtMOj23IfmNqMUVEueY69RfI/edit?usp=drive_link",
+                "category": "Misc"
+            }
+        ]
+    }
+}
