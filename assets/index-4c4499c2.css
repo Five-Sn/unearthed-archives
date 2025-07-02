@@ -1,4 +1,4 @@
-@charset "UTF-8";[data-bs-theme=umtest]{--bs-body-bg: purple;--bs-body-color: white;--bs-body-color-rgb: 255,0,0;--bs-body-bg-rgb: 255,0,0;--bs-tertiary-bg: #ff0000;--bs-emphasis-color: #ff0000}/*!
+@charset "UTF-8";[data-bs-theme=umtest]{--bs-body-bg: purple;--bs-body-color: white;--bs-tertiary-bg: #ff0000;--bs-emphasis-color: #ff0000;--bs-link-color: #ff0000;--bs-heading-color: blue}/*!
  * Bootstrap  v5.3.7 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
