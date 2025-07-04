@@ -1,0 +1,201 @@
+:root {
+  --um-true-primary: #11806a;
+  --um-offwhite: #dde3df;
+  --um-offwhite-rgb: 221, 227, 223;
+}
+
+[data-bs-theme="um-dark"] {
+  /* Primary color of um-dark theme */
+  --primary: #009475;
+
+  /* Text and heading color */
+  --bs-body-color: var(--um-offwhite);
+  --bs-heading-color: var(--um-offwhite);
+
+  /* Background color- these are the same */
+  /* Previously #122621 */
+  --bs-body-bg: #162924;
+  --bs-body-bg-rgb: 22, 41, 36;
+  .bg-body {
+    background-color: rgba(var(--bs-body-bg-rgb), 0) !important;
+  }
+
+  /* Used for hovering and clicking buttons with the background color */
+  --bg-hover: color-mix(in hsl, var(--bs-body-bg), var(--primary) 30%);
+  --bg-click: color-mix(in hsl, var(--bs-body-bg), var(--primary) 70%);
+
+  /* Used for input placeholder text */
+  --bs-secondary-color: #56cdb5;
+
+  /* Used as the border for input forms and inactive paginations */
+  --bs-border-color: var(--primary);
+
+  /* Used for links */
+  /* Default dark theme colors were #6ea8fe (normal) and #8bb9fe (hover) */
+  --bs-link-color: #6ecefe;
+  --bs-link-color-rgb: rgb(--bs-link-color);
+  --bs-link-hover-color: #8bddfe;
+  --bs-link-hover-color-rgb: rgb(--bs-link-hover-color);
+
+  /* Used for typical buttons */
+  .btn-primary {
+    --bs-btn-color: var(--um-offwhite);
+    --bs-btn-bg: var(--primary);
+    --bs-btn-border-color: var(--primary);
+    
+    --bs-btn-hover-color: var(--um-offwhite);
+    --bs-btn-hover-bg: color-mix(in hsl, var(--primary), var(--bs-body-bg) 15%);
+    --bs-btn-hover-border-color: color-mix(in hsl, var(--primary), var(--bs-body-bg) 25%);
+
+    --bs-btn-active-color: color-mix(in hsl, var(--um-offwhite), var(--bs-body-bg) 20%);
+    --bs-btn-active-bg: color-mix(in hsl, var(--primary), var(--bs-body-bg) 30%);
+    --bs-btn-active-border-color: color-mix(in hsl, var(--primary), var(--bs-body-bg) 50%);
+  }
+
+  /* Used for the filter selector on the Music page */
+  .btn-outline-primary {
+    --bs-btn-color: var(--um-offwhite);
+    --bs-btn-bg: var(--bs-body-bg);
+    --bs-btn-border-color: var(--primary);
+
+    --bs-btn-hover-color: var(--um-offwhite);
+    --bs-btn-hover-bg: var(--bg-hover);
+    --bs-btn-hover-border-color: var(--primary);
+
+    --bs-btn-active-color: var(--um-offwhite);
+    --bs-btn-active-bg: var(--primary);
+    --bs-btn-active-border-color: var(--primary);
+  }
+
+  /* Used to highlight the currently selected page in the navbar */
+  .navbar-nav .nav-link.active {
+    color: var(--um-offwhite);
+  }
+
+  /* Used for... paginations */
+  .pagination {
+    /* Active page button */
+    --bs-pagination-active-color: var(--um-offwhite);
+    --bs-pagination-active-bg: var(--primary);
+    --bs-pagination-active-border-color: var(--primary);
+
+    /* Inactive page buttons */
+    /* No main color is listed cause the site uses the link color for text here */
+    --bs-pagination-hover-bg: var(--bg-hover);
+    --bs-pagination-hover-border-color: var(--primary);
+    /* Used as a button is being clicked */
+    --bs-pagination-focus-bg: var(--bg-click);
+  }
+
+  /* Used for typical borders (such as art and the ones I put around cols) */
+  .border-primary {
+    border-color: var(--primary) !important;
+  }
+
+  /* "a" sets the link underline, "a *" sets the link text and all element descendants */
+  /* You shouldn't have a reason to modify these ones directly */
+  a, a * {
+    color: var(--bs-link-color);
+  }
+  a:hover, a:hover * {
+    color: var(--bs-link-hover-color);
+  }
+}
+
+[data-bs-theme="um-light"] {
+  /* Primary color of um-light theme */
+  --primary: var(--um-true-primary);
+  --dark: #162924;
+
+  /* Text and heading color */
+  --bs-body-color: var(--dark);
+  --bs-heading-color: var(--dark);
+
+  /* Background color- these are the same */
+  /* Previously #122621 */
+  --bs-body-bg: var(--um-offwhite);
+  --bs-body-bg-rgb: var(--um-offwhite-rgb);
+  .bg-body {
+    background-color: rgba(var(--bs-body-bg-rgb), 0) !important;
+  }
+  
+  /* Used for hovering and clicking buttons with the background color */
+  --bg-hover: color-mix(in hsl, var(--bs-body-bg), var(--primary) 30%);
+  --bg-click: color-mix(in hsl, var(--bs-body-bg), var(--primary) 80%);
+
+  /* Used for input placeholder text */
+  --bs-secondary-color: #21735a;
+
+  /* Used as the border for input forms and inactive paginations */
+  --bs-border-color: #82b4aa;
+
+  /* Used for links */
+  /* Default dark theme colors were #6ea8fe (normal) and #8bb9fe (hover) */
+  --bs-link-color: #0189ab;
+  --bs-link-color-rgb: rgb(--bs-link-color);
+  --bs-link-hover-color: #076e96;
+  --bs-link-hover-color-rgb: rgb(--bs-link-hover-color);
+
+  /* Used for typical buttons */
+  .btn-primary {
+    --bs-btn-color: var(--um-offwhite);
+    --bs-btn-bg: var(--primary);
+    --bs-btn-border-color: var(--primary);
+    
+    --bs-btn-hover-color: var(--um-offwhite);
+    --bs-btn-hover-bg: color-mix(in hsl, var(--primary), black 10%);
+    --bs-btn-hover-border-color: color-mix(in hsl, var(--primary), black 15%);
+
+    --bs-btn-active-color: color-mix(in hsl, var(--um-offwhite), black 20%);
+    --bs-btn-active-bg: color-mix(in hsl, var(--primary), black 20%);
+    --bs-btn-active-border-color: color-mix(in hsl, var(--primary), black 30%);
+  }
+
+  /* Used for the filter selector on the Music page and light/dark button */
+  .btn-outline-primary {
+    --bs-btn-color: var(--primary);
+    --bs-btn-bg: var(--bs-body-bg);
+    --bs-btn-border-color: var(--primary);
+
+    --bs-btn-hover-color: var(--primary);
+    --bs-btn-hover-bg: var(--bg-hover);
+    --bs-btn-hover-border-color: var(--primary);
+
+    --bs-btn-active-color: var(--um-offwhite);
+    --bs-btn-active-bg: var(--primary);
+    --bs-btn-active-border-color: var(--primary);
+  }
+
+  /* Used to highlight the currently selected page in the navbar */
+  .navbar-nav .nav-link.active {
+    color: var(--dark);
+  }
+
+  /* Used for... paginations */
+  .pagination {
+    --bs-pagination-active-color: var(--um-offwhite);
+    --bs-pagination-active-bg: var(--primary);
+    --bs-pagination-active-border-color: var(--primary);
+
+    /* Inactive page buttons */
+    /* No main color is listed cause the site uses the link color for text here */
+    --bs-pagination-hover-bg: var(--bg-hover);
+    --bs-pagination-hover-border-color: var(--primary);
+    /* Used as a button is being clicked */
+    --bs-pagination-focus-bg: var(--bg-click);
+  }
+
+  /* Used for typical borders (such as art and the ones I put around cols) */
+  .border-primary {
+    border-color: var(--primary) !important;
+  }
+
+  /* "a" sets the link underline, "a *" sets the link text and all element descendants */
+  /* You shouldn't have a reason to modify these ones directly */
+  a, a * {
+    color: var(--bs-link-color);
+  }
+  a:hover, a:hover * {
+    color: var(--bs-link-hover-color);
+  }
+}

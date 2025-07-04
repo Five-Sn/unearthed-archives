@@ -9,11 +9,11 @@ const ArtTags = () => {
           <Col>
             <h1>Unearthed Art... tags</h1>
             <p>
-              Here's a list of all the tags
+              Here's a list of all the tags - they aren't actually case
+              sensitive
               <br />
-              They aren't actually case sensitive
-              <br />
-              Also, feel free to suggest new tags!
+              Also, feel free to suggest new tags and please lmk if any image
+              tags are off!
             </p>
             <br />
           </Col>

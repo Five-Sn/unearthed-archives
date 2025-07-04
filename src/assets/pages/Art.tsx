@@ -3,8 +3,16 @@ import { useState, useEffect } from "react";
 import ArtDisplay from "../components/ArtDisplay";
 import FullPagination from "../components/FullPagination";
 import GallerySearchBar from "../components/GallerySearchBar";
+import NoTrespassing from "../components/NoTrespassing";
 
-const artData = await fetch("/ArtData.json").then((r) => r.json());
+// I have no idea why this works
+// This file path is needed for the build in /dist to work, which makes sense for how those files are arranged
+// But when running a dev build... uh...
+// I guess it separates /unearthed-archives cause it's the base directory in vite.config.ts
+// and then the thing where it automatically knows /ArtData.json is referring to the public folder?
+const artData = await fetch("/unearthed-archives/ArtData.json").then((r) =>
+  r.json()
+);
 
 const imagesPerPage = 36;
 let defaultNumPages = Math.ceil(artData["works"].length / imagesPerPage);
@@ -80,9 +88,12 @@ const Art = () => {
   // 5 is the default, but this is always replaced
   // TODO: there has to be a better way
   let itemsPerRow = 5;
-  // Updates itemsPerRow based on window width (cannot be less than 2)
+  // Updates itemsPerRow based on window width (cannot be less than 2 or more than 6)
   const updateItemsPerRow = () => {
-    itemsPerRow = Math.max(Math.floor(window.innerWidth / 220), 2);
+    itemsPerRow = Math.min(
+      Math.max(Math.floor((window.innerWidth - 30) / 240), 2),
+      6
+    );
   };
   // Correct itemsPerRow
   updateItemsPerRow();
@@ -110,8 +121,7 @@ const Art = () => {
 
   return (
     <>
-      <br />
-      <Container>
+      <Container className="py-4">
         <Row>
           <Col>
             <h1>Unearthed Art</h1>
@@ -122,7 +132,7 @@ const Art = () => {
           onClick={updateResults}
         >
           <p>
-            (<a href="#/art/tags">tag list</a>)
+            <a href="#/art/tags">(tag list)</a>
           </p>
         </GallerySearchBar>
         <Row>

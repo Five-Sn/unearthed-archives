@@ -1,30 +1,35 @@
-import { Link } from "react-router-dom";
+import { Container, Button, Navbar, Nav } from "react-bootstrap";
 
-const NavBar = () => {
+// Properties
+interface Props {
+  // If the theme is light or dark, the dark mode button will render
+  themeType: "light" | "dark" | "single";
+  themeSwitchFunction: () => void;
+}
+
+const NavBar = ({ themeType, themeSwitchFunction }: Props) => {
   return (
     <>
-      <ul className="nav justify-content-center align-items-center">
-        <li className="nav-item">
-          <a href="/">
+      <Container>
+        <Navbar>
+          <Navbar.Brand href="unearthed-archives">
             <img
               src="ui/totally_final_unearthed_archives_logo.jpg"
               height="30"
-              className="d-inline-block align-bottom"
             />
-          </a>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/art">
-            Art
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/music">
-            Music
-          </Link>
-        </li>
-      </ul>
-      <br />
+          </Navbar.Brand>
+          <Nav className="me-auto gap-3">
+            <Nav.Link href="unearthed-archives#/art">Art</Nav.Link>
+            <Nav.Link href="unearthed-archives#/music">Music</Nav.Link>
+            <Nav.Link href="unearthed-archives#/docs">Docs</Nav.Link>
+          </Nav>
+          {themeType !== "single" && (
+            <Button variant="outline-primary" onClick={themeSwitchFunction}>
+              {themeType === "light" ? "🌙" : "☀️"}
+            </Button>
+          )}
+        </Navbar>
+      </Container>
     </>
   );
 };

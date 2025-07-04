@@ -37,13 +37,13 @@ const ArtDisplay = ({ itemRows, itemsPerRow }: Props) => {
           key={rowIndex}
         >
           {row.map((imageItem, colIndex) => (
-            <Col className="mx-auto" key={colIndex} style={{ width: "200px" }}>
-              <a href={`art-works/${imageItem.fileName}`} target="_blank">
+            <Col className="mx-auto" key={colIndex} style={{ width: "185px" }}>
+              <a href={`#/art/view/${imageItem.fileName}`} target="_blank">
                 <img
                   src={`art-thumbnails/${jpgName(imageItem.fileName)}`}
-                  className="img-fluid thumbnail mx-auto d-block border border-dark"
+                  className="img-fluid thumbnail mx-auto d-block border"
                   alt={imageItem.alt}
-                  style={{ maxWidth: "165px", maxHeight: "180px" }}
+                  style={{ maxWidth: "140px", maxHeight: "150px" }}
                 />
               </a>
             </Col>

@@ -9,7 +9,9 @@ import { useState } from "react";
 import MusicDisplay from "../components/MusicDisplay";
 import GallerySearchBar from "../components/GallerySearchBar";
 
-const musicData = await fetch("/MusicData.json").then((r) => r.json());
+const musicData = await fetch("/unearthed-archives/MusicData.json").then((r) =>
+  r.json()
+);
 
 // Represents a music track's relevant information
 type musicItem = {
@@ -115,8 +117,7 @@ const Music = () => {
 
   return (
     <>
-      <br />
-      <Container>
+      <Container className="py-4">
         <Row>
           <Col>
             <h1>Unearthed Music</h1>
@@ -164,7 +165,6 @@ const Music = () => {
         )}
         <MusicDisplay itemCols={musicCols} />
       </Container>
-      <br />
     </>
   );
 };

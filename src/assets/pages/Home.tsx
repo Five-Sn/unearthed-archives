@@ -11,10 +11,24 @@ const Home = () => {
       <p>
         <s>Individual music pages</s> v0.5
       </p>
-      <p>Individual art pages</p>
-      <p>Docs page</p>
-      <p>UM colors and dark theme</p>
+      <p>
+        <s>Individual art pages</s> v0.6
+      </p>
+      <p>
+        <s>Docs page</s> v0.7
+      </p>
+      <p>
+        <s>UM visuals (etc) and dark theme</s> v0.8
+      </p>
       <p>Logo and home</p>
+      <p>Theme settings page</p>
+      <p>
+        Smaller things:
+        <ul>
+          <li>Better art display</li>
+          <li>Container widths</li>
+        </ul>
+      </p>
     </>
   );
 };

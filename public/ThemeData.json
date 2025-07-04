@@ -1,0 +1,30 @@
+{
+    "um-light":
+    {
+        "name": "um-light",
+        "displayName": "UM Light",
+        "type": "light",
+        "partnerTheme": "um-dark"
+    },
+    "um-dark":
+    {
+        "name": "um-dark",
+        "displayName": "UM Dark",
+        "type": "dark",
+        "partnerTheme": "um-light"
+    },
+    "light":
+    {
+        "name": "light",
+        "displayName": "Standard Light",
+        "type": "light",
+        "partnerTheme": "dark"
+    },
+    "dark":
+    {
+        "name": "dark",
+        "displayName": "Standard Dark",
+        "type": "dark",
+        "partnerTheme": "light"
+    }
+}
