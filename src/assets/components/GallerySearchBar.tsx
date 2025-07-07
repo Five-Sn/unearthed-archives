@@ -2,6 +2,8 @@ import { Form, Button, Row, Col } from "react-bootstrap";
 import React, { useState } from "react";
 
 // This search bar fits into a Container
+// It has a... search bar and a "Submit" button
+// Any children will be displayed directly under the bar
 
 // Properties
 interface Props {
@@ -17,7 +19,7 @@ const GallerySearchBar = ({ placeholderText, onClick, children }: Props) => {
     <>
       <Form>
         <Row className="py-4">
-          <Col xs={11}>
+          <Col className="mr-0 pr-0">
             <Form.Control
               type="text"
               placeholder={placeholderText}
@@ -26,7 +28,7 @@ const GallerySearchBar = ({ placeholderText, onClick, children }: Props) => {
             />
             {children}
           </Col>
-          <Col xs={1}>
+          <Col xs="auto" className="ml-0 pl-0">
             <Button type="submit" onClick={(e) => onClick(searchInput)}>
               Submit
             </Button>

@@ -45,7 +45,6 @@ const getByTitleAndFilter = (
   }
 
   const normalizedTitle = normalizeString(title);
-  console.log(normalizedTitle);
 
   const result = [];
   // Cycle through musicItems
@@ -124,7 +123,7 @@ const Music = () => {
           </Col>
         </Row>
         <GallerySearchBar
-          placeholderText="Example: nekofantasia"
+          placeholderText="Ex: nekofantasia"
           onClick={setTitleQuery}
         />
         <Row className="pb-4">

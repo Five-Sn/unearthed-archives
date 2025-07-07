@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const ArtTags = () => {
   return (
     <>
-      <br />
-      <Container>
+      <Container className="py-4">
         <Row>
           <Col>
             <h1>Unearthed Art... tags</h1>

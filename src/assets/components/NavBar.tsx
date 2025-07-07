@@ -10,24 +10,34 @@ interface Props {
 const NavBar = ({ themeType, themeSwitchFunction }: Props) => {
   return (
     <>
-      <Container>
+      <Container
+        style={{
+          width: "80%",
+        }}
+      >
         <Navbar>
-          <Navbar.Brand href="unearthed-archives">
+          <Navbar.Brand href="#/">
             <img
               src="ui/totally_final_unearthed_archives_logo.jpg"
               height="30"
             />
           </Navbar.Brand>
           <Nav className="me-auto gap-3">
-            <Nav.Link href="unearthed-archives#/art">Art</Nav.Link>
-            <Nav.Link href="unearthed-archives#/music">Music</Nav.Link>
-            <Nav.Link href="unearthed-archives#/docs">Docs</Nav.Link>
+            <Nav.Link href="#/art">Art</Nav.Link>
+            <Nav.Link href="#/music">Music</Nav.Link>
+            <Nav.Link href="#/docs">Docs</Nav.Link>
+            <Nav.Link href="#/toodoo">Todo</Nav.Link>
           </Nav>
-          {themeType !== "single" && (
-            <Button variant="outline-primary" onClick={themeSwitchFunction}>
-              {themeType === "light" ? "🌙" : "☀️"}
+          <Nav className="ms-auto gap-2">
+            {themeType !== "single" && (
+              <Button variant="outline-primary" onClick={themeSwitchFunction}>
+                {themeType === "light" ? "🌙" : "☀️"}
+              </Button>
+            )}
+            <Button variant="outline-primary" href="#/themes">
+              Themes
             </Button>
-          )}
+          </Nav>
         </Navbar>
       </Container>
     </>

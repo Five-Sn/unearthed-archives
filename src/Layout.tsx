@@ -8,32 +8,38 @@ const themeData = await fetch("/unearthed-archives/ThemeData.json").then((r) =>
   r.json()
 );
 
+// TODO: MAKE THIS AN IMPORT- Themes.tsx ALSO USES THIS AND IT WOULD BE AWFUL TO DESYNRHOCTNIZE IT
+type themeString =
+  | "light"
+  | "dark"
+  | "um-light"
+  | "um-dark"
+  | "azure"
+  | "nikte";
+
 // Represents a theme and its information
 type themeItem = {
   name: string;
   displayName: string;
   backgroundImage?: string;
   type: "light" | "dark" | "single";
-  partnerTheme: "light" | "dark" | "um-light" | "um-dark";
+  partnerTheme: themeString;
+  thumbnailFile: string;
 };
 
 const Layout = () => {
-  /*const [theme, setTheme] = useState<"light" | "dark" | "um-light" | "um-dark">(
-    "um-dark"
-  );*/
-  const [theme, setTheme] = useLocalStorage<
-    "light" | "dark" | "um-light" | "um-dark"
-  >("theme", "um-dark");
+  const [theme, setTheme] = useLocalStorage<themeString>("theme", "um-dark");
   const [curThemeInfo, setCurThemeInfo] = useState<themeItem>(themeData[theme]);
 
+  // Detects when theme is changed
+  // Updates the HTML tag (the visual appearance) and the curThemeInfo object
   useEffect(() => {
     document.body.setAttribute("data-bs-theme", theme);
+    setCurThemeInfo(themeData[theme]);
   }, [theme]);
 
   const toggleDarkTheme = () => {
     setTheme(curThemeInfo.partnerTheme);
-    // This has to be done this way cause setTheme doesn't update fast enough to use it
-    setCurThemeInfo(themeData[curThemeInfo.partnerTheme]);
   };
 
   return (
@@ -54,11 +60,11 @@ const Layout = () => {
         }}
       >
         <br />
+        <br />
         <Container
           className="bg-body"
           style={{
-            width: "85%",
-            maxWidth: "2000px",
+            width: "80%",
           }}
         >
           <main>

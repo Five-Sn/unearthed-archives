@@ -27,14 +27,14 @@ type artItem = {
 };
 
 // Split an array into chunks of a certain size
-/*const chunkArray = (array: Array<artItem>, size: number) => {
+const chunkArray = (array: Array<artItem>, size: number) => {
   const result = [];
   for (let i = 0; i < array.length; i += size) {
     // Get a slice
     result.push(array.slice(i, i + size));
   }
   return result;
-};*/
+};
 
 // Search an array of artItems to return those with all tags specified in searchTags
 const getByTags = (items: Array<artItem>, searchTags: string) => {
@@ -77,7 +77,7 @@ const getByTags = (items: Array<artItem>, searchTags: string) => {
   return result;
 };
 
-const Art = () => {
+const ArtOld = () => {
   // Used to filer all currently displayed images, updated to the user's input when the search button is pressed
   const [tagQuery, setTagQuery] = useState("");
   // Index of the current page being viewed (only a handful of images are displayed at once)
@@ -106,9 +106,10 @@ const Art = () => {
   // This is essentially a copies of some image items
   // This video might give an idea on how to avoid this:
   // https://youtu.be/E1cklb4aeXA?si=TWZ3uE_2fZV4Y-1j&t=664
-  // const arts = chunkArray(getByTags(artData["works"], tagQuery), itemsPerRow);
-
-  const arts = getByTags(artData["works"], tagQuery);
+  const artRows = chunkArray(
+    getByTags(artData["works"], tagQuery),
+    itemsPerRow
+  );
 
   // Searches for new results based on the tags currently in the search bar
   // Happens when a search is submitted
@@ -126,7 +127,7 @@ const Art = () => {
           </Col>
         </Row>
         <GallerySearchBar
-          placeholderText="Ex: raksha no_mask opharim"
+          placeholderText="Example: opharim raksha no_mask"
           onClick={updateResults}
         >
           <p>
@@ -135,7 +136,7 @@ const Art = () => {
         </GallerySearchBar>
         <Row>
           <Col>
-            {arts.length === 0 && (
+            {artRows.length === 0 && (
               <>
                 <h3>Nothing unearthed here!</h3>
                 <p>Looks like there isn't any art with those tags.</p>
@@ -149,9 +150,10 @@ const Art = () => {
           </Col>
         </Row>
         <ArtDisplay
-          itemPage={arts.slice(
+          itemPage={artData["works"].slice(
             (activePageIndex - 1) * imagesPerPage,
-            activePageIndex * imagesPerPage
+            activePageIndex * imagesPerPage,
+            imagesPerPage
           )}
           itemsPerRow={itemsPerRow}
         />
@@ -170,4 +172,4 @@ const Art = () => {
   );
 };
 
-export default Art;
+export default ArtOld;

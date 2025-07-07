@@ -4,27 +4,46 @@
         "name": "um-light",
         "displayName": "UM Light",
         "type": "light",
-        "partnerTheme": "um-dark"
+        "partnerTheme": "um-dark",
+        "thumbnailFile": "UM_Light.png"
     },
     "um-dark":
     {
         "name": "um-dark",
         "displayName": "UM Dark",
         "type": "dark",
-        "partnerTheme": "um-light"
+        "partnerTheme": "um-light",
+        "thumbnailFile": "UM_Dark.png"
     },
     "light":
     {
         "name": "light",
         "displayName": "Standard Light",
         "type": "light",
-        "partnerTheme": "dark"
+        "partnerTheme": "dark",
+        "thumbnailFile": "Standard_Light.png"
     },
     "dark":
     {
         "name": "dark",
         "displayName": "Standard Dark",
         "type": "dark",
-        "partnerTheme": "light"
+        "partnerTheme": "light",
+        "thumbnailFile": "Standard_Dark.png"
+    },
+    "azure":
+    {
+        "name": "azure",
+        "displayName": "Azure",
+        "type": "single",
+        "thumbnailFile": "Standard_Dark.png"
+    },
+    "nikte":
+    {
+        "name": "nikte",
+        "displayName": "Shadow Farming",
+        "backgroundImage": "ui/Pitch_Black.jpg",
+        "type": "single",
+        "thumbnailFile": "Standard_Dark.png"
     }
 }

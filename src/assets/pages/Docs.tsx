@@ -13,10 +13,6 @@ type docItem = {
 };
 
 const Docs = () => {
-  const logFunny = (funny: string) => {
-    console.log(funny);
-  };
-
   const categories = docData["categories"];
   const docCols: Array<Array<docItem>> = new Array();
 
@@ -44,7 +40,7 @@ const Docs = () => {
             className="mt-2 mb-3 pt-1 border border-primary rounded"
             key={itemIndex}
           >
-            <a href={docItem.url}>
+            <a href={docItem.url} style={{ display: "inline-block" }}>
               <h5 className="mb-0 mx-2">
                 <i>{docItem.title}</i>
               </h5>

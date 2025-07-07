@@ -25,10 +25,10 @@ const MusicDisplay = ({ itemCols }: Props) => {
     <>
       <Row>
         {itemCols.map((col, colIndex) => (
-          <Col className="mx-3" key={colIndex}>
+          <Col className={colIndex === 0 ? "mr-3" : "ml-3"} key={colIndex}>
             {col.map((musicItem, itemIndex) => (
               <Row
-                className="justify-content-md-centere py-2 px-2"
+                className="justify-content-md-center py-2 px-2"
                 key={itemIndex}
               >
                 <Col className="mr-0 px-0" style={{ maxWidth: "132px" }}>
@@ -45,7 +45,10 @@ const MusicDisplay = ({ itemCols }: Props) => {
                     }}
                   />
                 </Col>
-                <Col className="py-1 mx-2 border border-primary rounded">
+                <Col
+                  className="py-1 mx-2 border border-primary rounded"
+                  style={{ maxWidth: "463px" }}
+                >
                   <h5 className="mb-0">
                     <b>{musicItem.title}</b>
                   </h5>

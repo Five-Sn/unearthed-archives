@@ -7,6 +7,8 @@ import ArtTags from "./assets/pages/ArtTags";
 import Music from "./assets/pages/Music";
 import MusicView from "./assets/pages/MusicView";
 import Docs from "./assets/pages/Docs";
+import Themes from "./assets/pages/Themes";
+import Toodoo from "./assets/pages/Toodoo";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -30,6 +32,8 @@ function App() {
           <Route path="/music" element={<Music />} />
           <Route path="/music/view/:filename" element={<MusicView />} />
           <Route path="/docs" element={<Docs />} />
+          <Route path="/themes" element={<Themes />} />
+          <Route path="/toodoo" element={<Toodoo />} />
         </Route>
       </Routes>
     </HashRouter>
