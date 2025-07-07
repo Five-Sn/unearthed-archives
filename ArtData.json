@@ -1,6 +1,13 @@
 {
     "works": [
         {
+            "fileName": "momo_gets_yeeted.png",
+            "alt": "Isaac throwing Momoko out a window",
+            "artist": ["Opharim"],
+            "shareDate": 20250630,
+            "tags": ["feline_Momoko", "Isaac", "Momoko", "Nazera", "party_member", "pc", "player_character"]
+        },
+        {
             "fileName": "Atlas_Picmix.gif",
             "alt": "Slightly unnerving Atlas Picmix",
             "artist": ["Scelo"],

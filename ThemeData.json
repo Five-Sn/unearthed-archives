@@ -38,11 +38,19 @@
         "type": "single",
         "thumbnailFile": "Standard_Dark.png"
     },
-    "nikte":
+    "nikte-orange":
     {
-        "name": "nikte",
-        "displayName": "Shadow Farming",
-        "backgroundImage": "ui/Pitch_Black.jpg",
+        "name": "nikte-orange",
+        "displayName": "Shadow Farming (O)",
+        "backgroundImage": "theme-images/nikte_indigo.png",
+        "type": "single",
+        "thumbnailFile": "Standard_Dark.png"
+    },
+    "nikte-purple":
+    {
+        "name": "nikte-purple",
+        "displayName": "Shadow Farming (P)",
+        "backgroundImage": "theme-images/nikte_indigo.png",
         "type": "single",
         "thumbnailFile": "Standard_Dark.png"
     }
