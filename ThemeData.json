@@ -16,6 +16,7 @@
         "displayName": "UM Dark",
         "logoImage": "um-dark.png",
         "homeNavImage": "um-dark.png",
+        "backgroundImage": "theme/backgrounds/um-dark-5.png",
         "type": "dark",
         "partnerTheme": "um-light",
         "thumbnailImage": "UM_Dark.png"
