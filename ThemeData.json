@@ -36,7 +36,7 @@
         "name": "dark",
         "displayName": "Standard Dark",
         "logoImage": "dark.png",
-        "homeNavImage": "dark.ong",
+        "homeNavImage": "dark.png",
         "type": "dark",
         "partnerTheme": "light",
         "thumbnailImage": "Standard_Dark.png"
@@ -45,8 +45,8 @@
     {
         "name": "azure",
         "displayName": "Azure",
-        "logoImage": "dark.png",
-        "homeNavImage": "dark.png",
+        "logoImage": "azure.png",
+        "homeNavImage": "azure.png",
         "type": "single",
         "thumbnailImage": "Standard_Dark.png"
     },
