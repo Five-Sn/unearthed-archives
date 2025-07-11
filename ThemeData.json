@@ -50,22 +50,22 @@
         "type": "single",
         "thumbnailImage": "Azure.png"
     },
-    "nikte-orange":
+    "nikte":
     {
-        "name": "nikte-orange",
-        "displayName": "Shadow Farming (O)",
+        "name": "nikte",
+        "displayName": "Shadow Farm",
         "logoImage": "dark.png",
         "homeNavImage": "dark.png",
-        "backgroundImage": "theme/backgrounds/nikte_indigo.png",
+        "backgroundImage": "theme/backgrounds/nikte-6.png",
         "type": "single",
         "thumbnailImage": "Standard_Dark.png"
     },
-    "nikte-purple":
+    "desert-light":
     {
-        "name": "nikte-purple",
-        "displayName": "Shadow Farming (P)",
-        "logoImage": "dark.png",
-        "homeNavImage": "dark.png",
+        "name": "desert-light",
+        "displayName": "Krynn Wastes",
+        "logoImage": "light.png",
+        "homeNavImage": "light.png",
         "backgroundImage": "theme/backgrounds/nikte-6.png",
         "type": "single",
         "thumbnailImage": "Standard_Dark.png"
