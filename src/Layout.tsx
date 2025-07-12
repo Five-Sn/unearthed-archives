@@ -15,12 +15,15 @@ type themeString =
   | "um-light"
   | "um-dark"
   | "azure"
-  | "nikte";
+  | "nikte-orange"
+  | "nikte-purple";
 
 // Represents a theme and its information
 type themeItem = {
   name: string;
   displayName: string;
+  logoImage: string;
+  homeNavImage: string;
   backgroundImage?: string;
   type: "light" | "dark" | "single";
   partnerTheme: themeString;
@@ -28,7 +31,7 @@ type themeItem = {
 };
 
 const Layout = () => {
-  const [theme, setTheme] = useLocalStorage<themeString>("theme", "um-dark");
+  const [theme, setTheme] = useLocalStorage<themeString>("theme", "um-light");
   const [curThemeInfo, setCurThemeInfo] = useState<themeItem>(themeData[theme]);
 
   // Detects when theme is changed
@@ -46,6 +49,7 @@ const Layout = () => {
     <>
       <NavBar
         themeType={curThemeInfo.type}
+        homeIcon={curThemeInfo.homeNavImage}
         themeSwitchFunction={toggleDarkTheme}
       />
       <div
@@ -62,15 +66,16 @@ const Layout = () => {
         <br />
         <br />
         <Container
-          className="bg-body"
+          className="bg-body rounded px-4"
           style={{
-            width: "80%",
+            width: "82%",
           }}
         >
           <main>
             <Outlet />
           </main>
         </Container>
+        <br />
         <br />
       </div>
     </>

@@ -1,3 +1,5 @@
+import { useParams, useNavigate } from "react-router-dom";
+import { useState } from "react";
 import {
   Container,
   Row,
@@ -5,7 +7,6 @@ import {
   ButtonGroup,
   ToggleButton,
 } from "react-bootstrap";
-import { useState } from "react";
 import MusicDisplay from "../components/MusicDisplay";
 import GallerySearchBar from "../components/GallerySearchBar";
 
@@ -64,7 +65,16 @@ const getByTitleAndFilter = (
 };
 
 const Music = () => {
-  const [titleQuery, setTitleQuery] = useState("");
+  const { query } = useParams();
+  const navigate = useNavigate();
+
+  // let [searchBarInput, filterInput] = ["", "0"]
+  let searchBarInput = "";
+  if (query) {
+    searchBarInput = query.replace("title=", "").replace("+", " ");
+  }
+
+  // const [titleQuery, setTitleQuery] = useState("");
   // 0 is the default, unselected value
   const [filterValue, setFilterValue] = useState("0");
 
@@ -79,6 +89,10 @@ const Music = () => {
     { name: "Event", value: "5" },
     { name: "Misc", value: "6" },
   ];
+
+  const filterRows = window.matchMedia("(max-width: 576px)").matches
+    ? [filters.slice(0, filters.length / 2), filters.slice(filters.length / 2)]
+    : [filters];
 
   // Returns the name of a filter given its value
   const getFilterName = (value: string) => {
@@ -100,7 +114,7 @@ const Music = () => {
   // Get only the desired musicItems based on the user's search title and selected filter
   const musics: Array<musicItem> = getByTitleAndFilter(
     musicData["tracks"],
-    titleQuery,
+    searchBarInput,
     getFilterName(filterValue)
   );
   // If there's only one result, let that be the only music column
@@ -114,57 +128,76 @@ const Music = () => {
           musics.slice(Math.ceil(musics.length / 2), musics.length),
         ];
 
+  const performSearch = (newSearchString: string) => {
+    // queryParam is used in URL to specify the search and has the format tags=some_tag+another_tag
+    // It will not be included if the search string is empty
+    const queryParam =
+      "/music" +
+      (newSearchString == ""
+        ? ""
+        : "/title=" + newSearchString.replace(" ", "+"));
+    navigate(queryParam);
+  };
+
   return (
-    <>
-      <Container className="py-4">
-        <Row>
-          <Col>
-            <h1>Unearthed Music</h1>
-          </Col>
-        </Row>
-        <GallerySearchBar
-          placeholderText="Ex: nekofantasia"
-          onClick={setTitleQuery}
-        />
-        <Row className="pb-4">
-          <Col>
-            <ButtonGroup>
-              {filters.map((filter, filterId) => (
+    <Container className="py-4">
+      <Row>
+        <Col>
+          <h1>Unearthed Music</h1>
+        </Col>
+      </Row>
+      <GallerySearchBar
+        placeholderText="Ex: nekofantasia"
+        inputText={searchBarInput}
+        onClick={performSearch}
+      />
+      <Row className="pb-4">
+        <Col>
+          {filterRows.map((row, rowId) => (
+            <ButtonGroup key={rowId}>
+              {row.map((filter, filterId) => (
                 <ToggleButton
                   key={filterId}
-                  id={`filter-${filterId}`}
+                  id={`filter-r${rowId}-f${filterId}`}
                   value={filter.value}
                   checked={filterValue === filter.value}
                   onChange={(e) => updateFilterValue(e.currentTarget.value)}
                   variant="outline-primary"
                   type="checkbox"
                   name="checkbox"
+                  className={`${rowId === 1 && "mt-1"} ${
+                    filterValue === filter.value && "checked-outline-button"
+                  }`}
                 >
                   {filter.name}
                 </ToggleButton>
               ))}
             </ButtonGroup>
-            {filterValue === filters[2].value && (
-              <p className="mb-0">
-                <i>Area themes are for exploration and dungeons</i>
-              </p>
-            )}
-            {filterValue === filters[4].value && (
-              <p className="mb-0">
-                <i>Event themes are for specific, one-time scenes</i>
-              </p>
-            )}
-          </Col>
-        </Row>
-        {musicCols[0].length === 0 && (
-          <>
-            <h3>Nothing unearthed here!</h3>
-            <p>Looks like there isn't any music with that title and filter.</p>
-          </>
-        )}
-        <MusicDisplay itemCols={musicCols} />
-      </Container>
-    </>
+          ))}
+          {filterValue === filters[2].value && (
+            <p className="mb-0">
+              <i>Area themes are for exploration and dungeons</i>
+            </p>
+          )}
+          {filterValue === filters[4].value && (
+            <p className="mb-0">
+              <i>Event themes are for specific, one-time scenes</i>
+            </p>
+          )}
+        </Col>
+      </Row>
+      {musicCols[0].length === 0 && (
+        <>
+          <h3>Nothing unearthed here!</h3>
+          <p>
+            Looks like there isn't any music with that title and filter.
+            <br />
+            If you just changed the search bar text, make sure to click Submit.
+          </p>
+        </>
+      )}
+      <MusicDisplay itemCols={musicCols} />
+    </Container>
   );
 };
 

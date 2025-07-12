@@ -9,10 +9,12 @@ const ThemeSample = ({ displayName, thumbnailFile }: Props) => {
     <div style={{ display: "inline-block" }}>
       <img
         className="border border-3"
-        src={`theme-thumbnails/${thumbnailFile}`}
-        style={{ maxWidth: "160px" }}
+        src={`theme/thumbnails/${thumbnailFile}`}
+        style={{ maxWidth: "120px" }}
       />
-      <h5 style={{ textAlign: "center" }}>{displayName}</h5>
+      <p className="pb-0 mb-0" style={{ textAlign: "center" }}>
+        {displayName}
+      </p>
     </div>
   );
 };

@@ -1,4 +1,22 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+/* Default theme fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+/* Nikte fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 :root {
+  /* Londrina Solid is a blocky, very imperfect style- good for casual headings */
+  /* Oswald is a bit old but also feels good for headers */
+  /* Lexend is a bit thick but good all around, Roboto exists */
+  --font-family-sans-serif: Nunito;
+  body {
+    font-family: var(--font-family-sans-serif);
+  }
+  --header-family: Red Hat Display;
+  h1, h2, h3, h4 {
+    font-family: var(--header-family);
+  }
+
   --um-true-primary: #11806a;
   --um-offwhite: #dde3df;
   --um-offwhite-rgb: 221, 227, 223;
@@ -8,7 +26,7 @@
   }
 
   .container {
-    min-width: 400px;
+    min-width: min(450px, 100vw, 100%);
     max-width: 2000px;
   }
 }
@@ -23,15 +41,17 @@
 
   /* Background color- these are the same */
   /* Previously #122621 */
+  /* #162924 */
   --bs-body-bg: #162924;
+  /* 22, 41, 36 */
   --bs-body-bg-rgb: 22, 41, 36;
   .bg-body {
-    background-color: rgba(var(--bs-body-bg-rgb), 0) !important;
+    background-color: rgba(var(--bs-body-bg-rgb), 1) !important;
   }
 
   /* Used for hovering and clicking buttons with the background color */
   --bg-hover: color-mix(in hsl, var(--bs-body-bg), var(--primary) 30%);
-  --bg-click: color-mix(in hsl, var(--bs-body-bg), var(--primary) 70%);
+  --bg-click: color-mix(in hsl, var(--bs-body-bg), var(--primary) 80%);
 
   /* Used for input placeholder text */
   --bs-secondary-color: #56cdb5;
@@ -72,13 +92,30 @@
     --bs-btn-hover-border-color: var(--primary);
 
     --bs-btn-active-color: var(--um-offwhite);
+    --bs-btn-active-bg: var(--bg-click);
+    --bs-btn-active-border-color: var(--primary);
+  }
+
+  /* Used specifically for the currently selected Music filter */
+  .checked-outline-button {
+    --bs-btn-active-color: var(--um-offwhite);
     --bs-btn-active-bg: var(--primary);
     --bs-btn-active-border-color: var(--primary);
   }
 
-  /* Used to highlight the currently selected page in the navbar */
-  .navbar-nav .nav-link.active {
+  /* Used to highlight the currently selected link in the navbar */
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: var(--um-offwhite);
+  }
+  /* Highlights the dropdown menu title in a navbar AFTER selecting one of its items (or clicking its title) */
+  .nav-link {
+    --bs-nav-link-hover-color: var(--bs-link-color);
+  }
+
+  /* Background colors of items inside the navbar dropdown */
+  .dropdown-item {
+    --bs-dropdown-link-hover-bg: var(--bg-hover);
+    --bs-dropdown-link-active-bg: var(--bg-click);
   }
 
   /* Used for... paginations */
@@ -125,12 +162,12 @@
   --bs-body-bg: var(--um-offwhite);
   --bs-body-bg-rgb: var(--um-offwhite-rgb);
   .bg-body {
-    background-color: rgba(var(--bs-body-bg-rgb), 0) !important;
+    background-color: rgba(var(--bs-body-bg-rgb), 1) !important;
   }
   
   /* Used for hovering and clicking buttons with the background color */
   --bg-hover: color-mix(in hsl, var(--bs-body-bg), var(--primary) 30%);
-  --bg-click: color-mix(in hsl, var(--bs-body-bg), var(--primary) 80%);
+  --bg-click: color-mix(in hsl, var(--bs-body-bg), var(--primary) 60%);
 
   /* Used for input placeholder text */
   --bs-secondary-color: #21735a;
@@ -142,7 +179,7 @@
   /* Default dark theme colors were #6ea8fe (normal) and #8bb9fe (hover) */
   --bs-link-color: #0189ab;
   --bs-link-color-rgb: rgb(--bs-link-color);
-  --bs-link-hover-color: #076e96;
+  --bs-link-hover-color: #035a7c;
   --bs-link-hover-color-rgb: rgb(--bs-link-hover-color);
 
   /* Used for typical buttons */
@@ -171,13 +208,30 @@
     --bs-btn-hover-border-color: var(--primary);
 
     --bs-btn-active-color: var(--um-offwhite);
+    --bs-btn-active-bg: var(--bg-click);
+    --bs-btn-active-border-color: var(--primary);
+  }
+  
+  /* Used specifically for the currently selected Music filter */
+  .checked-outline-button {
+    --bs-btn-active-color: var(--um-offwhite);
     --bs-btn-active-bg: var(--primary);
     --bs-btn-active-border-color: var(--primary);
   }
 
   /* Used to highlight the currently selected page in the navbar */
-  .navbar-nav .nav-link.active {
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: var(--dark);
+  }
+  /* Highlights the dropdown menu title in a navbar AFTER selecting one of its items (or clicking its title) */
+  .nav-link {
+    --bs-nav-link-hover-color: var(--bs-link-color);
+  }
+
+  /* Background colors of items inside the navbar dropdown */
+  .dropdown-item {
+    --bs-dropdown-link-hover-bg: var(--bg-hover);
+    --bs-dropdown-link-active-bg: var(--bg-click);
   }
 
   /* Used for... paginations */
@@ -211,13 +265,17 @@
 
 [data-bs-theme="azure"] {
   /* Primary color of um-dark theme */
-  --primary: #009475;
+  --primary: #079ef8;
+  --cyan-offwhite: #ddfffd;
+  /* originally #00017d */
+  --azure: #1e1e71;
 
-  --azure: #00017d;
+  --font-family-sans-serif: adobe-gothic-std, sans-serif;
+  --header-family: adobe-gothic-std, sans-serif;
 
   /* Text and heading color */
-  --bs-body-color: white;
-  --bs-heading-color: white;
+  --bs-body-color: var(--cyan-offwhite);
+  --bs-heading-color: var(--cyan-offwhite);
 
   /* Background color- these are the same */
   /* Previously #122621 */
@@ -232,57 +290,76 @@
   --bg-click: color-mix(in hsl, var(--bs-body-bg), var(--primary) 70%);
 
   /* Used for input placeholder text */
-  --bs-secondary-color: #56cdb5;
+  --bs-secondary-color: #40c5f5;
 
   /* Used as the border for input forms and inactive paginations */
   --bs-border-color: var(--primary);
 
   /* Used for links */
   /* Default dark theme colors were #6ea8fe (normal) and #8bb9fe (hover) */
-  --bs-link-color: #6ecefe;
+  --bs-link-color: #12e5ff;
   --bs-link-color-rgb: rgb(--bs-link-color);
-  --bs-link-hover-color: #8bddfe;
+  --bs-link-hover-color: #30c2eb;
   --bs-link-hover-color-rgb: rgb(--bs-link-hover-color);
+
+  --dark-azure: color-mix(in hsl, var(--azure), black 80%);
 
   /* Used for typical buttons */
   .btn-primary {
-    --bs-btn-color: white;
+    --bs-btn-color: var(--dark-azure);
     --bs-btn-bg: var(--primary);
     --bs-btn-border-color: var(--primary);
     
-    --bs-btn-hover-color: white;
+    --bs-btn-hover-color: var(--dark-azure);
     --bs-btn-hover-bg: color-mix(in hsl, var(--primary), var(--azure) 15%);
     --bs-btn-hover-border-color: color-mix(in hsl, var(--primary), var(--azure) 25%);
 
-    --bs-btn-active-color: color-mix(in hsl, white, var(--azure) 20%);
+    --bs-btn-active-color: color-mix(in hsl, var(--dark-azure), var(--azure) 20%);
     --bs-btn-active-bg: color-mix(in hsl, var(--primary), var(--azure) 30%);
     --bs-btn-active-border-color: color-mix(in hsl, var(--primary), var(--azure) 50%);
   }
 
-  /* Used for the filter selector on the Music page */
+  /* Used for the filter selector on the Music page and other background-colored buttons */
   .btn-outline-primary {
-    --bs-btn-color: white;
+    --bs-btn-color: var(--cyan-offwhite);
     --bs-btn-bg: var(--azure);
     --bs-btn-border-color: var(--primary);
 
-    --bs-btn-hover-color: white;
+    --bs-btn-hover-color: var(--cyan-offwhite);
     --bs-btn-hover-bg: var(--bg-hover);
     --bs-btn-hover-border-color: var(--primary);
 
-    --bs-btn-active-color: white;
+    --bs-btn-active-color: var(--cyan-offwhite);
+    --bs-btn-active-bg: var(--bg-click);
+    --bs-btn-active-border-color: var(--primary);
+  }
+
+  /* Used specifically for the currently selected Music filter */
+  .checked-outline-button {
+    --bs-btn-active-color: var(--dark-azure);
     --bs-btn-active-bg: var(--primary);
     --bs-btn-active-border-color: var(--primary);
   }
 
-  /* Used to highlight the currently selected page in the navbar */
-  .navbar-nav .nav-link.active {
-    color: white;
+  /* Used to highlight the currently selected link or dropdown in the navbar */
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--cyan-offwhite);
+  }
+  /* Highlights the dropdown menu title in a navbar AFTER selecting one of its items (or clicking its title) */
+  .nav-link {
+    --bs-nav-link-hover-color: var(--bs-link-color);
+  }
+
+  /* Background colors of items inside the navbar dropdown */
+  .dropdown-item {
+    --bs-dropdown-link-hover-bg: var(--bg-hover);
+    --bs-dropdown-link-active-bg: var(--bg-click);
   }
 
   /* Used for... paginations */
   .pagination {
     /* Active page button */
-    --bs-pagination-active-color: white;
+    --bs-pagination-active-color: var(--dark-azure);
     --bs-pagination-active-bg: var(--primary);
     --bs-pagination-active-border-color: var(--primary);
 
@@ -310,78 +387,335 @@
 }
 
 [data-bs-theme="nikte"] {
-  /* Primary color of um-dark theme */
-  --primary: #f6921e;
-  --dark: #151515;
-  --nikte-offwhite: #cacaca;
+  --primary: #6a3ab3;
+  /* Previously fbf4ff */
+  /* Based on Nikte's pale skin color */
+  --purple-offwhite: #fff5eb;
+  --shadows: #202020;
+
+  /* GFS Didot tasty */
+  --font-family-sans-serif: Spectral;
+  --header-family: Poltawski Nowy;
 
   /* Text and heading color */
-  --bs-body-color: var(--nikte-offwhite);
-  --bs-heading-color: var(--nikte-offwhite);
+  --bs-body-color: var(--purple-offwhite);
+  --bs-heading-color: var(--purple-offwhite);
 
   /* Background color- these are the same */
-  --bs-body-bg: var(--dark);
-  --bs-body-bg-rgb: 30, 30, 30;
+  /* Previously #122621 */
+  --bs-body-bg: var(--shadows);
+  --bs-body-bg-rgb: 32, 32, 32;
   .bg-body {
-    background-color: rgba(var(--bs-body-bg-rgb), 0.8) !important;
+    background-color: rgba(var(--bs-body-bg-rgb), 0.95) !important;
   }
 
   /* Used for hovering and clicking buttons with the background color */
   --bg-hover: color-mix(in hsl, var(--bs-body-bg), var(--primary) 30%);
-  --bg-click: color-mix(in hsl, var(--bs-body-bg), var(--primary) 70%);
+  --bg-click: color-mix(in hsl, var(--bs-body-bg), var(--primary) 60%);
 
   /* Used for input placeholder text */
-  --bs-secondary-color: var(--primary);
+  --bs-secondary-color: #9f71e5;
+
+  /* Used as the border for input forms and inactive paginations */
+  --bs-border-color: var(--primary);
+
+  /* Used for links */
+  --bs-link-color: #7e94ff;
+  --bs-link-color-rgb: rgb(--bs-link-color);
+  --bs-link-hover-color: #ab95f5;
+  --bs-link-hover-color-rgb: rgb(--bs-link-hover-color);
+
+  /* Used for typical buttons */
+  .btn-primary {
+    --bs-btn-color: --purple-offwhite;
+    --bs-btn-bg: var(--primary);
+    --bs-btn-border-color: var(--primary);
+
+    --bs-btn-hover-color: var(--purple-offwhite);
+    --bs-btn-hover-bg: color-mix(in hsl, var(--primary), var(--bs-body-bg) 20%);
+    --bs-btn-hover-border-color: color-mix(in hsl, var(--primary), var(--bs-body-bg) 30%);
+
+    --bs-btn-active-color: color-mix(in hsl, var(--purple-offwhite), var(--bs-body-bg) 20%);
+    --bs-btn-active-bg: color-mix(in hsl, var(--primary), var(--bs-body-bg) 40%);
+    --bs-btn-active-border-color: color-mix(in hsl, var(--primary), var(--bs-body-bg) 60%);
+  }
+
+  /* Used for the filter selector on the Music page and other background-colored buttons */
+  .btn-outline-primary {
+    --bs-btn-color: var(--purple-offwhite);
+    --bs-btn-bg: var(--shadows);
+    --bs-btn-border-color: var(--primary);
+
+    --bs-btn-hover-color: var(--purple-offwhite);
+    --bs-btn-hover-bg: var(--bg-hover);
+    --bs-btn-hover-border-color: var(--primary);
+
+    --bs-btn-active-color: var(--purple-offwhite);
+    --bs-btn-active-bg: var(--bg-click);
+    --bs-btn-active-border-color: var(--primary);
+  }
+
+  /* Used specifically for the currently selected Music filter */
+  .checked-outline-button {
+    --bs-btn-active-color: var(--purple-offwhite);
+    --bs-btn-active-bg: var(--primary);
+    --bs-btn-active-border-color: var(--primary);
+  }
+
+  /* Used to highlight the currently selected link in the navbar */
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #c8aaf6;
+  }
+  /* Highlights the dropdown menu title in a navbar AFTER selecting one of its items (or clicking its title) */
+  .nav-link {
+    --bs-nav-link-hover-color: var(--bs-link-color);
+  }
+
+  /* Background colors of items inside the navbar dropdown */
+  .dropdown-item {
+    --bs-dropdown-link-hover-bg: var(--bg-hover);
+    --bs-dropdown-link-active-bg: var(--bg-click);
+  }
+
+  /* Used for... paginations */
+  .pagination {
+    /* Active page button */
+    --bs-pagination-active-color: var(--purple-offwhite);
+    --bs-pagination-active-bg: var(--primary);
+    --bs-pagination-active-border-color: var(--primary);
+
+    /* Inactive page buttons */
+    /* No main color is listed cause the site uses the link color for text here */
+    --bs-pagination-hover-bg: var(--bg-hover);
+    --bs-pagination-hover-border-color: var(--primary);
+    /* Used as a button is being clicked */
+    --bs-pagination-focus-bg: var(--bg-click);
+  }
+
+  /* Used for typical borders (such as art and the ones I put around cols) */
+  .border-primary {
+    border-color: var(--primary) !important;
+  }
+
+  /* "a" sets the link underline, "a *" sets the link text and all element descendants */
+  /* You shouldn't have a reason to modify these ones directly */
+  a, a * {
+    color: var(--bs-link-color);
+  }
+  a:hover, a:hover * {
+    color: var(--bs-link-hover-color);
+  }
+}
+
+[data-bs-theme="desert-light"] {
+  /* Primary color of um-light theme */
+  --primary: #c77d4c;
+  --dark-primary: #441b0e;
+  --sandy-offwhite: #f8deb9;
+  --sandy-offwhite-rgb: 248, 222, 185;
+  --ligter-offwhite: #fbecd8;
+  --dark: #414224;
+
+  /* Text and heading color */
+  --bs-body-color: var(--dark);
+  --bs-heading-color: var(--dark);
+
+  /* Background color- these are the same */
+  /* Previously #122621 */
+  --bs-body-bg: var(--sandy-offwhite);
+  --bs-body-bg-rgb: var(--sandy-offwhite-rgb);
+  .bg-body {
+    background-color: rgba(var(--bs-body-bg-rgb), 0.9) !important;
+  }
+  
+  /* Used for hovering and clicking buttons with the background color */
+  --bg-hover: color-mix(in hsl, var(--bs-body-bg), var(--primary) 30%);
+  --bg-click: color-mix(in hsl, var(--bs-body-bg), var(--primary) 60%);
+
+  /* Used for input placeholder text */
+  --bs-secondary-color: #c98e67;
+
+  /* Used as the border for input forms and inactive paginations */
+  --bs-border-color: #c98e67;
+
+  /* Used for links */
+  /* Default dark theme colors were #6ea8fe (normal) and #8bb9fe (hover) */
+  --bs-link-color: #54843d;
+  --bs-link-color-rgb: rgb(--bs-link-color);
+  --bs-link-hover-color: #346f2f;
+  --bs-link-hover-color-rgb: rgb(--bs-link-hover-color);
+
+  /* Used for typical buttons */
+  .btn-primary {
+    --bs-btn-color: var(--ligter-offwhite);
+    --bs-btn-bg: var(--primary);
+    --bs-btn-border-color: var(--primary);
+    
+    --bs-btn-hover-color: var(--sandy-offwhite);
+    --bs-btn-hover-bg: color-mix(in hsl, var(--primary), var(--dark-primary) 20%);
+    --bs-btn-hover-border-color: color-mix(in hsl, var(--primary), var(--dark-primary) 25%);
+
+    --bs-btn-active-color: color-mix(in hsl, var(--sandy-offwhite), var(--dark-primary) 25%);
+    --bs-btn-active-bg: color-mix(in hsl, var(--primary), var(--dark-primary) 50%);
+    --bs-btn-active-border-color: color-mix(in hsl, var(--primary), var(--dark-primary) 60%);
+  }
+
+  /* Used for the filter selector on the Music page and light/dark button */
+  .btn-outline-primary {
+    --bs-btn-color: var(--primary);
+    --bs-btn-bg: var(--bs-body-bg);
+    --bs-btn-border-color: var(--primary);
+
+    --bs-btn-hover-color: var(--primary);
+    --bs-btn-hover-bg: var(--bg-hover);
+    --bs-btn-hover-border-color: var(--primary);
+
+    --bs-btn-active-color: color-mix(in hsl, var(--primary), brown 80%);
+    --bs-btn-active-bg: var(--bg-click);
+    --bs-btn-active-border-color: var(--primary);
+  }
+  
+  /* Used specifically for the currently selected Music filter */
+  .checked-outline-button {
+    --bs-btn-active-color: var(--ligter-offwhite);
+    --bs-btn-active-bg: var(--primary);
+    --bs-btn-active-border-color: var(--primary);
+  }
+
+  /* Used to highlight the currently selected page in the navbar */
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--dark);
+  }
+  /* Highlights the dropdown menu title in a navbar AFTER selecting one of its items (or clicking its title) */
+  .nav-link {
+    --bs-nav-link-hover-color: var(--bs-link-color);
+  }
+
+  /* Background colors of items inside the navbar dropdown */
+  .dropdown-item {
+    --bs-dropdown-link-hover-bg: var(--bg-hover);
+    --bs-dropdown-link-active-bg: var(--bg-click);
+  }
+
+  /* Used for... paginations */
+  .pagination {
+    --bs-pagination-active-color: var(--ligter-offwhite);
+    --bs-pagination-active-bg: var(--primary);
+    --bs-pagination-active-border-color: var(--primary);
+
+    /* Inactive page buttons */
+    /* No main color is listed cause the site uses the link color for text here */
+    --bs-pagination-hover-bg: var(--bg-hover);
+    --bs-pagination-hover-border-color: var(--primary);
+    /* Used as a button is being clicked */
+    --bs-pagination-focus-bg: var(--bg-click);
+  }
+
+  /* Used for typical borders (such as art and the ones I put around cols) */
+  .border-primary {
+    border-color: var(--primary) !important;
+  }
+
+  /* "a" sets the link underline, "a *" sets the link text and all element descendants */
+  /* You shouldn't have a reason to modify these ones directly */
+  a, a * {
+    color: var(--bs-link-color);
+  }
+  a:hover, a:hover * {
+    color: var(--bs-link-hover-color);
+  }
+}
+
+[data-bs-theme="desert-dark"] {
+  /* Primary color of um-dark theme */
+  --primary: #91375a;
+  --sunset-offwhite: #edc8b7;
+  --lighter-offwhite: #f3ded5;
+
+  /* Text and heading color */
+  --bs-body-color: var(--sunset-offwhite);
+  --bs-heading-color: var(--sunset-offwhite);
+
+  /* Background color- these are the same */
+  --bs-body-bg: #280408;
+  --bs-body-bg-rgb: 40, 4, 8;
+  .bg-body {
+    background-color: rgba(var(--bs-body-bg-rgb), 0.9) !important;
+  }
+
+  /* Used for hovering and clicking buttons with the background color */
+  --bg-hover: color-mix(in hsl, var(--bs-body-bg), var(--primary) 30%);
+  --bg-click: color-mix(in hsl, var(--bs-body-bg), var(--primary) 80%);
+
+  /* Used for input placeholder text */
+  --bs-secondary-color: #91375a;
 
   /* Used as the border for input forms and inactive paginations */
   --bs-border-color: var(--primary);
 
   /* Used for links */
   /* Default dark theme colors were #6ea8fe (normal) and #8bb9fe (hover) */
-  --bs-link-color: #9a64f7;
+  --bs-link-color: #efa783;
   --bs-link-color-rgb: rgb(--bs-link-color);
-  --bs-link-hover-color: #ba9aff;
+  --bs-link-hover-color: #efcf83;
   --bs-link-hover-color-rgb: rgb(--bs-link-hover-color);
 
   /* Used for typical buttons */
   .btn-primary {
-    --bs-btn-color: var(--dark);
+    --bs-btn-color: var(--lighter-offwhite);
     --bs-btn-bg: var(--primary);
     --bs-btn-border-color: var(--primary);
     
-    --bs-btn-hover-color: var(--dark);
-    --bs-btn-hover-bg: color-mix(in hsl, var(--primary), var(--dark) 15%);
-    --bs-btn-hover-border-color: color-mix(in hsl, var(--primary), var(--dark) 25%);
+    --bs-btn-hover-color: var(--lighter-offwhite);
+    --bs-btn-hover-bg: color-mix(in hsl, var(--primary), var(--bs-body-bg) 15%);
+    --bs-btn-hover-border-color: color-mix(in hsl, var(--primary), var(--bs-body-bg) 25%);
 
-    --bs-btn-active-color: color-mix(in hsl, var(--dark), var(--dark) 20%);
-    --bs-btn-active-bg: color-mix(in hsl, var(--primary), var(--dark) 30%);
-    --bs-btn-active-border-color: color-mix(in hsl, var(--primary), var(--dark) 50%);
+    --bs-btn-active-color: color-mix(in hsl, var(--lighter-offwhite), var(--bs-body-bg) 20%);
+    --bs-btn-active-bg: color-mix(in hsl, var(--primary), var(--bs-body-bg) 30%);
+    --bs-btn-active-border-color: color-mix(in hsl, var(--primary), var(--bs-body-bg) 50%);
   }
 
   /* Used for the filter selector on the Music page */
   .btn-outline-primary {
-    --bs-btn-color: var(--nikte-offwhite);
-    --bs-btn-bg: var(--dark);
+    --bs-btn-color: var(--sunset-offwhite);
+    --bs-btn-bg: var(--bs-body-bg);
     --bs-btn-border-color: var(--primary);
 
-    --bs-btn-hover-color: var(--nikte-offwhite);
+    --bs-btn-hover-color: var(--sunset-offwhite);
     --bs-btn-hover-bg: var(--bg-hover);
     --bs-btn-hover-border-color: var(--primary);
 
-    --bs-btn-active-color: var(--nikte-offwhite);
+    --bs-btn-active-color: var(--sunset-offwhite);
+    --bs-btn-active-bg: var(--bg-click);
+    --bs-btn-active-border-color: var(--primary);
+  }
+
+  /* Used specifically for the currently selected Music filter */
+  .checked-outline-button {
+    --bs-btn-active-color: var(--lighter-offwhite);
     --bs-btn-active-bg: var(--primary);
     --bs-btn-active-border-color: var(--primary);
   }
 
-  /* Used to highlight the currently selected page in the navbar */
-  .navbar-nav .nav-link.active {
-    color: #e0d1ff;
+  /* Used to highlight the currently selected link in the navbar */
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--sunset-offwhite);
+  }
+  /* Highlights the dropdown menu title in a navbar AFTER selecting one of its items (or clicking its title) */
+  .nav-link {
+    --bs-nav-link-hover-color: var(--bs-link-color);
+  }
+
+  /* Background colors of items inside the navbar dropdown */
+  .dropdown-item {
+    --bs-dropdown-link-hover-bg: var(--bg-hover);
+    --bs-dropdown-link-active-bg: var(--bg-click);
   }
 
   /* Used for... paginations */
   .pagination {
     /* Active page button */
-    --bs-pagination-active-color: var(--dark);
+    --bs-pagination-active-color: var(--lighter-offwhite);
     --bs-pagination-active-bg: var(--primary);
     --bs-pagination-active-border-color: var(--primary);
 

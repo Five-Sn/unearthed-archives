@@ -12,14 +12,13 @@ type imageItem = {
 // Properties
 interface Props {
   itemPage: Array<imageItem>;
-  itemsPerRow: number;
 }
 
 // TODO: ?Maybe change the Cols below so they have a set width, similar to the old ArtDisplay
 // Test out the current one on different platforms and screen sizes to see if they need width
 // to keep from overlapping
 
-const ArtDisplay = ({ itemPage, itemsPerRow }: Props) => {
+const ArtDisplay = ({ itemPage }: Props) => {
   // Takes the file name of an image and replaces its extension with "jpg"
   // Used to retrieve the jpeg thumnails for most images
   const jpgName = (file: string) => {
@@ -33,33 +32,31 @@ const ArtDisplay = ({ itemPage, itemsPerRow }: Props) => {
   };
 
   return (
-    <>
-      <Row className="align-items-center">
-        {itemPage.map((item, itemIndex) => (
-          <Col
-            className="mx-auto py-3"
-            key={itemIndex}
-            xs={6}
-            md={4}
-            lg={2}
-            style={{
-              minWidth: "150px",
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            <a href={`#/art/view/${item.fileName}`} target="_blank">
-              <img
-                src={`art-thumbnails/${jpgName(item.fileName)}`}
-                className="img-fluid thumbnail mx-auto d-block border"
-                alt={item.alt}
-                style={{ maxWidth: "138px", maxHeight: "150px" }}
-              />
-            </a>
-          </Col>
-        ))}
-      </Row>
-    </>
+    <Row className="align-items-center">
+      {itemPage.map((item, itemIndex) => (
+        <Col
+          className="mx-auto py-3"
+          key={itemIndex}
+          xs={6}
+          md={4}
+          lg={2}
+          style={{
+            minWidth: "150px",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <a href={`#/art/view/${item.fileName}`}>
+            <img
+              src={`art-thumbnails/${jpgName(item.fileName)}`}
+              className="img-fluid thumbnail mx-auto d-block border"
+              alt={item.alt}
+              style={{ maxWidth: "138px", maxHeight: "150px" }}
+            />
+          </a>
+        </Col>
+      ))}
+    </Row>
   );
 };
 

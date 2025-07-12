@@ -79,7 +79,7 @@ const ArtView = () => {
   return (
     <>
       <br />
-      <Container>
+      <Container className="py-2">
         <Row>
           <Col xs={8}>
             <img

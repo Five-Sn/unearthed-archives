@@ -1,5 +1,7 @@
+import { useParams, useNavigate } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
+import useLocalStorage from "use-local-storage";
 import ArtDisplay from "../components/ArtDisplay";
 import FullPagination from "../components/FullPagination";
 import GallerySearchBar from "../components/GallerySearchBar";
@@ -13,10 +15,6 @@ const artData = await fetch("/unearthed-archives/ArtData.json").then((r) =>
   r.json()
 );
 
-const imagesPerPage = 36;
-let defaultNumPages = Math.ceil(artData["works"].length / imagesPerPage);
-let numPages = defaultNumPages;
-
 // Represents an image and its relevant information
 type artItem = {
   fileName: string;
@@ -26,95 +24,84 @@ type artItem = {
   tags: Array<string>;
 };
 
-// Split an array into chunks of a certain size
-/*const chunkArray = (array: Array<artItem>, size: number) => {
-  const result = [];
-  for (let i = 0; i < array.length; i += size) {
-    // Get a slice
-    result.push(array.slice(i, i + size));
-  }
-  return result;
-};*/
-
-// Search an array of artItems to return those with all tags specified in searchTags
-const getByTags = (items: Array<artItem>, searchTags: string) => {
-  // Return the existing array if there are no tags to search by
-  if (!searchTags) {
-    console.log("No tags were provided- returning unfiltered results");
-    numPages = defaultNumPages;
-    return items;
-  }
-
-  // My Prettifier plugin won't let me put \s to match all whitespace, it turns it into "s" on save
-  // That's stupid but just a space should work
-  var tagsArray = searchTags.split(" ");
-
-  const result = [];
-  // Cycle through artItems
-  for (let i = 0; i < items.length; i++) {
-    var hasAllTags = true;
-
-    // Cycle through searching tags
-    for (let j = 0; j < tagsArray.length; j++) {
-      // Search tag and a list of all tags for the current item (including artist)
-      var curTag = tagsArray[j].toLocaleLowerCase();
-      var allItemTags = items[i].artist
-        .concat(items[i].tags)
-        .map((t) => t.toLocaleLowerCase());
-
-      // If the current item doesn't include a tag, mark it as such (ignore empty strings)
-      if (!(curTag == "") && !allItemTags.includes(curTag)) {
-        hasAllTags = false;
-        break;
-      }
-    }
-
-    if (hasAllTags) result.push(items[i]);
-  }
-
-  numPages = Math.ceil(result.length / imagesPerPage);
-
-  return result;
-};
-
 const Art = () => {
+  const { query } = useParams();
+  const navigate = useNavigate();
+
+  const [artPerPage, setArtPerPage] = useLocalStorage("art-per-page", 36);
+  const defaultNumPages = Math.ceil(artData["works"].length / artPerPage);
+  let numPages = defaultNumPages;
+
   // Used to filer all currently displayed images, updated to the user's input when the search button is pressed
-  const [tagQuery, setTagQuery] = useState("");
+  // const [tagQuery, setTagQuery] = useState("");
+  let searchBarInput = "";
+  if (query) {
+    searchBarInput = query.replace("tags=", "").replace("+", " ");
+  }
+
   // Index of the current page being viewed (only a handful of images are displayed at once)
   // Starts at 1
   const [activePageIndex, setActivePageIndex] = useState(1);
 
-  // 5 is the default, but this is always replaced
-  // TODO: there has to be a better way
-  let itemsPerRow = 5;
-  // Updates itemsPerRow based on window width (cannot be less than 2 or more than 6)
-  const updateItemsPerRow = () => {
-    itemsPerRow = Math.min(
-      Math.max(Math.floor((window.innerWidth - 30) / 240), 2),
-      6
-    );
-  };
-  // Correct itemsPerRow
-  updateItemsPerRow();
+  // rawIndex is the number clicked in the pagination, not accounting for the skip string
+  // skip is either rawIndex, "<<", or ">>", with the last two denoting a skip to the first or last index
+  // const updateActivePageIndex = (rawIndex: number, skip: string) => {}
 
-  // When the window is resized, change how many images there are per row
-  useEffect(() => {
-    window.addEventListener("resize", updateItemsPerRow);
-    return () => window.removeEventListener("resize", updateItemsPerRow);
-  });
+  // Search an array of artItems to return those with all tags specified in searchTags
+  const getByTags = (items: Array<artItem>, searchTags: string) => {
+    // Return the existing array if there are no tags to search by
+    if (!searchTags) {
+      console.log("No tags were provided- returning unfiltered results");
+      numPages = defaultNumPages;
+      return items;
+    }
+
+    // My Prettifier plugin won't let me put \s to match all whitespace, it turns it into "s" on save
+    // That's stupid but just a space should work
+    var tagsArray = searchTags.split(" ");
+
+    const result = [];
+    // Cycle through artItems
+    for (let i = 0; i < items.length; i++) {
+      var hasAllTags = true;
+
+      // Cycle through searching tags
+      for (let j = 0; j < tagsArray.length; j++) {
+        // Search tag and a list of all tags for the current item (including artist)
+        var curTag = tagsArray[j].toLocaleLowerCase();
+        var allItemTags = items[i].artist
+          .concat(items[i].tags)
+          .map((t) => t.toLocaleLowerCase());
+
+        // If the current item doesn't include a tag, mark it as such (ignore empty strings)
+        if (!(curTag == "") && !allItemTags.includes(curTag)) {
+          hasAllTags = false;
+          break;
+        }
+      }
+
+      if (hasAllTags) result.push(items[i]);
+    }
+
+    numPages = Math.ceil(result.length / artPerPage);
+
+    return result;
+  };
 
   // This is essentially a copies of some image items
   // This video might give an idea on how to avoid this:
   // https://youtu.be/E1cklb4aeXA?si=TWZ3uE_2fZV4Y-1j&t=664
-  // const arts = chunkArray(getByTags(artData["works"], tagQuery), itemsPerRow);
+  const arts = getByTags(artData["works"], searchBarInput);
 
-  const arts = getByTags(artData["works"], tagQuery);
-
-  // Searches for new results based on the tags currently in the search bar
-  // Happens when a search is submitted
-  const updateResults = (searchString: string) => {
-    setTagQuery(searchString);
-    setActivePageIndex(1);
+  const performSearch = (newSearchString: string) => {
+    // queryParam is used in URL to specify the search and has the format tags=some_tag+another_tag
+    // It will not be included if the search string is empty
+    const queryParam =
+      "/art" +
+      (newSearchString == ""
+        ? ""
+        : "/tags=" + newSearchString.replace(" ", "+"));
+    navigate(queryParam);
   };
 
   return (
@@ -127,9 +114,10 @@ const Art = () => {
         </Row>
         <GallerySearchBar
           placeholderText="Ex: raksha no_mask opharim"
-          onClick={updateResults}
+          inputText={searchBarInput}
+          onClick={performSearch}
         >
-          <p>
+          <p className="mb-0">
             <a href="#/art/tags">(tag list)</a>
           </p>
         </GallerySearchBar>
@@ -150,10 +138,9 @@ const Art = () => {
         </Row>
         <ArtDisplay
           itemPage={arts.slice(
-            (activePageIndex - 1) * imagesPerPage,
-            activePageIndex * imagesPerPage
+            (activePageIndex - 1) * artPerPage,
+            activePageIndex * artPerPage
           )}
-          itemsPerRow={itemsPerRow}
         />
         <Row>
           <Col>

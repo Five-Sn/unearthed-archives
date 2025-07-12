@@ -53,25 +53,23 @@ const Docs = () => {
   };
 
   return (
-    <>
-      <Container className="py-4">
-        <Row>
-          <Col>
-            <h1>Unearthed Docs</h1>
-          </Col>
-        </Row>
-        <Row className="pt-4">
-          <Col className="mx-3">
-            {generateCategorySection(0)}
-            {generateCategorySection(1)}
-          </Col>
-          <Col className="mx-3">
-            {generateCategorySection(2)}
-            {generateCategorySection(3)}
-          </Col>
-        </Row>
-      </Container>
-    </>
+    <Container className="py-4">
+      <Row>
+        <Col>
+          <h1>Unearthed Docs</h1>
+        </Col>
+      </Row>
+      <Row className="pt-4">
+        <Col className="mx-3" style={{ minWidth: "min(350px, 95%)" }}>
+          {generateCategorySection(0)}
+          {generateCategorySection(1)}
+        </Col>
+        <Col className="mx-3" style={{ minWidth: "min(350px, 95%)" }}>
+          {generateCategorySection(2)}
+          {generateCategorySection(3)}
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

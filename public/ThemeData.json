@@ -3,47 +3,83 @@
     {
         "name": "um-light",
         "displayName": "UM Light",
+        "logoImage": "um-light.png",
+        "homeNavImage": "um-light.png",
+        "backgroundImage": "theme/backgrounds/um-light.png",
         "type": "light",
         "partnerTheme": "um-dark",
-        "thumbnailFile": "UM_Light.png"
+        "thumbnailImage": "UM_Light.png"
     },
     "um-dark":
     {
         "name": "um-dark",
         "displayName": "UM Dark",
+        "logoImage": "um-dark.png",
+        "homeNavImage": "um-dark.png",
+        "backgroundImage": "theme/backgrounds/um-dark-5.png",
         "type": "dark",
         "partnerTheme": "um-light",
-        "thumbnailFile": "UM_Dark.png"
+        "thumbnailImage": "UM_Dark.png"
     },
     "light":
     {
         "name": "light",
         "displayName": "Standard Light",
+        "logoImage": "light.png",
+        "homeNavImage": "light.png",
         "type": "light",
         "partnerTheme": "dark",
-        "thumbnailFile": "Standard_Light.png"
+        "thumbnailImage": "Standard_Light.png"
     },
     "dark":
     {
         "name": "dark",
         "displayName": "Standard Dark",
+        "logoImage": "dark.png",
+        "homeNavImage": "dark.png",
         "type": "dark",
         "partnerTheme": "light",
-        "thumbnailFile": "Standard_Dark.png"
+        "thumbnailImage": "Standard_Dark.png"
     },
     "azure":
     {
         "name": "azure",
         "displayName": "Azure",
+        "logoImage": "azure.png",
+        "homeNavImage": "azure.png",
         "type": "single",
-        "thumbnailFile": "Standard_Dark.png"
+        "thumbnailImage": "Azure.png"
     },
     "nikte":
     {
         "name": "nikte",
-        "displayName": "Shadow Farming",
-        "backgroundImage": "ui/Pitch_Black.jpg",
+        "displayName": "Shadow Farm",
+        "logoImage": "dark.png",
+        "homeNavImage": "dark.png",
+        "backgroundImage": "theme/backgrounds/nikte-6.png",
         "type": "single",
-        "thumbnailFile": "Standard_Dark.png"
+        "thumbnailImage": "Standard_Dark.png"
+    },
+    "desert-light":
+    {
+        "name": "desert-light",
+        "displayName": "Krynn Wastes",
+        "logoImage": "light.png",
+        "homeNavImage": "light.png",
+        "backgroundImage": "theme/backgrounds/american-desert.png",
+        "type": "light",
+        "partnerTheme": "desert-dark",
+        "thumbnailImage": "Standard_Dark.png"
+    },
+    "desert-dark":
+    {
+        "name": "desert-dark",
+        "displayName": "Desert Sunset",
+        "logoImage": "dark.png",
+        "homeNavImage": "dark.png",
+        "backgroundImage": "theme/backgrounds/sunset-2.png",
+        "type": "dark",
+        "partnerTheme": "desert-light",
+        "thumbnailImage": "Standard_Dark.png"
     }
 }
