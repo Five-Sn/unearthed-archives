@@ -54,11 +54,11 @@
     {
         "name": "nikte",
         "displayName": "Shadow Farm",
-        "logoImage": "dark.png",
-        "homeNavImage": "dark.png",
-        "backgroundImage": "theme/backgrounds/nikte-6.png",
+        "logoImage": "nikte.png",
+        "homeNavImage": "nikte.png",
+        "backgroundImage": "theme/backgrounds/nikte-7.png",
         "type": "single",
-        "thumbnailImage": "Standard_Dark.png"
+        "thumbnailImage": "Shadow_Farm.png"
     },
     "desert-light":
     {
@@ -66,8 +66,20 @@
         "displayName": "Krynn Wastes",
         "logoImage": "light.png",
         "homeNavImage": "light.png",
-        "backgroundImage": "theme/backgrounds/nikte-6.png",
-        "type": "single",
-        "thumbnailImage": "Standard_Dark.png"
+        "backgroundImage": "theme/backgrounds/american-desert.png",
+        "type": "light",
+        "partnerTheme": "desert-dark",
+        "thumbnailImage": "Desert_Light.png"
+    },
+    "desert-dark":
+    {
+        "name": "desert-dark",
+        "displayName": "Krynn Sunset",
+        "logoImage": "dark.png",
+        "homeNavImage": "dark.png",
+        "backgroundImage": "theme/backgrounds/desert-sunset.png",
+        "type": "dark",
+        "partnerTheme": "desert-light",
+        "thumbnailImage": "Desert_Dark.png"
     }
 }
