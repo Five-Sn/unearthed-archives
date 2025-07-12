@@ -43,7 +43,7 @@ const Settings = () => {
 
   const getThemeSample = (themeName: themeString, spacing: boolean = true) => {
     return (
-      <Col xs="auto" className={`${spacing && "pt-2"}`}>
+      <Col xs="auto" className={`${spacing && "pt-3"}`}>
         <div onClick={(e) => setTheme(themeName)} style={{ cursor: "pointer" }}>
           <ThemeSample
             displayName={themeData[themeName].displayName}
@@ -131,21 +131,25 @@ const Settings = () => {
           </h4>
         </Col>
       </Row>
-      <Row>{getThemeSample("azure")}</Row>
-      <br />
       <Row>
-        <Col>
-          <h4>
-            <b>
-              <u>Work in progress</u>
-            </b>
-          </h4>
-        </Col>
+        {getThemePair("desert-light", "desert-dark")}
+        {getThemeSample("azure")}
+        {getThemeSample("nikte")}
       </Row>
-      <Row>
-        {true && getThemeSample("nikte")}
-        {true && getThemePair("desert-light", "desert-dark")}
-      </Row>
+      {false && (
+        <>
+          <br />
+          <Row>
+            <Col>
+              <h4>
+                <b>
+                  <u>Work in progress</u>
+                </b>
+              </h4>
+            </Col>
+          </Row>
+        </>
+      )}
     </Container>
   );
 };

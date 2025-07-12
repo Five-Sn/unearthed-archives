@@ -33,11 +33,13 @@ const MusicView = () => {
 
   return (
     <Container
+      className="bg-body py-4"
       style={{
         position: "absolute",
         top: "53%",
         left: "50%",
         transform: "translate(-50%, -50%)",
+        maxWidth: "100vw",
       }}
     >
       <Row>
@@ -47,7 +49,7 @@ const MusicView = () => {
             src={`music-covers/${coverGenericCheck(itemInfo.coverFileName)}`}
             className="mx-auto d-block"
             alt={"Music cover"}
-            style={{ minWidth: "200px", width: "20%" }}
+            style={{ minWidth: "200px", maxWidth: "800px", width: "20%" }}
           />
           <p className="py-2" style={{ textAlign: "center" }}>
             <h5>

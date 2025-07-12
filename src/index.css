@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 /* Nikte fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* Desert fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&family=Rye&display=swap');
 
 :root {
   /* Londrina Solid is a blocky, very imperfect style- good for casual headings */
@@ -38,6 +40,11 @@
   /* Text and heading color */
   --bs-body-color: var(--um-offwhite);
   --bs-heading-color: var(--um-offwhite);
+
+  ::selection {
+    color: white;
+    background: #00b991;
+  }
 
   /* Background color- these are the same */
   /* Previously #122621 */
@@ -156,6 +163,11 @@
   /* Text and heading color */
   --bs-body-color: var(--dark);
   --bs-heading-color: var(--dark);
+  
+  ::selection {
+    color: white;
+    background: #069b7d;
+  }
 
   /* Background color- these are the same */
   /* Previously #122621 */
@@ -401,6 +413,11 @@
   --bs-body-color: var(--purple-offwhite);
   --bs-heading-color: var(--purple-offwhite);
 
+  ::selection {
+    color: white;
+    background: #7831e3;
+  }
+
   /* Background color- these are the same */
   /* Previously #122621 */
   --bs-body-bg: var(--shadows);
@@ -509,16 +526,23 @@
 
 [data-bs-theme="desert-light"] {
   /* Primary color of um-light theme */
-  --primary: #c77d4c;
+  --primary: #c87640;
   --dark-primary: #441b0e;
-  --sandy-offwhite: #f8deb9;
-  --sandy-offwhite-rgb: 248, 222, 185;
+  --sandy-offwhite: #fbe8cf;
+  --sandy-offwhite-rgb: 251, 232, 207;
   --ligter-offwhite: #fbecd8;
   --dark: #414224;
 
   /* Text and heading color */
   --bs-body-color: var(--dark);
   --bs-heading-color: var(--dark);
+
+  --header-family: Hepta Slab;
+
+  ::selection {
+    color: white;
+    background: #389cc0;
+  }
 
   /* Background color- these are the same */
   /* Previously #122621 */
@@ -628,17 +652,25 @@
 
 [data-bs-theme="desert-dark"] {
   /* Primary color of um-dark theme */
-  --primary: #91375a;
-  --sunset-offwhite: #edc8b7;
-  --lighter-offwhite: #f3ded5;
+  --primary: #ca5831;
+  --sunset-offwhite: #edd5b7;
+  --lighter-offwhite: #f0ddc4;
 
   /* Text and heading color */
   --bs-body-color: var(--sunset-offwhite);
   --bs-heading-color: var(--sunset-offwhite);
 
+  --header-family: Hepta Slab;
+  
+  ::selection {
+    color: color-mix(in hsl, #571f46, black 40%);
+    background: #86b1ed;
+  }
+
   /* Background color- these are the same */
-  --bs-body-bg: #280408;
-  --bs-body-bg-rgb: 40, 4, 8;
+  /* #571f46 */
+  --bs-body-bg: #571f46;
+  --bs-body-bg-rgb: 87, 31, 70;
   .bg-body {
     background-color: rgba(var(--bs-body-bg-rgb), 0.9) !important;
   }
@@ -648,16 +680,16 @@
   --bg-click: color-mix(in hsl, var(--bs-body-bg), var(--primary) 80%);
 
   /* Used for input placeholder text */
-  --bs-secondary-color: #91375a;
+  --bs-secondary-color: #c5655c;
 
   /* Used as the border for input forms and inactive paginations */
   --bs-border-color: var(--primary);
 
   /* Used for links */
   /* Default dark theme colors were #6ea8fe (normal) and #8bb9fe (hover) */
-  --bs-link-color: #efa783;
+  --bs-link-color: #c471db;
   --bs-link-color-rgb: rgb(--bs-link-color);
-  --bs-link-hover-color: #efcf83;
+  --bs-link-hover-color: #a069ca;
   --bs-link-hover-color-rgb: rgb(--bs-link-hover-color);
 
   /* Used for typical buttons */

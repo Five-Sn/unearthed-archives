@@ -42,7 +42,7 @@ const Toodoo = () => {
             <s>Container widths</s> v0.9
           </li>
           <li>
-            <s>Azure</s>, Nikte, and desert themes
+            <s>Azure, Nikte, and desert themes</s> v0.13 / v1.0
           </li>
           <li>
             <s>Better search bar sizing</s> v0.9
@@ -57,7 +57,7 @@ const Toodoo = () => {
             <s>Tab icon</s> v0.12
           </li>
           <li>
-            <s>More reactive Art pagination</s> v0.13
+            <s>More reactive Art pagination</s> v0.13 / v1.0
           </li>
         </ul>
       </p>
