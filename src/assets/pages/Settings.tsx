@@ -109,7 +109,11 @@ const Settings = () => {
       <Row>
         <Col>
           <h2>Theme</h2>
-          <p>Change the color scheme of the website here</p>
+          <p className="mb-0">Change the color scheme of the website here</p>
+          <small className="mt-0">
+            Wanna make your own theme? Just let me know!
+          </small>
+          <br className="mb-4" />
           <h4>
             <b>
               <u>Defaults</u>
