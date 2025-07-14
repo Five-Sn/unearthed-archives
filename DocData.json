@@ -1,6 +1,6 @@
 {
     "categories": [
-        "Campaign Notes", "Summaries", "Stories", "Misc"
+        "Campaign Notes", "Summaries", "VODs", "Stories", "Misc"
     ],
     "documents": {
         "Campaign Notes": [
@@ -61,6 +61,20 @@
                 "description": "Reader X Symon fanfic with no catch, twist, or anything weird",
                 "url": "https://docs.google.com/document/d/17fybEBCcOiI1_EXJqtuy-IIrK8o8shyM/edit?usp=drive_link&ouid=113170772469828515526&rtpof=true&sd=true",
                 "category": "Stories"
+            }
+        ],
+        "VODs": [
+            {
+                "title": "Raw Recording",
+                "description": "Google Drive folder with more recent session recordings",
+                "url": "https://drive.google.com/drive/folders/1L6ufCPmyrtDlaG00vusDzUcuALiWdIST?usp=sharing",
+                "category": "VODs"
+            },
+            {
+                "title": "Unearthed Memories Playlist",
+                "description": "YouTube playlist with most VODs",
+                "url": "https://youtube.com/playlist?list=PLDaAJBfqk-pH8tOdJd2KaRJXQV-AzirUL&si=UlJ8VB2D9BIgdN0P",
+                "category": "VODs"
             }
         ],
         "Misc": [

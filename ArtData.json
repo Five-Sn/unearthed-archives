@@ -1,6 +1,13 @@
 {
     "works": [
         {
+            "fileName": "melona_sketches.png",
+            "alt": "Melona drawing with some sketches",
+            "artist": ["Wasp"],
+            "shareDate": 20250713,
+            "tags": ["Melona", "npc", "party_member"]
+        },
+        {
             "fileName": "momo_gets_yeeted.png",
             "alt": "Isaac throwing Momoko out a window",
             "artist": ["Opharim"],
