@@ -63,10 +63,11 @@ const Docs = () => {
         <Col className="mx-3" style={{ minWidth: "min(350px, 95%)" }}>
           {generateCategorySection(0)}
           {generateCategorySection(1)}
+          {generateCategorySection(2)}
         </Col>
         <Col className="mx-3" style={{ minWidth: "min(350px, 95%)" }}>
-          {generateCategorySection(2)}
           {generateCategorySection(3)}
+          {generateCategorySection(4)}
         </Col>
       </Row>
     </Container>

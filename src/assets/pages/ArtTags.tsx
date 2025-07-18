@@ -205,6 +205,8 @@ const ArtTags = () => {
             <br />
             commission
             <br />
+            flag
+            <br />
             Hero_Forge
             <br />
             letter

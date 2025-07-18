@@ -1,6 +1,20 @@
 {
     "works": [
         {
+            "fileName": "Gaian_Flag_Fabric.png",
+            "alt": "Gaian flag",
+            "artist": ["Scelo", "Spades"],
+            "shareDate": 20250717,
+            "tags": ["flag"]
+        },
+        {
+            "fileName": "melona_sketches.png",
+            "alt": "Melona drawing with some sketches",
+            "artist": ["Wasp"],
+            "shareDate": 20250713,
+            "tags": ["Melona", "npc", "party_member"]
+        },
+        {
             "fileName": "momo_gets_yeeted.png",
             "alt": "Isaac throwing Momoko out a window",
             "artist": ["Opharim"],
@@ -663,7 +677,7 @@
             "alt": "Various sketches, mostly eyes",
             "artist": ["Scelo"],
             "shareDate": 20240331,
-            "tags": ["Atlas", "Embers", "Emiloxa", "Gy", "Isaac", "mask", "Nazera", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "player_character", "Symon", "Tsubaki", "Vespa"]
+            "tags": ["Atlas", "Embers", "Emiloxa", "Gy", "Isaac", "mask", "Nazera", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "player_character", "Raksha", "Symon", "Tsubaki", "Vespa"]
         },
         {
             "fileName": "IMG_2088.png",
