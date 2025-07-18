@@ -1,6 +1,13 @@
 {
     "works": [
         {
+            "fileName": "Gaian_Flag_Fabric.png",
+            "alt": "Gaian flag",
+            "artist": ["Scelo", "Spades"],
+            "shareDate": 20250717,
+            "tags": ["flag"]
+        },
+        {
             "fileName": "melona_sketches.png",
             "alt": "Melona drawing with some sketches",
             "artist": ["Wasp"],
