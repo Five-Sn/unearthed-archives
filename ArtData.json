@@ -1,6 +1,27 @@
 {
     "works": [
         {
+            "fileName": "Victor_Nazera_Jogo_Pose.png",
+            "alt": "Victor casting a spell",
+            "artist": ["Opharim"],
+            "shareDate": 20250720,
+            "tags": ["enemy", "Nazera", "Victor"]
+        },
+        {
+            "fileName": "Victor_Nazera_V2.png",
+            "alt": "Victor main art",
+            "artist": ["Opharim"],
+            "shareDate": 20250720,
+            "tags": ["enemy", "Nazera", "Victor"]
+        },
+        {
+            "fileName": "PXL_20250719_041434043.jpg",
+            "alt": "Raksha and Isaac sketches",
+            "artist": ["Scelo"],
+            "shareDate": 20250718,
+            "tags": ["Isaac", "Nazera", "no_mask", "party_member", "pc", "player_character", "portrait", "Raksha"]
+        },
+        {
             "fileName": "Gaian_Flag_Fabric.png",
             "alt": "Gaian flag",
             "artist": ["Scelo", "Spades"],
@@ -142,7 +163,7 @@
         },
         {
             "fileName": "IMG_2441.png",
-            "alt": "Ocotillo's main art",
+            "alt": "Ocotillo main art",
             "artist": ["Nat"],
             "shareDate": 20250209,
             "tags": ["npc", "Ocotillo", "Ocotillo_Tragus_Salsosa_Fouquieria_Splendens_de_la_Arena", "Otto"]
