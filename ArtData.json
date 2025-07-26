@@ -1,6 +1,20 @@
 {
     "works": [
         {
+            "fileName": "momo_joker.png",
+            "alt": "Momoko joker Balatro... it's not a real game",
+            "artist": ["Wasp"],
+            "shareDate": 20250725,
+            "tags": ["humanoid_Momoko", "Momoko", "npc", "party_member"]
+        },
+        {
+            "fileName": "Shadow_Plough.png",
+            "alt": "Nikté's shadow tool plow",
+            "artist": ["Scelo"],
+            "shareDate": 20250725,
+            "tags": ["construct", "Nikte", "Nikté", "party_member", "pc", "player_character", "shadow_tool"]
+        },
+        {
             "fileName": "Victor_Nazera_Jogo_Pose.png",
             "alt": "Victor casting a spell",
             "artist": ["Opharim"],
