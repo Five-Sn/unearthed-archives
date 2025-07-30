@@ -1,6 +1,55 @@
 {
     "works": [
         {
+            "fileName": "50.jpg",
+            "alt": "Isaac and Raksha ballin on Victor",
+            "artist": ["Scelo"],
+            "shareDate": 20250730,
+            "tags": ["enemy", "full", "full_body", "Isaac", "meme", "Nazera", "no_mask", "npc", "party_member", "pc", "player_character", "Raksha", "scene", "Victor"]
+        },
+        {
+            "fileName": "alright sure bozo.jpg",
+            "alt": "Nikté as a maid (suggestive)",
+            "artist": ["Scelo"],
+            "shareDate": 20250729,
+            "tags": ["Nikte", "Nikté", "party_member", "pc", "player_character", "portrait"]
+        },
+        {
+            "fileName": "momo_joker.png",
+            "alt": "Momoko joker Balatro... it's not a real game",
+            "artist": ["Wasp"],
+            "shareDate": 20250725,
+            "tags": ["humanoid_Momoko", "Momoko", "npc", "party_member"]
+        },
+        {
+            "fileName": "Shadow_Plough.png",
+            "alt": "Nikté's shadow tool plow",
+            "artist": ["Scelo"],
+            "shareDate": 20250725,
+            "tags": ["construct", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character", "shadow_tool"]
+        },
+        {
+            "fileName": "Victor_Nazera_Jogo_Pose.png",
+            "alt": "Victor casting a spell",
+            "artist": ["Opharim"],
+            "shareDate": 20250720,
+            "tags": ["enemy", "Nazera", "portrait", "Victor"]
+        },
+        {
+            "fileName": "Victor_Nazera_V2.png",
+            "alt": "Victor main art",
+            "artist": ["Opharim"],
+            "shareDate": 20250720,
+            "tags": ["enemy", "Nazera", "portrait", "Victor"]
+        },
+        {
+            "fileName": "PXL_20250719_041434043.jpg",
+            "alt": "Raksha and Isaac sketches",
+            "artist": ["Scelo"],
+            "shareDate": 20250718,
+            "tags": ["Isaac", "Nazera", "no_mask", "party_member", "pc", "player_character", "portrait", "Raksha"]
+        },
+        {
             "fileName": "Gaian_Flag_Fabric.png",
             "alt": "Gaian flag",
             "artist": ["Scelo", "Spades"],
@@ -12,7 +61,7 @@
             "alt": "Melona drawing with some sketches",
             "artist": ["Wasp"],
             "shareDate": 20250713,
-            "tags": ["Melona", "npc", "party_member"]
+            "tags": ["full", "full_body", "Melona", "npc", "party_member"]
         },
         {
             "fileName": "momo_gets_yeeted.png",
@@ -117,14 +166,14 @@
             "alt": "Nyx outfits",
             "artist": ["Wasp"],
             "shareDate": 20250224,
-            "tags": ["npc", "Nyx"]
+            "tags": ["full", "full_body", "npc", "Nyx"]
         },
         {
             "fileName": "nyx_prof.png",
             "alt": "Nyx full art",
             "artist": ["Wasp"],
             "shareDate": 20250224,
-            "tags": ["npc", "Nyx"]
+            "tags": ["full", "full_body", "npc", "Nyx"]
         },
         {
             "fileName": "Nivali_Concept_Eyes_BG.png",
@@ -142,7 +191,7 @@
         },
         {
             "fileName": "IMG_2441.png",
-            "alt": "Ocotillo's main art",
+            "alt": "Ocotillo main art",
             "artist": ["Nat"],
             "shareDate": 20250209,
             "tags": ["npc", "Ocotillo", "Ocotillo_Tragus_Salsosa_Fouquieria_Splendens_de_la_Arena", "Otto"]
@@ -159,14 +208,14 @@
             "alt": "Nikté in a poncho",
             "artist": ["outside_artist", "53hank"],
             "shareDate": 20250112,
-            "tags": ["commission", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["commission", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "white_bg.png",
             "alt": "Nikté in a poncho",
             "artist": ["outside_artist", "53hank"],
             "shareDate": 20250112,
-            "tags": ["commission", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["commission", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "IMG_1631.jpg",
@@ -180,21 +229,21 @@
             "alt": "Morgan full art",
             "artist": ["Wasp"],
             "shareDate": 20241211,
-            "tags": ["Morgan", "Morgan_Amberson", "npc"]
+            "tags": ["full", "full_body", "Morgan", "Morgan_Amberson", "npc"]
         },
         {
             "fileName": "desert_Symon.jpg",
             "alt": "Symon in his desert drip",
             "artist": ["Nat"],
             "shareDate": 20241211,
-            "tags": ["no_mask", "party_member", "pc", "player_character", "Symon"]
+            "tags": ["full", "full_body", "no_mask", "party_member", "pc", "player_character", "Symon"]
         },
         {
             "fileName": "39.png",
             "alt": "Nat's session 39 notes",
             "artist": ["Nat"],
             "shareDate": 20241208,
-            "tags": ["Atlas", "Embers", "Emiloxa", "Hatsune_Miku", "Isaac", "meme", "Nat_notes", "Nazera", "Nikte", "Nikté", "no_mask", "party_member", "pc", "player_character", "Symon"]
+            "tags": ["Atlas", "Embers", "Emiloxa", "full", "full_body", "Hatsune_Miku", "Isaac", "meme", "Nat_notes", "Nazera", "Nikte", "Nikté", "no_mask", "party_member", "pc", "player_character", "Symon"]
         },
         {
             "fileName": "37.jpg",
@@ -208,28 +257,28 @@
             "alt": "Nikté in a jack-o-lantern outfit",
             "artist": ["Scelo"],
             "shareDate": 20241026,
-            "tags": ["Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "Nikte_Pumpkinsuit_BW_Scan.jpg",
             "alt": "Nikté in a jack-o-lantern outfit",
             "artist": ["Scelo"],
             "shareDate": 20241026,
-            "tags": ["Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "Nikte_Pumpkinsuit_Photo.jpg",
             "alt": "Nikté in a jack-o-lantern outfit",
             "artist": ["Scelo"],
             "shareDate": 20241026,
-            "tags": ["Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "36.png",
             "alt": "Nat's notes up to session 36",
             "artist": ["Nat"],
             "shareDate": 20241020,
-            "tags": ["Atlas", "black_pudding", "enemy", "Isaac", "monster", "Nat_notes", "Nazera", "no_mask", "party_member", "pc", "player_character", "Raksha", "Symon"]
+            "tags": ["Atlas", "black_pudding", "enemy", "full", "full_body", "Isaac", "monster", "Nat_notes", "Nazera", "no_mask", "party_member", "pc", "player_character", "Raksha", "Symon"]
         },
         {
             "fileName": "PXL_20241013_090157364.jpg",
@@ -243,14 +292,14 @@
             "alt": "Nikté in a Halloween outfit",
             "artist": ["Scelo"],
             "shareDate": 20241003,
-            "tags": ["Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["Nikte", "Nikté", "party_member", "pc", "player_character", "portrait"]
         },
         {
             "fileName": "faustd_momoko.png",
             "alt": "Momoko with a singed afro",
             "artist": ["Wasp"],
             "shareDate": 20240925,
-            "tags": ["humanoid_Momoko", "Momoko", "npc", "party_member"]
+            "tags": ["full", "full_body", "humanoid_Momoko", "Momoko", "npc", "party_member"]
         },
         {
             "fileName": "image-14.png",
@@ -264,35 +313,35 @@
             "alt": "Remake of the Persona 3 soundtrack cover",
             "artist": ["Wasp"],
             "shareDate": 20240917,
-            "tags": ["Atlas", "Calypso", "enemy", "Isaac", "monster", "Nazera", "party_member", "pc", "player_character", "Symon"]
+            "tags": ["Atlas", "Calypso", "enemy", "full", "full_body", "Isaac", "monster", "Nazera", "party_member", "pc", "player_character", "scene", "Symon"]
         },
         {
             "fileName": "mermay_vespa.png",
             "alt": "Mermay Vespa",
             "artist": ["Wasp"],
             "shareDate": 20240915,
-            "tags": ["party_member", "pc", "player_character", "Vespa"]
+            "tags": ["full", "full_body", "party_member", "pc", "player_character", "Vespa"]
         },
         {
             "fileName": "deirdre_purple.jpg",
             "alt": "Deirdre posing with crystal guardians",
             "artist": ["Wasp"],
             "shareDate": 20240914,
-            "tags": ["Deirdre", "monster", "npc", "scene"]
+            "tags": ["Deirdre", "full", "full_body", "monster", "npc", "scene"]
         },
         {
             "fileName": "PXL_20240904_063404209.jpg",
             "alt": "Scelo's session 32 doodles",
             "artist": ["Scelo"],
             "shareDate": 20240904,
-            "tags": ["mask", "Nikte", "Nikté", "party_member", "pc", "player_character", "Symon", "Vespa"]
+            "tags": ["full", "full_body", "mask", "Nikte", "Nikté", "party_member", "pc", "player_character", "Symon", "Vespa"]
         },
         {
             "fileName": "not_another_momoko_meme.png",
             "alt": "Momoko stepping around a corner",
             "artist": ["Wasp"],
             "shareDate": 20240829,
-            "tags": ["feline_Momoko", "meme", "Momoko", "npc", "party_member"]
+            "tags": ["feline_Momoko", "full", "full_body", "meme", "Momoko", "npc", "party_member"]
         },
         {
             "fileName": "Isaac_toji_pose.png",
@@ -320,7 +369,7 @@
             "alt": "Nat's session 29 notes",
             "artist": ["Nat"],
             "shareDate": 20240811,
-            "tags": ["Atlas", "Embers", "Emiloxa", "Nikte", "Nikté", "no_mask", "party_member", "pc", "player_character", "Symon"]
+            "tags": ["Atlas", "Embers", "Emiloxa", "full", "full_body", "Nikte", "Nikté", "no_mask", "party_member", "pc", "player_character", "Symon"]
         },
         {
             "fileName": "IMG_2291.png",
@@ -341,7 +390,7 @@
             "alt": "Melona smoking on a couch",
             "artist": ["Wasp"],
             "shareDate": 20240804,
-            "tags": ["Melona", "npc", "party_member", "scene"]
+            "tags": ["full", "full_body", "Melona", "npc", "party_member", "scene"]
         },
         {
             "fileName": "27.jpg",
@@ -376,42 +425,42 @@
             "alt": "Nat's session 25 notes",
             "artist": ["Nat"],
             "shareDate": 20240707,
-            "tags": ["feline_Momoko", "frog", "Isaac", "Momoko", "Nat_notes", "Nazera", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "Plank", "player_character", "Symon", "Vespa"]
+            "tags": ["feline_Momoko", "full", "full_body", "frog", "Isaac", "Momoko", "Nat_notes", "Nazera", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "Plank", "player_character", "Symon", "Vespa"]
         },
         {
             "fileName": "mandragora.png",
             "alt": "Mandragora full art",
             "artist": ["Wasp"],
             "shareDate": 20240707,
-            "tags": ["enemy", "mandrake", "mandragora", "monster"]
+            "tags": ["enemy", "full", "full_body", "mandrake", "mandragora", "monster"]
         },
         {
             "fileName": "mandrake.png",
             "alt": "Mandrake full art",
             "artist": ["Wasp"],
             "shareDate": 20240707,
-            "tags": ["enemy", "mandrake", "monster"]
+            "tags": ["enemy", "full", "full_body", "mandrake", "monster"]
         },
         {
             "fileName": "Deirdre.jpg",
             "alt": "Deirdre full art",
             "artist": ["Wasp"],
             "shareDate": 20250707,
-            "tags": ["Deirdre", "npc"]
+            "tags": ["Deirdre", "full", "full_body", "npc"]
         },
         {
             "fileName": "Nikte_would_win_photo.png",
             "alt": "Nah, Nikté'd win",
             "artist": ["Scelo"],
             "shareDate": 20240702,
-            "tags": ["meme", "nah_id_win", "nah_i'd_win", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["meme", "nah_id_win", "nah_i'd_win", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait"]
         },
         {
             "fileName": "Nikte_would_win_scan.png",
             "alt": "Nah, Nikté'd win",
             "artist": ["Scelo"],
             "shareDate": 20240702,
-            "tags": ["meme", "nah_id_win", "nah_i'd_win", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["meme", "nah_id_win", "nah_i'd_win", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait"]
         },
         {
             "fileName": "sometimes.png",
@@ -425,7 +474,7 @@
             "alt": "Various sketches",
             "artist": ["Scelo"],
             "shareDate": 20240620,
-            "tags": ["Embers", "Emiloxa", "feline_Momoko", "Fenugreek", "humanoid_Momoko", "Momoko", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "player_character", "Symon", "Uridi"]
+            "tags": ["Embers", "Emiloxa", "feline_Momoko", "Fenugreek", "full", "full_body", "humanoid_Momoko", "Momoko", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "player_character", "Symon", "Uridi"]
         },
         {
             "fileName": "tarot.png",
@@ -439,35 +488,35 @@
             "alt": "Old Momoko design notes",
             "artist": ["Wasp"],
             "shareDate": 20240616,
-            "tags": ["humanoid_Momoko", "Momoko", "npc", "party_member"]
+            "tags": ["full", "full_body", "humanoid_Momoko", "Momoko", "npc", "party_member"]
         },
         {
             "fileName": "momoko_render.png",
             "alt": "Momoko gacha splash art",
             "artist": ["Wasp"],
             "shareDate": 20240616,
-            "tags": ["humanoid_Momoko", "Momoko", "npc", "party_member"]
+            "tags": ["full", "full_body", "humanoid_Momoko", "Momoko", "npc", "party_member"]
         },
         {
             "fileName": "Nivali_2_Arm.png",
             "alt": "Nivali full art",
             "artist": ["Scelo"],
             "shareDate": 20240611,
-            "tags": ["Nivali", "pc", "player_character"]
+            "tags": ["full", "full_body", "Nivali", "pc", "player_character"]
         },
         {
             "fileName": "Nivali_2.png",
             "alt": "Nivali full art",
             "artist": ["Scelo"],
             "shareDate": 20240611,
-            "tags": ["Nivali", "pc", "player_character"]
+            "tags": ["full", "full_body", "Nivali", "pc", "player_character"]
         },
         {
             "fileName": "Vespa_nah_id_win.png",
             "alt": "Nah, Vespa'd win",
             "artist": ["Wasp"],
             "shareDate": 20240608,
-            "tags": ["meme", "nah_id_win", "nah_i'd_win", "party_member", "pc", "player_character", "Vespa"]
+            "tags": ["meme", "nah_id_win", "nah_i'd_win", "party_member", "pc", "player_character", "portrait", "Vespa"]
         },
         {
             "fileName": "catwipe.jpg",
@@ -481,14 +530,14 @@
             "alt": "Momoko doodles",
             "artist": ["Wasp"],
             "shareDate": 20240602,
-            "tags": ["feline_Momoko", "Momoko", "npc", "party_member"]
+            "tags": ["feline_Momoko", "full", "full_body", "Momoko", "npc", "party_member"]
         },
         {
             "fileName": "23.jpg",
             "alt": "Nat's session 23 notes",
             "artist": ["Nat"],
             "shareDate": 20240602,
-            "tags": ["Atlas", "Embers", "Emiloxa", "feline_Momoko", "Ikol", "meme", "Momoko", "Nat_notes", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "player_character", "Symon"]
+            "tags": ["Atlas", "Embers", "Emiloxa", "feline_Momoko", "full", "full_body", "Ikol", "meme", "Momoko", "Nat_notes", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "player_character", "Symon"]
         },
         {
             "fileName": "Isaac_Nah_Id_Win.png",
@@ -509,14 +558,14 @@
             "alt": "Nat's sesssion 22 notes",
             "artist": ["Nat"],
             "shareDate": 20240512,
-            "tags": ["bulette", "construct", "enemy", "Isaac", "Maybell", "monster", "Nazera", "no_mask", "party_member", "pc", "player_character", "Symon", "Vespa"]
+            "tags": ["bulette", "construct", "enemy", "full", "full_body", "Isaac", "Maybell", "monster", "Nazera", "no_mask", "party_member", "pc", "player_character", "Symon", "Vespa"]
         },
         {
             "fileName": "you_got_it_boss.png",
             "alt": "Nikté perturbed by a goon",
             "artist": ["Scelo"],
             "shareDate": 20240509,
-            "tags": ["Goon", "meme", "Nikte", "Nikté", "npc", "party_member", "pc", "player_character", "scene"]
+            "tags": ["goon", "meme", "Nikte", "Nikté", "npc", "party_member", "pc", "player_character", "scene", "villager"]
         },
         {
             "fileName": "PXL_20240506_035449275.jpg",
@@ -530,7 +579,7 @@
             "alt": "WIP of the party laying back at camp",
             "artist": ["Nat"],
             "shareDate": 20240505,
-            "tags": ["Atlas", "construct", "Dixie", "Embers", "Emiloxa", "Isaac", "Maybell", "Nazera", "Nikte", "Nikté", "party_member", "pc", "player_character", "Raksha", "scene", "Symon", "Vespa"]
+            "tags": ["Atlas", "construct", "Dixie", "Embers", "Emiloxa", "full", "full_body", "Isaac", "Maybell", "Nazera", "Nikte", "Nikté", "party_member", "pc", "player_character", "Raksha", "scene", "Symon", "Vespa"]
         },
         {
             "fileName": "Vespa_wing_sizes.png",
@@ -551,35 +600,35 @@
             "alt": "Calypso full art",
             "artist": ["Scelo"],
             "shareDate": 20240503,
-            "tags": ["Calypso", "enemy", "monster"]
+            "tags": ["Calypso", "enemy", "full", "full_body", "monster"]
         },
         {
             "fileName": "hospital.jpg",
             "alt": "Atlas and Symon in a hospital room with Nikté",
             "artist": ["Nat"],
             "shareDate": 20240502,
-            "tags": ["Atlas", "Nikte", "Nikté", "no_mask", "party_member", "pc", "player_character", "scene", "Symon"]
+            "tags": ["Atlas", "full", "full_body", "Nikte", "Nikté", "no_mask", "party_member", "pc", "player_character", "scene", "Symon"]
         },
         {
             "fileName": "npcs.png",
             "alt": "Sketches of Wasp's NPCs",
             "artist": ["Wasp"],
             "shareDate": 20240430,
-            "tags": ["Fenugreek", "humanoid_Momoko", "Melona", "Momoko", "npc", "party_member"]
+            "tags": ["Fenugreek", "full", "full_body", "humanoid_Momoko", "Melona", "Momoko", "npc", "party_member"]
         },
         {
             "fileName": "Melona.png",
             "alt": "Melona full art",
             "artist": ["Wasp"],
             "shareDate": 20240428,
-            "tags": ["Melona", "npc", "party_member"]
+            "tags": ["full", "full_body", "Melona", "npc", "party_member"]
         },
         {
             "fileName": "20.jpg",
             "alt": "Nat's session 20 notes",
             "artist": ["Nat"],
             "shareDate": 20240428,
-            "tags": ["Atlas", "Nat_notes", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["Atlas", "full", "full_body", "Nat_notes", "Nikte", "Nikté", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "PXL_20240425_173940212_NIGHT.jpg",
@@ -597,7 +646,7 @@
         },
         {
             "fileName": "rn_image_picker_lib_temp_c57fc94d-a61f-47b9-99c7-b716a6e25c80.jpg",
-            "alt": "Atlas as a worm and in a cocoon, I think",
+            "alt": "Atlas as a caterpillar and in a cocoon, I think",
             "artist": ["Fae", "Payton", "Nat"],
             "shareDate": 20240417,
             "tags": ["Atlas", "party_member", "pc", "player_character"]
@@ -607,21 +656,21 @@
             "alt": "Isaac leaning on Raksha",
             "artist": ["Opharim"],
             "shareDate": 20240416,
-            "tags": ["Isaac", "Nazera", "no_mask", "npc", "party_member", "pc", "player_character", "Raksha", "scene"]
+            "tags": ["full", "full_body", "Isaac", "Nazera", "no_mask", "npc", "party_member", "pc", "player_character", "Raksha", "scene"]
         },
         {
             "fileName": "fenugreek.png",
             "alt": "Fenugreek full art",
             "artist": ["Wasp"],
             "shareDate": 20240415,
-            "tags": ["Fenugreek", "npc", "party_member"]
+            "tags": ["Fenugreek", "full", "full_body", "npc", "party_member"]
         },
         {
             "fileName": "fenugreek_draft.png",
             "alt": "First draft of Fenugreek",
             "artist": ["Wasp"],
             "shareDate": 20240414,
-            "tags": ["Fenugreek", "npc", "party_member"]
+            "tags": ["Fenugreek", "full", "full_body", "npc", "party_member"]
         },
         {
             "fileName": "rn_image_picker_lib_temp_de58ab4f-4ded-4a06-9900-3c65b751a803.jpg",
@@ -719,35 +768,35 @@
             "alt": "Nat's session 18 notes",
             "artist": ["Nat"],
             "shareDate": 20240324,
-            "tags": ["Gregg", "Isaac", "isopod", "Nat_notes", "Nazera", "no_mask", "party_member", "pc", "player_character", "Symon"]
+            "tags": ["full", "full_body", "Gregg", "Isaac", "isopod", "Nat_notes", "Nazera", "no_mask", "party_member", "pc", "player_character", "Symon"]
         },
         {
             "fileName": "IMG_2054.png",
             "alt": "The party playing Monopoly",
             "artist": ["Nat"],
             "shareDate": 20240324,
-            "tags": ["Calypso", "Embers", "Emiloxa", "enemy", "Isaac", "Nazera", "no_mask", "meme", "monster", "Nikte", "Nikté", "npc", "party_member", "pc", "player_character", "scene", "Symon", "Tsubaki", "Vespa"]
+            "tags": ["Calypso", "Embers", "Emiloxa", "enemy", "full", "full_body", "Isaac", "Nazera", "no_mask", "meme", "monster", "Nikte", "Nikté", "npc", "party_member", "pc", "player_character", "scene", "Symon", "Tsubaki", "Vespa"]
         },
         {
             "fileName": "Isaac_Timid.png",
             "alt": "Isaac blushing timidly",
             "artist": ["Opharim"],
             "shareDate": 20240323,
-            "tags": ["Isaac", "Nazera", "party_member", "pc", "player_character"]
+            "tags": ["Isaac", "Nazera", "party_member", "pc", "player_character", "portrait"]
         },
         {
             "fileName": "Issac_Auro_v3_without_aura.png",
             "alt": "Angry Isaac",
             "artist": ["Opharim"],
             "shareDate": 20240323,
-            "tags": ["Isaac", "Nazera", "party_member", "pc", "player_character"]
+            "tags": ["full", "full_body", "Isaac", "Nazera", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "Issac_Auro_v3.png",
             "alt": "Angry Isaac with his aura",
             "artist": ["Opharim"],
             "shareDate": 20240323,
-            "tags": ["Isaac", "Nazera", "party_member", "pc", "player_character"]
+            "tags": ["full", "full_body", "Isaac", "Nazera", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "PXL_20240319_034624309_(not_final).jpg",
@@ -761,7 +810,7 @@
             "alt": "Nat's session 17 notes",
             "artist": ["Nat"],
             "shareDate": 20240317,
-            "tags": ["Atlas", "Nat_notes", "no_mask", "party_member", "pc", "player_character", "portrait", "shark", "Symon", "Vespa"]
+            "tags": ["Atlas", "full", "full_body", "Nat_notes", "no_mask", "party_member", "pc", "player_character", "portrait", "shark", "Symon", "Vespa"]
         },
         {
             "fileName": "IMG_2031.png",
@@ -775,14 +824,14 @@
             "alt": "Gy at a campfire with a mysterious figure behind him",
             "artist": ["FOB"],
             "shareDate": 20240317,
-            "tags": ["animated", "elf_girl", "Gy", "npc", "pc", "player_character"]
+            "tags": ["animated", "elf_girl", "full", "full_body", "Gy", "npc", "pc", "player_character"]
         },
         {
             "fileName": "16.jpg",
             "alt": "Nat's session 16 notes",
             "artist": ["Nat"],
             "shareDate": 20240310,
-            "tags": ["Atlas", "Charlene", "Gregg", "Irene", "Isaac", "isopod", "Nat_notes", "Nazera", "Nikte", "Nikté", "npc", "party_member", "pc", "player_character", "Tsubaki"]
+            "tags": ["Atlas", "Charlene", "full", "full_body", "Gregg", "Irene", "Isaac", "isopod", "Nat_notes", "Nazera", "Nikte", "Nikté", "npc", "party_member", "pc", "player_character", "Tsubaki"]
         },
         {
             "fileName": "PXL_20240302_215224320.jpg",
@@ -796,14 +845,14 @@
             "alt": "Atlas portrait and Atlas in an extravagant pose",
             "artist": ["Scelo"],
             "shareDate": 20240229,
-            "tags": ["Atlas", "party_member", "pc", "player_character", "portrait"]
+            "tags": ["Atlas", "full", "full_body", "party_member", "pc", "player_character", "portrait"]
         },
         {
             "fileName": "fifteen_point_five.jpg",
             "alt": "Nat's session 15.5 notes",
             "artist": ["Nat"],
             "shareDate": 20240225,
-            "tags": ["crab", "Gregg", "fish", "isopod", "Nat_notes", "meme", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "player_character", "Symon", "Vespa"]
+            "tags": ["crab", "Gregg", "fish", "full", "full_body", "isopod", "Nat_notes", "meme", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "player_character", "Symon", "Vespa"]
         },
         {
             "fileName": "niktecat.jpg",
@@ -824,35 +873,35 @@
             "alt": "Various Vespa doodles",
             "artist": ["Wasp"],
             "shareDate": 20240220,
-            "tags": ["construct", "enemy", "party_member", "pc", "player_character", "shark", "Vespa"]
+            "tags": ["construct", "enemy", "full", "full_body", "party_member", "pc", "player_character", "shark", "Vespa"]
         },
         {
             "fileName": "15.png",
             "alt": "Nat's session 15 notes",
             "artist": ["Nat"],
             "shareDate": 20240211,
-            "tags": ["Atlas", "Embers", "Emiloxa", "enemy", "Gy", "meme", "Nat_notes", "no_mask", "npc", "party_member", "pc", "player_character", "shark", "Symon", "Tsubaki", "Vespa"]
+            "tags": ["Atlas", "Embers", "Emiloxa", "enemy", "full", "full_body", "Gy", "meme", "Nat_notes", "no_mask", "npc", "party_member", "pc", "player_character", "shark", "Symon", "Tsubaki", "Vespa"]
         },
         {
             "fileName": "creature.png",
             "alt": "Nikté with big, pleading eyes",
             "artist": ["Wasp"],
             "shareDate": 20240211,
-            "tags": ["Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["Nikte", "Nikté", "party_member", "pc", "player_character", "portrait"]
         },
         {
             "fileName": "IMG_1966.png",
             "alt": "Symon watching Atlas \"drown\"",
             "artist": ["Nat"],
             "shareDate": 20240211,
-            "tags": ["Atlas", "no_mask", "party_member", "pc", "player_character", "scene", "Symon"]
+            "tags": ["Atlas", "full", "full_body", "no_mask", "party_member", "pc", "player_character", "scene", "Symon"]
         },
         {
             "fileName": "gy_now.gif",
             "alt": "Gy hearing his demons",
             "artist": ["FOB"],
             "shareDate": 20240209,
-            "tags": ["animated", "Gy", "npc", "pc", "player_character"]
+            "tags": ["animated", "Gy", "npc", "pc", "player_character", "portrait"]
         },
         {
             "fileName": "Almost_Dead_Nikte.png",
@@ -866,7 +915,7 @@
             "alt": "Charlene and Irene",
             "artist": ["Opharim"],
             "shareDate": 20240128,
-            "tags": ["Charlene", "Irene", "Nazera", "npc", "party_member"]
+            "tags": ["Charlene", "full", "full_body", "Irene", "Nazera", "npc", "party_member"]
         },
         {
             "fileName": "IMG_0582.jpg",
@@ -880,14 +929,14 @@
             "alt": "Gy's silhouette as a girl's shadow",
             "artist": ["FOB"],
             "shareDate": 20240114,
-            "tags": ["elf_girl", "Gy", "npc", "pc", "player_character"]
+            "tags": ["elf_girl", "full", "full_body", "Gy", "npc", "pc", "player_character"]
         },
         {
             "fileName": "IMG_1915.png",
             "alt": "Symon comforting Embers",
             "artist": ["Nat"],
             "shareDate": 20240110,
-            "tags": ["Embers", "Emiloxa", "no_mask", "party_member", "pc", "player_character", "scene", "Symon"]
+            "tags": ["Embers", "Emiloxa", "full", "full_body", "no_mask", "party_member", "pc", "player_character", "scene", "Symon"]
         },
         {
             "fileName": "IMG_1914.png",
@@ -915,21 +964,21 @@
             "alt": "Atlas in the Family Guy death pose",
             "artist": ["Nat"],
             "shareDate": 20240101,
-            "tags": ["Atlas", "party_member", "pc", "player_character"]
+            "tags": ["Atlas", "full", "full_body", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "vespin.gif",
             "alt": "Vespa spinning",
             "artist": ["Wasp"],
             "shareDate": 20240101,
-            "tags": ["animated", "meme", "party_member", "pc", "player_character", "Vespa"]
+            "tags": ["animated", "full", "full_body", "meme", "party_member", "pc", "player_character", "Vespa"]
         },
         {
             "fileName": "omw.png",
             "alt": "Vespa looking for nectars",
             "artist": ["Wasp"],
             "shareDate": 20231222,
-            "tags": ["meme", "party_member", "pc", "player_character"]
+            "tags": ["full", "full_body", "meme", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "PXL_20231220_2352327182.jpg",
@@ -950,7 +999,7 @@
             "alt": "Nikté full art",
             "artist": ["Nat"],
             "shareDate": 20231203,
-            "tags": ["Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "enjoy_ourselves.png",
@@ -1006,21 +1055,21 @@
             "alt": "Vespa posing with Cerulean Thorn",
             "artist": ["Scelo"],
             "shareDate": 20231121,
-            "tags": ["party_member", "pc", "player_character", "Vespa"]
+            "tags": ["full", "full_body", "party_member", "pc", "player_character", "Vespa"]
         },
         {
             "fileName": "Shadow_Tools_P.png",
-            "alt": "Nikté's two original shadow tools",
+            "alt": "Nikté's original shadow tools",
             "artist": ["Scelo"],
             "shareDate": 20231118,
-            "tags": ["construct", "Nikte", "Nikté", "party_member", "pc", "player_character", "shadow_tool"]
+            "tags": ["construct", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character", "shadow_tool"]
         },
         {
             "fileName": "issac_auro_v2.png",
             "alt": "Isaac with his axe and gauntlet",
             "artist": ["Opharim"],
             "shareDate": 20231112,
-            "tags": ["Isaac", "Nazera", "party_member", "pc", "player_character"]
+            "tags": ["full", "full_body", "Isaac", "Nazera", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "Symon_and_Atlas_WIP.png",
@@ -1048,7 +1097,7 @@
             "alt": "Early sketch of the party",
             "artist": ["Nat"],
             "shareDate": 20231030,
-            "tags": ["Atlas", "Calypso", "enemy", "Embers", "Emiloxa", "Gy", "Isaac", "Nazera", "monster", "Nazera", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "player_character", "Symon", "Tsubaki", "Vespa"]
+            "tags": ["Atlas", "Calypso", "enemy", "Embers", "Emiloxa", "full", "full_body", "Gy", "Isaac", "Nazera", "monster", "Nazera", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "player_character", "Symon", "Tsubaki", "Vespa"]
         },
         {
             "fileName": "vess.png",
@@ -1069,7 +1118,7 @@
             "alt": "Tsubaki taking a ride with the Nightmare",
             "artist": ["Cami", "Camilla"],
             "shareDate": 20231022,
-            "tags": ["enemy", "monster", "Nightmare", "party_member", "pc", "player_character", "Tsubaki"]
+            "tags": ["enemy", "full", "full_body", "monster", "Nightmare", "party_member", "pc", "player_character", "Tsubaki"]
         },
         {
             "fileName": "IMG_1807.png",
@@ -1083,7 +1132,7 @@
             "alt": "Nikté trembling",
             "artist": ["Scelo"],
             "shareDate": 20231022,
-            "tags": ["Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "IMG_1788.jpg",
@@ -1097,28 +1146,28 @@
             "alt": "Nikté full art",
             "artist": ["Scelo"],
             "shareDate": 20231008,
-            "tags": ["Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "ooOOOooOOoOOooo_whos_this_in_the_spooky_woods.png",
             "alt": "Nikté in the shadow forest",
             "artist": ["Scelo"],
             "shareDate": 20231007,
-            "tags": ["Nikte", "Nikté", "party_member", "pc", "player_character", "scene"]
+            "tags": ["full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character", "scene"]
         },
         {
             "fileName": "IMG_0948.png",
             "alt": "Atlas in Hero Forge",
             "artist": ["Fae", "Payton"],
             "shareDate": 20231004,
-            "tags": ["Atlas", "Hero_Forge", "party_member", "pc", "player_character"]
+            "tags": ["Atlas", "full", "full_body", "Hero_Forge", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "IMG_0947.png",
             "alt": "Atlas in Hero Forge",
             "artist": ["Fae", "Payton"],
             "shareDate": 20231004,
-            "tags": ["Atlas", "Hero_Forge", "party_member", "pc", "player_character"]
+            "tags": ["Atlas", "full", "full_body", "Hero_Forge", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "image0_9-24-2023.jpg",
@@ -1139,7 +1188,7 @@
             "alt": "Atlas entranced by Gy's orb",
             "artist": ["FOB"],
             "shareDate": 20230924,
-            "tags": ["Atlas", "Gy", "npc", "party_member", "pc", "player_character", "scene"]
+            "tags": ["Atlas", "full", "full_body", "Gy", "npc", "party_member", "pc", "player_character", "scene"]
         },
         {
             "fileName": "First_Abandonded_Town.png",
@@ -1160,7 +1209,7 @@
             "alt": "Atlas staring at you (a lamp)",
             "artist": ["Nat"],
             "shareDate": 20230917,
-            "tags": ["Atlas", "party_member", "pc", "player_character"]
+            "tags": ["Atlas", "full", "full_body", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "mm.png",
@@ -1202,14 +1251,14 @@
             "alt": "Isaac with his axe",
             "artist": ["Opharim"],
             "shareDate": 20230830,
-            "tags": ["Isaac", "Nazera", "party_member", "pc", "player_character"]
+            "tags": ["full", "full_body", "Isaac", "Nazera", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "Vespa.png",
             "alt": "Vespa full art",
             "artist": ["Wasp"],
             "shareDate": 20230829,
-            "tags": ["party_member", "pc", "player_character", "Vespa"]
+            "tags": ["full", "full_body", "party_member", "pc", "player_character", "Vespa"]
         },
         {
             "fileName": "IMG_1697.png",
@@ -1244,7 +1293,7 @@
             "alt": "Symon with his bow",
             "artist": ["Nat"],
             "shareDate": 20230827,
-            "tags": ["mask", "party_member", "pc", "player_character", "Symon"]
+            "tags": ["full", "full_body", "mask", "party_member", "pc", "player_character", "Symon"]
         },
         {
             "fileName": "IMG_20230810_135933_01.jpg",
@@ -1258,28 +1307,28 @@
             "alt": "Dixie's main art",
             "artist": ["outside_artist", "SadiKudasati"],
             "shareDate": 20230821,
-            "tags": ["construct", "Dixie", "party_member"]
+            "tags": ["construct", "Dixie", "full", "full_body", "party_member"]
         },
         {
             "fileName": "Maybell.jpg",
             "alt": "Maybell's main art",
             "artist": ["outside_artist", "davidheuso"],
             "shareDate": 20230821,
-            "tags": ["construct", "Maybell", "party_member"]
+            "tags": ["construct", "full", "full_body", "Maybell", "party_member"]
         },
         {
             "fileName": "Embers_2.png",
             "alt": "Embers holding a tool",
             "artist": ["Spades"],
             "shareDate": 20230816,
-            "tags": ["Embers", "Emiloxa", "Hero_Forge", "party_member", "pc", "player_character"]
+            "tags": ["Embers", "Emiloxa", "full", "full_body", "Hero_Forge", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "Emiloxa_Embers_Trastikor.webp",
             "alt": "Embers blasting fire from her hand",
             "artist": ["Spades"],
             "shareDate": 20230816,
-            "tags": ["Embers", "Emiloxa", "Hero_Forge", "party_member", "pc", "player_character"]
+            "tags": ["Embers", "Emiloxa", "full", "full_body", "Hero_Forge", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "Old_Atlas.jpg",
@@ -1293,7 +1342,7 @@
             "alt": "Raksha on a pile of corpses",
             "artist": ["outside_artist", "unknown_artist"],
             "shareDate": 20230730,
-            "tags": ["commission", "mask", "npc", "party_member", "Raksha"]
+            "tags": ["commission", "full", "full_body", "mask", "npc", "party_member", "Raksha"]
         }
     ]
 }

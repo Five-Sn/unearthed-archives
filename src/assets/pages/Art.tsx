@@ -94,6 +94,9 @@ const Art = () => {
   const arts = getByTags(artData["works"], searchBarInput);
 
   const performSearch = (newSearchString: string) => {
+    // Reset the selected page
+    // This is necessary for GitHub pages but not localhost for some reason
+    setActivePageIndex(1);
     // queryParam is used in URL to specify the search and has the format tags=some_tag+another_tag
     // It will not be included if the search string is empty
     const queryParam =

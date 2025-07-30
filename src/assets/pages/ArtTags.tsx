@@ -85,8 +85,6 @@ const ArtTags = () => {
             <br />
             elf_girl
             <br />
-            Goon
-            <br />
             Gregg
             <br />
             Gy
@@ -107,6 +105,10 @@ const ArtTags = () => {
             Tsubaki
             <br />
             Uridi
+            <br />
+            Victor
+            <br />
+            villager, goon
           </p>
         </Col>
         <Col>
@@ -206,6 +208,8 @@ const ArtTags = () => {
             commission
             <br />
             flag
+            <br />
+            full, full_body
             <br />
             Hero_Forge
             <br />

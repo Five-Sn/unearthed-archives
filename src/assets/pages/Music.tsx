@@ -192,7 +192,7 @@ const Music = () => {
           <p>
             Looks like there isn't any music with that title and filter.
             <br />
-            If you just changed the search bar text, make sure to click Submit.
+            If you just changed your search text, make sure you click Submit.
           </p>
         </>
       )}
