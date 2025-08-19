@@ -1,6 +1,13 @@
 {
     "works": [
         {
+            "fileName": "melona_scar.jpg",
+            "alt": "Melona revealing her scar",
+            "artist": ["Wasp"],
+            "shareDate": 20250818,
+            "tags": ["Melona", "npc", "party_member", "portrait"]
+        },
+        {
             "fileName": "50.jpg",
             "alt": "Isaac and Raksha ballin on Victor",
             "artist": ["Scelo"],
