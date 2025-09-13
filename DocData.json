@@ -79,10 +79,16 @@
         ],
         "Misc": [
             {
-            "title": "Gy's Notes",
-            "description": "The first few pages of Gy's notebook, serving as his diary",
-            "url": "https://docs.google.com/document/d/1OY4Bh0BcmIYfVkf4BbqwnuEnvHLqYFhcJ_uiYsUHxTA/edit?usp=drive_link",
-            "category": "Misc"
+                "title": "Embers' Description",
+                "description": "Notes and references for anyone drawing Embers",
+                "url": "https://docs.google.com/document/d/1GfuCF6ylgY5S6IJPpeL8Rqg_mkac1t0xGRwW9obmXIM/edit?usp=drive_link",
+                "category": "Misc"
+            },
+            {
+                "title": "Gy's Notes",
+                "description": "The first few pages of Gy's notebook, serving as his diary",
+                "url": "https://docs.google.com/document/d/1OY4Bh0BcmIYfVkf4BbqwnuEnvHLqYFhcJ_uiYsUHxTA/edit?usp=drive_link",
+                "category": "Misc"
             },
             {
                 "title": "NPC Applications",
