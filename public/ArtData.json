@@ -1,6 +1,13 @@
 {
     "works": [
         {
+            "fileName": "Vespa_Nigerian.jpg",
+            "alt": "Vespa in desert clothes",
+            "artist": ["Wasp"],
+            "shareDate": 20250822,
+            "tags": ["full", "full_body", "party_member", "pc", "player_character", "Vespa"]
+        },
+        {
             "fileName": "melona_scar.jpg",
             "alt": "Melona revealing her scar",
             "artist": ["Wasp"],
