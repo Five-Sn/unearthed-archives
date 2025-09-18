@@ -9,6 +9,7 @@ import MusicView from "./assets/pages/MusicView";
 import Docs from "./assets/pages/Docs";
 import Settings from "./assets/pages/Settings";
 import Toodoo from "./assets/pages/Toodoo";
+import Sneaky from "./assets/pages/Sneaky";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/docs" element={<Docs />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/toodoo" element={<Toodoo />} />
+          <Route path="/sneaky" element={<Sneaky />} />
         </Route>
       </Routes>
     </HashRouter>
