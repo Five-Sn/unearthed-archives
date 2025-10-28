@@ -1,6 +1,20 @@
 {
     "works": [
         {
+            "fileName": "image-10262025.png",
+            "alt": "Nikté doodle",
+            "artist": ["Wasp"],
+            "shareDate": 20251026,
+            "tags": ["Nikte", "Nikté", "party_member", "pc", "player_character"]
+        },
+        {
+            "fileName": "IMG_2712.png",
+            "alt": "WIP of the party laying back at camp",
+            "artist": ["Nat"],
+            "shareDate": 20251012,
+            "tags": ["Atlas", "Embers", "Emiloxa", "feline_Momoko", "Ikol", "Isaac", "Nazera", "Nikte", "Nikté", "Momoko", "no_mask", "npc", "party_member", "pc", "player_character", "Raksha", "scene", "Symon", "Vespa"]
+        },
+        {
             "fileName": "Vespa_Nigerian.jpg",
             "alt": "Vespa in desert clothes",
             "artist": ["Wasp"],
