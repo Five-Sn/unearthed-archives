@@ -1,6 +1,13 @@
 {
     "works": [
         {
+            "fileName": "PXL_20251104_0746128693.jpg",
+            "alt": "Embers portrait",
+            "artist": ["Scelo"],
+            "shareDate": 20251104,
+            "tags": ["Embers", "Emiloxa", "party_member", "pc", "player_character", "portrait"]
+        },
+        {
             "fileName": "image-10262025.png",
             "alt": "Nikté doodle",
             "artist": ["Wasp"],
