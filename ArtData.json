@@ -1,6 +1,13 @@
 {
     "works": [
         {
+            "fileName": "Story.png",
+            "alt": "Nikté's note to Symon",
+            "artist": ["Scelo"],
+            "shareDate": 20251123,
+            "tags": ["letter", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+        },
+        {
             "fileName": "PXL_20251104_0746128693.jpg",
             "alt": "Embers portrait",
             "artist": ["Scelo"],
