@@ -1,6 +1,27 @@
 {
     "works": [
         {
+            "fileName": "image-12142025.png",
+            "alt": "\"Her\" full art with a wing",
+            "artist": ["Wasp"],
+            "shareDate": 20251214,
+            "tags": ["enemy", "full", "full_body", "Her", "npc"]
+        },
+        {
+            "fileName": "her.png",
+            "alt": "\"Her\" full art",
+            "artist": ["Wasp"],
+            "shareDate": 20251214,
+            "tags": ["enemy", "full", "full_body", "Her", "npc"]
+        },
+        {
+            "fileName": "Uridi_300.png",
+            "alt": "Uridi portrait",
+            "artist": ["Scelo"],
+            "shareDate": 20251214,
+            "tags": ["npc", "portrait", "Uridi"]
+        },
+        {
             "fileName": "Story.png",
             "alt": "Nikté's note to Symon",
             "artist": ["Scelo"],
