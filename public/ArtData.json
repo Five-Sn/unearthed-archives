@@ -2,22 +2,22 @@
     "works": [
         {
             "fileName": "Isaac_dunce_v2.png",
-            "art": "Isaac after nailing a board to his head",
-            "arist": ["Opharim"],
+            "alt": "Isaac after nailing a board to his head",
+            "artist": ["Opharim"],
             "shareDate": 20251224,
             "tags": ["full", "full_body", "Isaac", "meme", "Nazera", "party_member", "pc", "player_character", "scene"]
         },
         {
             "fileName": "Untitled_Artwork_Calypso.png",
-            "art": "Calypso in a red dress",
-            "arist": ["Fae", "Payton"],
+            "alt": "Calypso in a red dress",
+            "artist": ["Fae", "Payton"],
             "shareDate": 20251221,
             "tags": ["Calypso", "enemy", "full", "full_body", "monster"]
         },
         {
             "fileName": "erika.jpg",
-            "art": "Erika portrait",
-            "arist": ["Petra"],
+            "alt": "Erika portrait",
+            "artist": ["Petra"],
             "shareDate": 20251221,
             "tags": ["Erika", "npc", "portrait"]
         },
