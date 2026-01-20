@@ -1,6 +1,20 @@
 {
     "works": [
         {
+            "fileName": "vespa_ballgown.png",
+            "alt": "Vespa dressed for a ball",
+            "artist": ["Wasp"],
+            "shareDate": 20260112,
+            "tags": ["full", "full_body", "party_member", "pc", "player_character", "Vespa"]
+        },
+        {
+            "fileName": "PXL_20251225_202014335.png",
+            "alt": "Symon and Atlas portraits",
+            "artist": ["Scelo"],
+            "shareDate": 20251225,
+            "tags": ["Atlas", "no_mask", "party_member", "pc", "player_character", "portrait", "Symon"]
+        },
+        {
             "fileName": "Isaac_dunce_v2.png",
             "alt": "Isaac after nailing a board to his head",
             "artist": ["Opharim"],
