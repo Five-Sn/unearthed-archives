@@ -1,6 +1,13 @@
 {
     "works": [
         {
+            "fileName": "Isaac_with_the_Skyrim_fine_outfit_edit_1.png",
+            "alt": "Isaac with a blue chrysanthemum aura",
+            "artist": ["Opharim"],
+            "shareDate": 20260123,
+            "tags": ["Isaac", "full", "full_body", "Nazera", "party_member", "pc", "player_character"]
+        },
+        {
             "fileName": "vespa_ballgown.png",
             "alt": "Vespa dressed for a ball",
             "artist": ["Wasp"],
