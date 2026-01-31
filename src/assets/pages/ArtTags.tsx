@@ -209,7 +209,11 @@ const ArtTags = () => {
           <p>
             animated
             <br />
+            color
+            <br />
             commission
+            <br />
+            duotone
             <br />
             flag
             <br />
@@ -222,6 +226,8 @@ const ArtTags = () => {
             map
             <br />
             meme
+            <br />
+            monochrome
             <br />
             nah_id_win, nah_i'd_win
             <br />
