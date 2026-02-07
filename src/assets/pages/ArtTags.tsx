@@ -39,15 +39,17 @@ const ArtTags = () => {
             <br />
             Isaac
             <br />
-            mask, no_mask
-            <br />
             Nazera
             <br />
             Nikte, Nikté
             <br />
             Raksha
             <br />
+            masked_Raksha, unmasked_Raksha
+            <br />
             Symon
+            <br />
+            masked_Symon, unmasked_Symon
             <br />
             Venturo
             <br />
@@ -73,7 +75,9 @@ const ArtTags = () => {
             <br />
             Melona
             <br />
-            Momoko, feline_Momoko, humanoid_Momoko
+            Momoko
+            <br />
+            feline_Momoko, humanoid_Momoko
             <br />
             shadow_tool
           </p>
@@ -81,6 +85,8 @@ const ArtTags = () => {
             <b>Other Characters</b>
           </h4>
           <p>
+            Calypso
+            <br />
             Deirdre
             <br />
             elf_girl
@@ -209,11 +215,7 @@ const ArtTags = () => {
           <p>
             animated
             <br />
-            color
-            <br />
             commission
-            <br />
-            duotone
             <br />
             flag
             <br />
@@ -225,9 +227,9 @@ const ArtTags = () => {
             <br />
             map
             <br />
-            meme
+            mask, no_mask
             <br />
-            monochrome
+            meme
             <br />
             nah_id_win, nah_i'd_win
             <br />
@@ -240,6 +242,18 @@ const ArtTags = () => {
             screenshot
             <br />
             Venom_ball
+          </p>
+          <h4>
+            <b>Color</b>
+          </h4>
+          <p>
+            1color, monochrome
+            <br />
+            2colors
+            <br />
+            3colors
+            <br />
+            color (not monochrome)
           </p>
         </Col>
       </Row>
