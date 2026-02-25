@@ -2,7 +2,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 
 const musicData = await fetch("/unearthed-archives/MusicData.json").then((r) =>
-  r.json()
+  r.json(),
 );
 
 // TODO: THIS IS USED IN LIKE THREE FILES, TURN IT INTO A SHARED IMPORT

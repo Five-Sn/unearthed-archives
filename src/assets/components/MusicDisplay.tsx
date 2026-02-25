@@ -31,7 +31,7 @@ const MusicDisplay = ({ itemCols }: Props) => {
                 <Image
                   rounded
                   src={`music-covers/${coverGenericCheck(
-                    musicItem.coverFileName
+                    musicItem.coverFileName,
                   )}`}
                   className="mx-auto d-block"
                   alt={"Music cover"}
@@ -42,7 +42,7 @@ const MusicDisplay = ({ itemCols }: Props) => {
                 />
               </Col>
               <Col
-                className="py-1 mx-2 border border-primary rounded"
+                className={`py-1 mx-2 border border-primary rounded ${musicItem.tags[1] === "Ball" && "gaudy-music-display"}`}
                 style={{ maxWidth: "463px" }}
               >
                 <h5 className="mb-0">

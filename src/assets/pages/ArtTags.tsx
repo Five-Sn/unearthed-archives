@@ -85,6 +85,8 @@ const ArtTags = () => {
             <b>Other Characters</b>
           </h4>
           <p>
+            Amy, Amaryllis
+            <br />
             Calypso
             <br />
             Deirdre
@@ -119,6 +121,110 @@ const ArtTags = () => {
             Victor
             <br />
             villager, goon
+          </p>
+        </Col>
+        <Col>
+          <h2>
+            <b>
+              <u>Descriptors</u>
+            </b>
+          </h2>
+          <p>
+            full, full_body
+            <br />
+            nah_id_win, nah_i'd_win
+            <br />
+            portrait
+            <br />
+            scene
+            <br />
+            Venom_ball
+          </p>
+          <h4>
+            <b>Clothes</b>
+          </h4>
+          <p>
+            ball_outfit
+            <br />
+            desert_outfit
+            <br />
+            mask, no_mask
+            <br />
+            unique_outfit
+            <br />
+            swimwear
+          </p>
+          <h4>
+            <b>Formats</b>
+          </h4>
+          <p>
+            animated
+            <br />
+            commission
+            <br />
+            flag
+            <br />
+            Hero_Forge
+            <br />
+            letter
+            <br />
+            map
+            <br />
+            meme
+            <br />
+            Nat_notes
+            <br />
+            screenshot
+          </p>
+          <h4>
+            <b>Colors</b>
+          </h4>
+          <p>
+            1color, monochrome
+            <br />
+            2colors
+            <br />
+            3colors
+            <br />
+            color (not monochrome)
+          </p>
+        </Col>
+        <Col>
+          <h2>
+            <b>
+              <u>Creatures</u>
+            </b>
+          </h2>
+          <p>
+            black_pudding
+            <br />
+            bulette
+            <br />
+            Calypso
+            <br />
+            crab
+            <br />
+            enemy
+            <br />
+            fish
+            <br />
+            frog
+            <br />
+            Gregg
+            <br />
+            isopod
+            <br />
+            mandragora
+            <br />
+            mandrake
+            <br />
+            monster
+            <br />
+            Nightmare
+            <br />
+            Plank
+            <br />
+            shark
           </p>
         </Col>
         <Col>
@@ -166,94 +272,6 @@ const ArtTags = () => {
             <br />
             unknown_artist
             <br />
-          </p>
-        </Col>
-        <Col>
-          <h2>
-            <b>
-              <u>Creatures</u>
-            </b>
-          </h2>
-          <p>
-            black_pudding
-            <br />
-            bulette
-            <br />
-            Calypso
-            <br />
-            crab
-            <br />
-            enemy
-            <br />
-            fish
-            <br />
-            frog
-            <br />
-            Gregg
-            <br />
-            isopod
-            <br />
-            mandragora
-            <br />
-            mandrake
-            <br />
-            monster
-            <br />
-            Nightmare
-            <br />
-            Plank
-            <br />
-            shark
-          </p>
-        </Col>
-        <Col>
-          <h2>
-            <b>
-              <u>Mediums and Formats</u>
-            </b>
-          </h2>
-          <p>
-            animated
-            <br />
-            commission
-            <br />
-            flag
-            <br />
-            full, full_body
-            <br />
-            Hero_Forge
-            <br />
-            letter
-            <br />
-            map
-            <br />
-            mask, no_mask
-            <br />
-            meme
-            <br />
-            nah_id_win, nah_i'd_win
-            <br />
-            Nat_notes
-            <br />
-            portrait
-            <br />
-            scene
-            <br />
-            screenshot
-            <br />
-            Venom_ball
-          </p>
-          <h4>
-            <b>Color</b>
-          </h4>
-          <p>
-            1color, monochrome
-            <br />
-            2colors
-            <br />
-            3colors
-            <br />
-            color (not monochrome)
           </p>
         </Col>
       </Row>

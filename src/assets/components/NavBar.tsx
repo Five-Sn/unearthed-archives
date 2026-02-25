@@ -26,6 +26,7 @@ const mainNavSection = (icon: string) => {
       <Nav.Link href="#/art">Art</Nav.Link>
       <Nav.Link href="#/music">Music</Nav.Link>
       <Nav.Link href="#/docs">Docs</Nav.Link>
+      <Nav.Link href="#/updates">◊</Nav.Link>
     </>
   );
 };
@@ -33,7 +34,7 @@ const mainNavSection = (icon: string) => {
 // Right part of the navbar
 const nightModeButton = (
   themeType: "light" | "dark" | "single",
-  themeSwitchFunction: () => void
+  themeSwitchFunction: () => void,
 ) => {
   return (
     <>

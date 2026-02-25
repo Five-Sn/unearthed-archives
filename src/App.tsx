@@ -7,6 +7,7 @@ import ArtTags from "./assets/pages/ArtTags";
 import Music from "./assets/pages/Music";
 import MusicView from "./assets/pages/MusicView";
 import Docs from "./assets/pages/Docs";
+import Changelog from "./assets/pages/Changelog";
 import Settings from "./assets/pages/Settings";
 import Toodoo from "./assets/pages/Toodoo";
 import Sneaky from "./assets/pages/Sneaky";
@@ -35,6 +36,7 @@ function App() {
           <Route path="/music/:query" element={<Music />} />
           <Route path="/music/view/:filename" element={<MusicView />} />
           <Route path="/docs" element={<Docs />} />
+          <Route path="/updates" element={<Changelog />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/toodoo" element={<Toodoo />} />
           <Route path="/sneaky" element={<Sneaky />} />
