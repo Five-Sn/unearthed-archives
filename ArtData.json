@@ -1,11 +1,39 @@
 {
     "works": [
         {
+            "fileName": "waltz_of_the_espers.png",
+            "alt": "Amaryllis and Morgan dancing at the ball",
+            "artist": ["Wasp"],
+            "shareDate": 20260222,
+            "tags": ["Amy", "Amaryllis", "Amaryllis_Genista_Dahlia", "ball_outfit", "color", "Morgan", "Morgan_Amberson", "npc", "portrait"]
+        },
+        {
+            "fileName": "ballgowns.jpg",
+            "alt": "Some of Wasp's characters in ballgowns",
+            "artist": ["Wasp"],
+            "shareDate": 20260222,
+            "tags": ["Amy", "Amaryllis", "Amaryllis_Genista_Dahlia", "ball_outfit", "color", "full", "full_body", "Melona", "Morgan", "Morgan_Amberson", "npc", "party_member", "pc", "player_character", "Vespa"]
+        },
+        {
+            "fileName": "IMG_2803.png",
+            "alt": "Symon in a mask and ball attire",
+            "artist": ["Nat"],
+            "shareDate": 20260222,
+            "tags": ["ball_outfit", "color", "party_member", "pc", "player_character", "portrait", "Symon"]
+        },
+        {
+            "fileName": "IMG_2781.png",
+            "alt": "Atlas in a ballgown",
+            "artist": ["Nat"],
+            "shareDate": 20260222,
+            "tags": ["Atlas", "ball_outfit", "color", "full", "full_body", "party_member", "pc", "player_character"]
+        },
+        {
             "fileName": "Niktesuit.png",
             "alt": "Nikté in a suit",
             "artist": ["Scelo"],
             "shareDate": 20260207,
-            "tags": ["2colors", "color", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["2colors", "ball_outfit", "color", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "Rakshisaac_Kiss.png",
@@ -19,14 +47,14 @@
             "alt": "Isaac with a blue chrysanthemum aura",
             "artist": ["Opharim"],
             "shareDate": 20260123,
-            "tags": ["color", "Isaac", "full", "full_body", "Nazera", "party_member", "pc", "player_character"]
+            "tags": ["ball_outfit", "color", "Isaac", "full", "full_body", "Nazera", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "vespa_ballgown.png",
-            "alt": "Vespa dressed for a ball",
+            "alt": "Vespa in a ballgown",
             "artist": ["Wasp"],
             "shareDate": 20260112,
-            "tags": ["color", "full", "full_body", "party_member", "pc", "player_character", "Vespa"]
+            "tags": ["ball_outfit", "color", "full", "full_body", "party_member", "pc", "player_character", "Vespa"]
         },
         {
             "fileName": "PXL_20251225_202014335.png",
@@ -110,7 +138,7 @@
             "alt": "Vespa in desert clothes",
             "artist": ["Wasp"],
             "shareDate": 20250822,
-            "tags": ["color", "full", "full_body", "party_member", "pc", "player_character", "Vespa"]
+            "tags": ["color", "desert_outfit", "full", "full_body", "party_member", "pc", "player_character", "Vespa"]
         },
         {
             "fileName": "melona_scar.jpg",
@@ -131,7 +159,7 @@
             "alt": "Nikté as a maid",
             "artist": ["Scelo"],
             "shareDate": 20250729,
-            "tags": ["1color", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait"]
+            "tags": ["1color", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait", "unique_outfit"]
         },
         {
             "fileName": "momo_joker.png",
@@ -208,7 +236,7 @@
             "alt": "Symon with Momoko on his shoulder",
             "artist": ["Nat"],
             "shareDate": 20250615,
-            "tags": ["color", "feline_Momoko", "Momoko", "no_mask", "npc", "party_member", "pc", "player_character", "portrait", "Symon", "unmasked_Symon"]
+            "tags": ["color", "desert_outfit", "feline_Momoko", "Momoko", "no_mask", "npc", "party_member", "pc", "player_character", "portrait", "Symon", "unmasked_Symon"]
         },
         {
             "fileName": "chaos.png",
@@ -271,7 +299,7 @@
             "alt": "Nikté dressed for the desert",
             "artist": ["Scelo"],
             "shareDate": 20250402,
-            "tags": ["2colors", "color", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait"]
+            "tags": ["2colors", "color", "desert_outfit", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait"]
         },
         {
             "fileName": "oh_thats_a_rock.png",
@@ -306,7 +334,7 @@
             "alt": "Nikté with burnt skin in desert drip",
             "artist": ["Scelo"],
             "shareDate": 20250220,
-            "tags": ["color", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait"]
+            "tags": ["color", "desert_outfit", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait"]
         },
         {
             "fileName": "IMG_2441.png",
@@ -327,14 +355,14 @@
             "alt": "Nikté in a poncho",
             "artist": ["outside_artist", "53hank"],
             "shareDate": 20250112,
-            "tags": ["color", "commission", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["color", "commission", "desert_outfit", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "white_bg.png",
             "alt": "Nikté in a poncho",
             "artist": ["outside_artist", "53hank"],
             "shareDate": 20250112,
-            "tags": ["color", "commission", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["color", "commission", "desert_outfit", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "IMG_1631.jpg",
@@ -355,7 +383,7 @@
             "alt": "Symon in his desert drip",
             "artist": ["Nat"],
             "shareDate": 20241211,
-            "tags": ["color", "full", "full_body", "no_mask", "party_member", "pc", "player_character", "Symon", "unmasked_Symon"]
+            "tags": ["color", "desert_outfit", "full", "full_body", "no_mask", "party_member", "pc", "player_character", "Symon", "unmasked_Symon"]
         },
         {
             "fileName": "39.png",
@@ -376,21 +404,21 @@
             "alt": "Nikté in a jack-o-lantern outfit",
             "artist": ["Scelo"],
             "shareDate": 20241026,
-            "tags": ["1color", "full", "full_body", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["1color", "full", "full_body", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character", "unique_outfit"]
         },
         {
             "fileName": "Nikte_Pumpkinsuit_BW_Scan.jpg",
             "alt": "Nikté in a jack-o-lantern outfit",
             "artist": ["Scelo"],
             "shareDate": 20241026,
-            "tags": ["1color", "full", "full_body", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["1color", "full", "full_body", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character", "unique_outfit"]
         },
         {
             "fileName": "Nikte_Pumpkinsuit_Photo.jpg",
             "alt": "Nikté in a jack-o-lantern outfit",
             "artist": ["Scelo"],
             "shareDate": 20241026,
-            "tags": ["color", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["color", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character", "unique_outfit"]
         },
         {
             "fileName": "36.png",
@@ -411,7 +439,7 @@
             "alt": "Nikté in a Halloween outfit",
             "artist": ["Scelo"],
             "shareDate": 20241003,
-            "tags": ["1color", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait"]
+            "tags": ["1color", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait", "unique_outfit"]
         },
         {
             "fileName": "faustd_momoko.png",
@@ -425,7 +453,7 @@
             "alt": "Nikté's poncho",
             "artist": ["Scelo"],
             "shareDate": 20240920,
-            "tags": ["1color", "Nikte", "Nikté", "monochrome", "party_member", "pc", "player_character"]
+            "tags": ["1color", "desert_outfit", "Nikte", "Nikté", "monochrome", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "persona_three.png",
@@ -439,7 +467,7 @@
             "alt": "Mermay Vespa",
             "artist": ["Wasp"],
             "shareDate": 20240915,
-            "tags": ["color", "full", "full_body", "party_member", "pc", "player_character", "Vespa"]
+            "tags": ["color", "full", "full_body", "party_member", "pc", "player_character", "swimwear", "unique_outfit", "Vespa"]
         },
         {
             "fileName": "deirdre_purple.jpg",
@@ -474,7 +502,7 @@
             "alt": "Nikté in a poncho",
             "artist": ["Scelo"],
             "shareDate": 20240826,
-            "tags": ["1color", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait"]
+            "tags": ["1color", "desert_outfit", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait"]
         },
         {
             "fileName": "chew.png",
@@ -509,7 +537,7 @@
             "alt": "Melona smoking on a couch",
             "artist": ["Wasp"],
             "shareDate": 20240804,
-            "tags": ["1color", "full", "full_body", "Melona", "monochrome", "npc", "party_member", "scene"]
+            "tags": ["1color", "full", "full_body", "Melona", "monochrome", "npc", "party_member", "scene", "unique_outfit"]
         },
         {
             "fileName": "27.jpg",
@@ -607,7 +635,7 @@
             "alt": "Old Momoko design notes",
             "artist": ["Wasp"],
             "shareDate": 20240616,
-            "tags": ["color", "full", "full_body", "humanoid_Momoko", "Momoko", "npc", "party_member"]
+            "tags": ["color", "full", "full_body", "humanoid_Momoko", "Momoko", "npc", "party_member", "unique_outfit"]
         },
         {
             "fileName": "momoko_render.png",
@@ -635,7 +663,7 @@
             "alt": "Nah, Vespa'd win",
             "artist": ["Wasp"],
             "shareDate": 20240608,
-            "tags": ["1color", "meme", "monochrome", "nah_id_win", "nah_i'd_win", "party_member", "pc", "player_character", "portrait", "Vespa"]
+            "tags": ["1color", "meme", "monochrome", "nah_id_win", "nah_i'd_win", "party_member", "pc", "player_character", "portrait", "unique_outfit", "Vespa"]
         },
         {
             "fileName": "catwipe.jpg",
@@ -670,7 +698,7 @@
             "alt": "Rainbow cat",
             "artist": ["Wasp"],
             "shareDate": 20240518,
-            "tags": ["color", "feline_Momoko", "meme", "Momoko", "npc", "party_member"]
+            "tags": ["color", "feline_Momoko", "meme", "Momoko", "npc", "party_member", "unique_outfit"]
         },
         {
             "fileName": "22.jpg",
@@ -705,7 +733,7 @@
             "alt": "Note about Vespa's wings",
             "artist": ["Wasp"],
             "shareDate": 20240505,
-            "tags": ["1color", "monochrome", "party_member", "pc", "player_character", "Vespa"]
+            "tags": ["1color", "monochrome", "party_member", "pc", "player_character", "swimwear", "unique_outfit", "Vespa"]
         },
         {
             "fileName": "completely_normal_forest.png",
@@ -733,7 +761,7 @@
             "alt": "Sketches of Wasp's NPCs",
             "artist": ["Wasp"],
             "shareDate": 20240430,
-            "tags": ["1color", "Fenugreek", "full", "full_body", "humanoid_Momoko", "Melona", "Momoko", "monochrome", "npc", "party_member"]
+            "tags": ["1color", "Fenugreek", "full", "full_body", "humanoid_Momoko", "Melona", "Momoko", "monochrome", "npc", "party_member", "unique_outfit"]
         },
         {
             "fileName": "Melona.png",
@@ -761,14 +789,14 @@
             "alt": "Atlas in a cocoon, I think",
             "artist": ["Fae", "Payton", "Nat"],
             "shareDate": 20240417,
-            "tags": ["1color", "Atlas", "monochrome", "party_member", "pc", "player_character"]
+            "tags": ["1color", "Atlas", "monochrome", "party_member", "pc", "player_character", "unique_outfit"]
         },
         {
             "fileName": "rn_image_picker_lib_temp_c57fc94d-a61f-47b9-99c7-b716a6e25c80.jpg",
             "alt": "Atlas as a caterpillar and in a cocoon, I think",
             "artist": ["Fae", "Payton", "Nat"],
             "shareDate": 20240417,
-            "tags": ["1color", "Atlas", "monochrome", "party_member", "pc", "player_character"]
+            "tags": ["1color", "Atlas", "monochrome", "party_member", "pc", "player_character", "unique_outfit"]
         },
         {
             "fileName": "Issac_Leaning_on_Raksha.png",
@@ -803,7 +831,7 @@
             "alt": "Key to Isaac vs Symon",
             "artist": ["Opharim", "Nat", "Scelo"],
             "shareDate": 20240406,
-            "tags": ["color", "Isaac", "Nazera", "party_member", "pc", "player_character", "Symon", "unmasked_Symon", "Venturo"]
+            "tags": ["color", "Isaac", "Nazera", "party_member", "pc", "player_character", "Symon", "unique_outfit", "unmasked_Symon", "Venturo"]
         },
         {
             "fileName": "PXL_20240403_0354384222.jpg",
@@ -866,14 +894,14 @@
             "alt": "Venturo portrait",
             "artist": ["Opharim"],
             "shareDate": 20240325,
-            "tags": ["color", "Nazera", "party_member", "pc", "player_character", "Venturo"]
+            "tags": ["color", "Nazera", "party_member", "pc", "player_character", "unique_outfit", "Venturo"]
         },
         {
             "fileName": "Issac_vs_Venturo_Nazera_Von_Faddey.png",
             "alt": "Isaac vs Venturo",
             "artist": ["Opharim"],
             "shareDate": 20240325,
-            "tags": ["color", "Isaac", "meme", "Nazera", "party_member", "pc", "player_character", "Venturo"]
+            "tags": ["color", "Isaac", "meme", "Nazera", "party_member", "pc", "player_character", "unique_outfit", "Venturo"]
         },
         {
             "fileName": "invasive_speck.png",
@@ -992,7 +1020,7 @@
             "alt": "Various Vespa doodles",
             "artist": ["Wasp"],
             "shareDate": 20240220,
-            "tags": ["color", "construct", "enemy", "full", "full_body", "party_member", "pc", "player_character", "shark", "Vespa"]
+            "tags": ["color", "construct", "enemy", "full", "full_body", "party_member", "pc", "player_character", "shark", "swimwear", "unique_outfit", "Vespa"]
         },
         {
             "fileName": "15.png",
@@ -1013,7 +1041,7 @@
             "alt": "Symon watching Atlas \"drown\"",
             "artist": ["Nat"],
             "shareDate": 20240211,
-            "tags": ["1color", "Atlas", "full", "full_body", "monochrome", "no_mask", "party_member", "pc", "player_character", "scene", "Symon", "unmasked_Symon"]
+            "tags": ["1color", "Atlas", "full", "full_body", "monochrome", "no_mask", "party_member", "pc", "player_character", "scene", "Symon", "swimwear", "unmasked_Symon"]
         },
         {
             "fileName": "gy_now.gif",
@@ -1090,14 +1118,14 @@
             "alt": "Vespa spinning",
             "artist": ["Wasp"],
             "shareDate": 20240101,
-            "tags": ["animated", "color", "full", "full_body", "meme", "party_member", "pc", "player_character", "Vespa"]
+            "tags": ["animated", "color", "full", "full_body", "meme", "party_member", "pc", "player_character", "unique_outfit", "Vespa"]
         },
         {
             "fileName": "omw.png",
             "alt": "Vespa looking for nectars",
             "artist": ["Wasp"],
             "shareDate": 20231222,
-            "tags": ["color", "full", "full_body", "meme", "party_member", "pc", "player_character"]
+            "tags": ["color", "full", "full_body", "meme", "party_member", "pc", "player_character", "unique_outfit"]
         },
         {
             "fileName": "PXL_20231220_2352327182.jpg",
@@ -1111,7 +1139,7 @@
             "alt": "They think Vespa's Tom Cruise",
             "artist": ["Wasp"],
             "shareDate": 20231204,
-            "tags": ["color", "meme", "party_member", "pc", "player_character", "Wasp", "portrait"]
+            "tags": ["color", "meme", "party_member", "pc", "player_character", "unique_outfit", "Wasp", "portrait"]
         },
         {
             "fileName": "IMG_1871.png",
@@ -1454,7 +1482,7 @@
             "alt": "Atlas art from before UM",
             "artist": ["Fae", "Payton"],
             "shareDate": 20230730,
-            "tags": ["Atlas", "color", "party_member", "pc", "player_character", "portrait"]
+            "tags": ["Atlas", "color", "party_member", "pc", "player_character", "portrait", "unique_outfit"]
         },
         {
             "fileName": "this_is_my_girl.jpg",
