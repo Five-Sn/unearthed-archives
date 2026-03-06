@@ -1,0 +1,29 @@
+{
+    "works": [
+        {
+            "fileName": "",
+            "alt": "",
+            "artist": [""],
+            "shareDate": 20770101,
+            "tags": []
+        }
+    ],
+    "tracks": [
+        {
+            "fileName": "",
+            "coverFileName": "",
+            "title": "",
+            "artist": "",
+            "description": "",
+            "tags": []
+        }
+    ],
+    "documents": [
+        {
+            "title": "",
+            "description": "",
+            "url": "",
+            "category": ""
+        }
+    ]
+}

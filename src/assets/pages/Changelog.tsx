@@ -15,6 +15,22 @@ const Changelog = () => {
       <br />
       <Row>
         <Col>
+          <h2>◊ Mar 6, 2026</h2>
+          <p>
+            Added a third ball tune! <i>Dance with Death</i> by Wasp, which
+            played during Erika's ball incident.
+            <br />
+            You can also access this changelog from the home page now.
+            <br />
+            You know what? I might as well add the Heart's Hollow fanfic to the
+            document tab. ...Alright, there we go.
+          </p>
+          <br />
+        </Col>
+      </Row>
+      <br />
+      <Row>
+        <Col>
           <h2>◊ Feb 24, 2026</h2>
           <p>
             Oh, I've got a hell of a change for you here. New addition:

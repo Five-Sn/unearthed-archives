@@ -1,6 +1,13 @@
 {
     "works": [
         {
+            "fileName": "Dance_with_Erika.png",
+            "alt": "Vespa and Symon fighting Erika",
+            "artist": ["Scelo"],
+            "shareDate": 20260306,
+            "tags": ["ball_outfit", "color", "enemy", "Erika", "mask", "masked_Symon", "npc", "party_member", "pc", "player_character", "scene", "Symon", "Vespa"]
+        },
+        {
             "fileName": "waltz_of_the_espers.png",
             "alt": "Amaryllis and Morgan dancing at the ball",
             "artist": ["Wasp"],
@@ -82,7 +89,7 @@
             "alt": "Erika portrait",
             "artist": ["Petra"],
             "shareDate": 20251221,
-            "tags": ["color", "Erika", "npc", "portrait"]
+            "tags": ["color", "enemy", "Erika", "npc", "portrait"]
         },
         {
             "fileName": "image-12142025.png",

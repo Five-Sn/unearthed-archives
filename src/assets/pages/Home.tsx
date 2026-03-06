@@ -5,7 +5,7 @@ import useLocalStorage from "use-local-storage";
 // TODO: Use a list and mapping to de-hardcode the buttons below
 
 const themeData = await fetch("/unearthed-archives/ThemeData.json").then((r) =>
-  r.json()
+  r.json(),
 );
 
 type themeString =
@@ -37,7 +37,7 @@ const Home = () => {
   // Then it'll apply the theme to the HTML body properly
   const [theme, setTheme] = useLocalStorage<themeString>("theme", "um-light");
   const [themeType, setThemeType] = useState<"light" | "dark" | "single">(
-    "single"
+    "single",
   );
 
   // Detects when theme is changed
@@ -124,7 +124,7 @@ const Home = () => {
               Documents
             </Button>
             <p className="mt-3 mb-0" style={{ textAlign: "center" }}>
-              Or change visuals:
+              Or other stuff:
             </p>
             <Button
               variant="outline-primary"
@@ -133,6 +133,14 @@ const Home = () => {
               style={{ width: "25%" }}
             >
               <small>Settings</small>
+            </Button>
+            <Button
+              variant="outline-primary"
+              href="#/updates"
+              className={`mx-auto d-block ${spacingPerElement}`}
+              style={{ width: "25%" }}
+            >
+              <small>Changelog</small>
             </Button>
           </Col>
         </Row>
