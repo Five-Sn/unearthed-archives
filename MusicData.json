@@ -17,11 +17,19 @@
             "tags": ["Misc", "Momoko"]
         },
         {
+            "fileName": "Dance with Death.mp3",
+            "coverFileName": "Generic_Album_Gold.png",
+            "title": "Dance with Death",
+            "artist": "Vespidia",
+            "description": "A fight broke out at the ball!",
+            "tags": ["Battle", "Ball"]
+        },
+        {
             "fileName": "gallantry.mp3",
             "coverFileName": "Generic_Album_Gold.png",
             "title": "gallantry",
             "artist": "Vespidia",
-            "description": "(S60 event) Kalaman ball, before dancing",
+            "description": "Kalaman ball, before dancing",
             "tags": ["Town", "Ball"]
         },
         {
@@ -133,7 +141,7 @@
             "coverFileName": "Generic_Album_Gold.png",
             "title": "La Valse D'Médium",
             "artist": "Vespidia",
-            "description": "(S60 event) Kalaman ball dance",
+            "description": "Kalaman ball dance",
             "tags": ["Town", "Ball"]
         },
         {
