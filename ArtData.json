@@ -1,6 +1,13 @@
 {
     "works": [
         {
+            "fileName": "birar_rose_3.png",
+            "alt": "Brar Rose full art",
+            "artist": ["Wasp"],
+            "shareDate": 20260427,
+            "tags": ["Briar_Rose", "color", "full", "full_body", "Project_Moon_game"]
+        },
+        {
             "fileName": "DC-LEGO-Batman-Movie-Fairy-Batman-Minifigure.png",
             "alt": "\"John Yakuza\" full art",
             "artist": ["outside_artist", "unknown_artist"],
