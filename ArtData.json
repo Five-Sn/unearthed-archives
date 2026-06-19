@@ -1,6 +1,34 @@
 {
     "works": [
         {
+            "fileName": "DC-LEGO-Batman-Movie-Fairy-Batman-Minifigure.png",
+            "alt": "\"John Yakuza\" full art",
+            "artist": ["outside_artist", "unknown_artist"],
+            "shareDate": 20260426,
+            "tags": ["color", "full", "full_body", "John Yakuza", "Project_Moon_game"]
+        },
+        {
+            "fileName": "Dys_Patera.png",
+            "alt": "Dys portrait",
+            "artist": ["Opharim"],
+            "shareDate": 20260426,
+            "tags": ["color", "Dys_Patera", "portrait", "Project_Moon_game"]
+        },
+        {
+            "fileName": "Avellano.png",
+            "alt": "Avellano portrait",
+            "artist": ["Scelo"],
+            "shareDate": 20260416,
+            "tags": ["Avellano", "color", "portrait", "Project_Moon_game"]
+        },
+        {
+            "fileName": "Dalloc.png",
+            "alt": "Jaquette full art",
+            "artist": ["outside_artist"],
+            "shareDate": 20260400,
+            "tags": ["color", "full", "full_body", "Jaquette", "Project_Moon_game"]
+        },
+        {
             "fileName": "Dance_with_Erika.png",
             "alt": "Vespa and Symon fighting Erika",
             "artist": ["Scelo"],
