@@ -38,16 +38,16 @@
         {
             "fileName": "DC-LEGO-Batman-Movie-Fairy-Batman-Minifigure.png",
             "alt": "\"John Yakuza\" full art",
-            "artist": ["outside_artist", "unknown_artist"],
+            "artist": ["outside_artist"],
             "shareDate": 20260426,
-            "tags": ["color", "full", "full_body", "John Yakuza", "Project_Moon_game"]
+            "tags": ["color", "full", "full_body", "John_Yakuza", "Project_Moon_game"]
         },
         {
             "fileName": "Dys_Patera.png",
             "alt": "Dys portrait",
             "artist": ["Opharim"],
             "shareDate": 20260426,
-            "tags": ["color", "Dys_Patera", "portrait", "Project_Moon_game"]
+            "tags": ["color", "Dys", "Dys_Patera", "portrait", "Project_Moon_game"]
         },
         {
             "fileName": "Avellano.png",
