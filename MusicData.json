@@ -9,6 +9,22 @@
             "tags": ["Area"]
         },
         {
+            "fileName": "Boat ~ Grey and Aimless.mp3",
+            "coverFileName": "Generic_Album_Drab.png",
+            "title": "Boat ~ Grey and Aimless",
+            "artist": "Scelo",
+            "description": "Depressing travels after the Kalaman Incident",
+            "tags": ["Area"]
+        },
+        {
+            "fileName": "Boat Battle ~ The Only Way Is Forward (WIP 11) loop.ogg",
+            "coverFileName": "Generic_Album_Drab.png",
+            "title": "Boat Battle ~ The Only Way Is Forward",
+            "artist": "Scelo",
+            "description": "Combat during depressing travels after the Kalaman Incident",
+            "tags": ["Battle"]
+        },
+        {
             "fileName": "Cat Gacha Tongue.mp3",
             "coverFileName": "Prismatic Wishes.jpg",
             "title": "Cat Gacha Tongue",
@@ -23,6 +39,14 @@
             "artist": "Vespidia",
             "description": "A fight broke out at the ball!",
             "tags": ["Battle", "Ball"]
+        },
+        {
+            "fileName": "finding our footing.mp3",
+            "coverFileName": "Generic_Album_Drab.png",
+            "title": "finding our footing",
+            "artist": "Vespidia",
+            "description": "The party's feelings after what happened in Kalaman",
+            "tags": ["Area"]
         },
         {
             "fileName": "gallantry.mp3",

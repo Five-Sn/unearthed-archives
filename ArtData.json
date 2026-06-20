@@ -1,8 +1,36 @@
 {
     "works": [
         {
-            "fileName": "birar_rose_3.png",
-            "alt": "Brar Rose full art",
+            "fileName": "world_map_for_unearthed.png",
+            "alt": "The first-ever world map",
+            "artist": ["Petra"],
+            "shareDate": 20260531,
+            "tags": ["color", "map"]
+        },
+        {
+            "fileName": "Letter_to_Embers_Full.png",
+            "alt": "Nikté's letter to Embers",
+            "artist": ["Scelo"],
+            "shareDate": 20260519,
+            "tags": ["1color", "Embers", "letter", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+        },
+        {
+            "fileName": "Arc_2b.png",
+            "alt": "Remnants of a recap video",
+            "artist": ["Scelo"],
+            "shareDate": 20260428,
+            "tags": ["Atlas", "color", "Embers", "Emiloxa", "giant_whirlwyrm", "Isaac", "mask", "masked_Symon", "Nazera", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "player_character", "Raksha", "screenshot", "shark", "Symon", "Tsubaki", "unmasked_Raksha", "unmasked_Symon", "Vespa", "whirlwyrm"]
+        },
+        {
+            "fileName": "Arc_2.png",
+            "alt": "Remnants of a recap video",
+            "artist": ["Scelo"],
+            "shareDate": 20260428,
+            "tags": ["Atlas", "Charlene", "color", "Dixie", "Embers", "Emiloxa", "Gy", "Irene", "Isaac", "mask", "masked_Symon", "Maybell", "meme", "Nazera", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "player_character", "Raksha", "screenshot", "Symon", "Tsubaki", "unmasked_Raksha", "unmasked_Symon", "Vespa"]
+        },
+        {
+            "fileName": "briar_rose_3.png",
+            "alt": "Briar Rose full art",
             "artist": ["Wasp"],
             "shareDate": 20260427,
             "tags": ["Briar_Rose", "color", "full", "full_body", "Project_Moon_game"]
@@ -34,6 +62,13 @@
             "artist": ["outside_artist"],
             "shareDate": 20260400,
             "tags": ["color", "full", "full_body", "Jaquette", "Project_Moon_game"]
+        },
+        {
+            "fileName": "Arc_1.png",
+            "alt": "Remnants of a recap video",
+            "artist": ["Scelo"],
+            "shareDate": 20260310,
+            "tags": ["Atlas", "color", "Embers", "Emiloxa", "horse", "Isaac", "mask", "masked_Symon", "meme", "Nazera", "nightwalker", "Nikte", "Nikté", "no_mask", "npc", "party_member", "pc", "player_character", "Raksha", "unmasked_Raksha", "screenshot", "Symon", "Vespa"]
         },
         {
             "fileName": "Dance_with_Erika.png",
@@ -285,7 +320,7 @@
             "alt": "Remnants of the session 46 recap",
             "artist": ["Scelo"],
             "shareDate": 20250518,
-            "tags": ["Calypso", "Charlene", "color", "Embers", "Emiloxa", "enemy", "Ikol", "Irene", "Isaac", "monster", "Nazera", "Nikte", "Nikté", "no_mask", "npc", "Ocotillo", "Ocotillo_Tragus_Salsosa_Fouquieria_Splendens_de_la_Arena", "Otto", "party_member", "pc", "player_character", "Raksha", "screenshot", "Symon", "unmasked_Symon", "Vespa"]
+            "tags": ["Atlas", "Calypso", "Charlene", "color", "Embers", "Emiloxa", "enemy", "Ikol", "Irene", "Isaac", "monster", "Nazera", "Nikte", "Nikté", "no_mask", "npc", "Ocotillo", "Ocotillo_Tragus_Salsosa_Fouquieria_Splendens_de_la_Arena", "Otto", "party_member", "pc", "player_character", "Raksha", "screenshot", "Symon", "unmasked_Symon", "Vespa"]
         },
         {
             "fileName": "Isaacs_Required_Reading.png",
