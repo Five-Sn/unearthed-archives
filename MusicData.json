@@ -1,12 +1,28 @@
 {
     "tracks": [
         {
+            "fileName": "a small town by the sea ~ sunset.mp3",
+            "coverFileName": "Generic_Album_Drab.png",
+            "title": "a small town by the sea ~ sunset",
+            "artist": "Vespidia",
+            "description": "Calm seaside town",
+            "tags": ["Town"]
+        },
+        {
             "fileName": "Anthropophagy.mp3",
             "coverFileName": "N0VUM Album Zero.jpg",
             "title": "Anthropophagy",
             "artist": "Vespidia",
             "description": "Dungeon",
             "tags": ["Area"]
+        },
+        {
+            "fileName": "babel.mp3",
+            "coverFileName": "Generic_album_Flesh.png",
+            "title": "babel",
+            "artist": "Vespidia",
+            "description": "Scary and intimidating tower battle",
+            "tags": ["Battle", "Flesh tower"]
         },
         {
             "fileName": "Boat ~ Grey and Aimless.mp3",
@@ -47,6 +63,22 @@
             "artist": "Vespidia",
             "description": "The party's feelings after what happened in Kalaman",
             "tags": ["Area"]
+        },
+        {
+            "fileName": "Flesh Tower ~ Viscera Palace (loop).ogg",
+            "coverFileName": "Generic_album_Flesh.png",
+            "title": "Flesh Tower ~ Viscera Palace",
+            "artist": "Scelo",
+            "description": "Fleshy and scary dungeon exploration",
+            "tags": ["Area", "Flesh tower"]
+        },
+        {
+            "fileName": "Flesh Tower Battle ~ Flesh Imprecation (loop).ogg",
+            "coverFileName": "Generic_album_Flesh.png",
+            "title": "Flesh Tower Battle ~ Flesh Imprecation",
+            "artist": "Scelo",
+            "description": "Fleshy and hectic battle",
+            "tags": ["Battle", "Flesh tower"]
         },
         {
             "fileName": "gallantry.mp3",
@@ -174,7 +206,7 @@
             "title": "LOVESICK",
             "artist": "Vespidia",
             "description": "Battle against Her",
-            "tags": ["Battle"]
+            "tags": ["Battle", "Her"]
         },
         {
             "fileName": "Momos Magical Mystery Market.mp3",
@@ -243,7 +275,7 @@
         {
             "fileName": "Shadow Forest Boss Music (wip).ogg",
             "coverFileName": "",
-            "title": "Shadow Forest Boss Music (wip)",
+            "title": "Shadow Forest Boss Music",
             "artist": "Petra",
             "description": "Nightmare battle",
             "tags": ["Battle", "Boss"]
@@ -263,6 +295,14 @@
             "artist": "Vespidia",
             "description": "Battle",
             "tags": ["Battle"]
+        },
+        {
+            "fileName": "tower of madness.ogg",
+            "coverFileName": "Generic_album_Flesh.png",
+            "title": "tower of madness",
+            "artist": "Vespidia",
+            "description": "Ominously foreboding dungeon",
+            "tags": ["Area", "Flesh tower"]
         },
         {
             "fileName": "vespa goes to the forge.mp3",

@@ -1,6 +1,20 @@
 {
     "works": [
         {
+            "fileName": "eldritch_canon.png",
+            "alt": "Vespa's eldritch cannon",
+            "artist": ["Wasp"],
+            "shareDate": 20260714,
+            "tags": ["color", "construct", "eldritch_cannon", "full", "full_body", "party_member", "pc", "player_character", "Vespa"]
+        },
+        {
+            "fileName": "2024_eldritch_canon.png",
+            "alt": "Old version of Vespa's eldritch cannon",
+            "artist": ["Wasp"],
+            "shareDate": 20260714,
+            "tags": ["1color", "construct", "eldritch_cannon", "full", "full_body", "monochrome", "party_member", "pc", "player_character", "Vespa"]
+        },
+        {
             "fileName": "world_map_for_unearthed.png",
             "alt": "The first-ever world map",
             "artist": ["Petra"],
