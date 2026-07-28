@@ -18,7 +18,7 @@
         },
         {
             "fileName": "babel.mp3",
-            "coverFileName": "Generic_album_Flesh.png",
+            "coverFileName": "Generic_Album_Flesh.png",
             "title": "babel",
             "artist": "Vespidia",
             "description": "Scary and intimidating tower battle",
@@ -66,7 +66,7 @@
         },
         {
             "fileName": "Flesh Tower ~ Viscera Palace (loop).ogg",
-            "coverFileName": "Generic_album_Flesh.png",
+            "coverFileName": "Generic_Album_Flesh.png",
             "title": "Flesh Tower ~ Viscera Palace",
             "artist": "Scelo",
             "description": "Fleshy and scary dungeon exploration",
@@ -74,7 +74,7 @@
         },
         {
             "fileName": "Flesh Tower Battle ~ Flesh Imprecation (loop).ogg",
-            "coverFileName": "Generic_album_Flesh.png",
+            "coverFileName": "Generic_Album_Flesh.png",
             "title": "Flesh Tower Battle ~ Flesh Imprecation",
             "artist": "Scelo",
             "description": "Fleshy and hectic battle",
@@ -298,7 +298,7 @@
         },
         {
             "fileName": "tower of madness.ogg",
-            "coverFileName": "Generic_album_Flesh.png",
+            "coverFileName": "Generic_Album_Flesh.png",
             "title": "tower of madness",
             "artist": "Vespidia",
             "description": "Ominously foreboding dungeon",
