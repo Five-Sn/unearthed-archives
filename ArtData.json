@@ -103,7 +103,7 @@
             "alt": "Amaryllis and Morgan dancing at the ball",
             "artist": ["Wasp"],
             "shareDate": 20260222,
-            "tags": ["Amy", "Amaryllis", "Amaryllis_Genista_Dahlia", "ball_outfit", "color", "Morgan", "Morgan_Amberson", "npc", "portrait"]
+            "tags": ["Amy", "Amaryllis", "Amaryllis_Genista_Dahlia", "ball_outfit", "color", "Morgan", "Morgan_Amberson", "npc", "portrait", "scene"]
         },
         {
             "fileName": "ballgowns.jpg",
@@ -313,7 +313,7 @@
             "alt": "Isaac throwing Momoko out a window",
             "artist": ["Opharim"],
             "shareDate": 20250630,
-            "tags": ["color", "feline_Momoko", "Isaac", "Momoko", "Nazera", "party_member", "pc", "player_character"]
+            "tags": ["color", "comic", "feline_Momoko", "Isaac", "meme", "Momoko", "Nazera", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "Atlas_Picmix.gif",
@@ -656,7 +656,7 @@
             "alt": "Symon defending Momoko from Embers",
             "artist": ["Wasp"],
             "shareDate": 20240718,
-            "tags": ["1color", "Embers", "Emiloxa", "feline_Momoko", "humanoid_Momoko", "Momoko", "monochrome", "no_mask", "npc", "party_member", "pc", "player_character", "scene", "Symon", "unmasked_Symon"]
+            "tags": ["1color", "comic", "Embers", "Emiloxa", "feline_Momoko", "humanoid_Momoko", "Momoko", "monochrome", "no_mask", "npc", "party_member", "pc", "player_character", "scene", "Symon", "unmasked_Symon"]
         },
         {
             "fileName": "Fawning_Over_Flora.jpg",
@@ -810,7 +810,7 @@
             "alt": "Nikté perturbed by a goon",
             "artist": ["Scelo"],
             "shareDate": 20240509,
-            "tags": ["1color", "goon", "meme", "monochrome", "Nikte", "Nikté", "npc", "party_member", "pc", "player_character", "scene", "villager"]
+            "tags": ["1color", "comic", "goon", "meme", "monochrome", "Nikte", "Nikté", "npc", "party_member", "pc", "player_character", "scene", "villager"]
         },
         {
             "fileName": "PXL_20240506_035449275.jpg",
@@ -999,7 +999,7 @@
             "alt": "Isaac vs Venturo",
             "artist": ["Opharim"],
             "shareDate": 20240325,
-            "tags": ["color", "Isaac", "meme", "Nazera", "party_member", "pc", "player_character", "unique_outfit", "Venturo"]
+            "tags": ["color", "comic", "Isaac", "meme", "Nazera", "party_member", "pc", "player_character", "unique_outfit", "Venturo"]
         },
         {
             "fileName": "invasive_speck.png",
