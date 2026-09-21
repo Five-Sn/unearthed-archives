@@ -161,7 +161,7 @@
             "tags": ["Misc", "Told my wife I was going to the bank"]
         },
         {
-            "fileName": "Ink Filled Lungs.wav",
+            "fileName": "Ink Filled Lungs.ogg",
             "coverFileName": "invasive speck.png",
             "title": "Ink-Filled Lungs",
             "artist": "Scelo",
@@ -289,7 +289,7 @@
             "tags": ["Battle", "Boss"]
         },
         {
-            "fileName": "Sleeping Tumbleweeds.wav",
+            "fileName": "Sleeping Tumbleweeds.ogg",
             "coverFileName": "",
             "title": "Sleeping Tumbleweeds",
             "artist": "Scelo",
@@ -297,9 +297,9 @@
             "tags": ["Town", "Desert"]
         },
         {
-            "fileName": "Spooky Battle",
+            "fileName": "Spooky Battle.ogg",
             "coverFileName": "Generic_Album_Drab.png",
-            "title": "Spooky Battle.wav",
+            "title": "Spooky Battle",
             "artist": "Scelo",
             "description": "Graveyard battle",
             "tags": ["Battle"]
