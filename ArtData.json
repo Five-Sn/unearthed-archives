@@ -1,6 +1,13 @@
 {
     "works": [
         {
+            "fileName": "Symons Crit v2 small.gif",
+            "alt": "Symon's crit against the zombie",
+            "artist": ["Scelo"],
+            "shareDate": 20260921,
+            "tags": ["1color", "animated", "Atlas", "enemy", "full", "full_body", "Isaac", "jiangshi", "meme", "monochrome", "monster", "Nazera", "Nikte", "Nikté", "no_mask", "party_member", "pc", "player_character", "scene", "Symon", "unmasked_Symon", "Vespa", "zombie"]
+        },
+        {
             "fileName": "eldritch_canon.png",
             "alt": "Vespa's eldritch cannon",
             "artist": ["Wasp"],

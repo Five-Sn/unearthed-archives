@@ -1,6 +1,14 @@
 {
     "tracks": [
         {
+            "fileName": "a small town by the sea ~ sunrise.mp3",
+            "coverFileName": "Generic_Album_Drab.png",
+            "title": "a small town by the sea ~ sunrise",
+            "artist": "Vespidia",
+            "description": "Calm seaside town morning",
+            "tags": ["Town"]
+        },
+        {
             "fileName": "a small town by the sea ~ sunset.mp3",
             "coverFileName": "Generic_Album_Drab.png",
             "title": "a small town by the sea ~ sunset",
@@ -287,6 +295,14 @@
             "artist": "Scelo",
             "description": "Nighttime",
             "tags": ["Town", "Desert"]
+        },
+        {
+            "fileName": "Spooky Battle",
+            "coverFileName": "Generic_Album_Drab.png",
+            "title": "Spooky Battle.wav",
+            "artist": "Scelo",
+            "description": "Graveyard battle",
+            "tags": ["Battle"]
         },
         {
             "fileName": "Steel Yourself -in another world MIX-.mp3",
