@@ -65,6 +65,8 @@ const ArtTags = () => {
             <br />
             Dixie
             <br />
+            eldritch_cannon
+            <br />
             Fenugreek
             <br />
             Ikol
@@ -121,6 +123,22 @@ const ArtTags = () => {
             Victor
             <br />
             villager, goon
+          </p>
+          <h4>
+            <b>One-Shot Characters</b>
+          </h4>
+          <p>
+            Project_Moon_game
+            <br />
+            Avellano
+            <br />
+            Briar_Rose
+            <br />
+            Dys, Dys_Patera
+            <br />
+            Jaquette
+            <br />
+            John Yakuza
           </p>
         </Col>
         <Col>
@@ -210,9 +228,15 @@ const ArtTags = () => {
             <br />
             frog
             <br />
+            giant_whirlwyrm, whirlwyrm
+            <br />
             Gregg
             <br />
+            horse
+            <br />
             isopod
+            <br />
+            jiangshi
             <br />
             mandragora
             <br />
@@ -222,9 +246,15 @@ const ArtTags = () => {
             <br />
             Nightmare
             <br />
+            nightwalker
+            <br />
             Plank
             <br />
+            rat
+            <br />
             shark
+            <br />
+            zombie
           </p>
         </Col>
         <Col>

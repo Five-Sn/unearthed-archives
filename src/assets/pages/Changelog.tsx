@@ -15,12 +15,58 @@ const Changelog = () => {
       <br />
       <Row>
         <Col>
-          <h2>◊ Mar 6, 2026</h2>
+          <h2>◊ July 28, 2026</h2>
           <p>
-            Added a third ball tune! <i>Dance with Death</i> by Wasp, which
-            played during Erika's ball incident.
+            <b>Art:</b> Added Wasp's eldritch cannon art, along with a new tag:{" "}
+            <i>eldritch_cannon</i>.
+            <br />
+            <br />
+            <b>Music:</b> Added all four flesh tower tracks, as well as "a small
+            town by the sea ~ sunset." We keep getting new music for every
+            session. It's insane. If this keeps up, I might stop mentioning
+            every addition here.
+            <br />
+          </p>
+          <br />
+        </Col>
+      </Row>
+      <br />
+      <Row>
+        <Col>
+          <h2>◊ June 19, 2026</h2>
+          <p>
+            <b>Art:</b> Added character art from the Project Moon one-shot (the
+            one with the warp train), and a tag for each PC's name. They all
+            also have the tag <i>Project_Moon_game</i>, but not the{" "}
+            <i>player_character</i> tag. I'll reserve that for UM PCs. There was
+            some actual UM art I added, featuring new tags such as{" "}
+            <i>
+              <a href="https://en.wikipedia.org/wiki/Horse">horse</a>
+            </i>
+            .
+            <br />
+            <br />
+            <b>Music:</b> Added three tunes. "Grey and Aimless" and "The Only
+            Way is Forward" by me, and "finding our footing" by Wasp. All music
+            for being depressed after... the incident.
+            <br />
+            <br />
+            <b>Docs:</b> Added the season 2 (or arc 2) notes. How spooky!
+          </p>
+          <br />
+        </Col>
+      </Row>
+      <br />
+      <Row>
+        <Col>
+          <h2>◊ March 6, 2026</h2>
+          <p>
+            Added a third ball tune! "Dance with Death" by Wasp, which played
+            during Erika's ball incident.
+            <br />
             <br />
             You can also access this changelog from the home page now.
+            <br />
             <br />
             You know what? I might as well add the Heart's Hollow fanfic to the
             document tab. ...Alright, there we go.
@@ -31,7 +77,7 @@ const Changelog = () => {
       <br />
       <Row>
         <Col>
-          <h2>◊ Feb 24, 2026</h2>
+          <h2>◊ February 24, 2026</h2>
           <p>
             Oh, I've got a hell of a change for you here. New addition:
             changelog.

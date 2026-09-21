@@ -6,14 +6,20 @@
         "Campaign Notes": [
             {
                 "title": "Unearthed Memories Notes",
-                "description": "Unearthed Memories campaign notes- the main ones",
+                "description": "First arc campaign notes- the main ones",
                 "url": "https://docs.google.com/document/d/1UQHTFyYYVBdC99dOML9WFPoP2rDmrb2vaXIKvyDDWqs/edit?usp=drive_link",
                 "category": "Campaign Notes"
             },
             {
                 "title": "Sectioned Unearthed Memories Notes",
-                "description": "The same campaign notes, split into tabs so they load easier",
+                "description": "The same first arc notes, split into tabs so they load easier",
                 "url": "https://docs.google.com/document/d/1WbIRN1ZdE15KnqIPbhiiWYpEk2h5zXdKAKdiKBK0ZXs/edit?usp=sharing",
+                "category": "Campaign Notes"
+            },
+            {
+                "title": "Unearthed Memories S2 Notes",
+                "description": "Second arc (or season 2) campaign notes",
+                "url": "https://docs.google.com/document/d/1lz6lzYAfRdwqoMocak3LxWsJ-tGQB8m4xgMMjmKfMIc/edit?usp=sharing",
                 "category": "Campaign Notes"
             }
         ],
