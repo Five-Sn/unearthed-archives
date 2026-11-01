@@ -15,6 +15,51 @@ const Changelog = () => {
       <br />
       <Row>
         <Col>
+          <h2>◊ October 31, 2026</h2>
+          <p>
+            <b>Happy Halloween! 🎃</b>
+            <br />
+            <b>Art:</b> I just added all of my Halloween art, plus a few others.
+            We've got new tags:
+            <i>
+              <ul className="mb-1">
+                <li>bear</li>
+                <li>vampire</li>
+                <li>halloween, halloween_outfit</li>
+                <li>sword</li>
+              </ul>
+            </i>
+            Yeah, I know the bear in the art isn't a <i>real</i> bear. Same
+            witih the vampire. But the tags are still there to make searching
+            for this art easier.
+            <br />
+            The sword tag was a little self-indulgent, since I wanna be able to
+            search for Nikté art where she's got a sword. But hey, to anyone
+            who's reading this: feel free to suggest your own tags!
+            <br />
+            <br />
+            <b>Music:</b> When it comes to music, I've added Wasp's
+            "Laboratory11." I'm sure there will be plenty more related tracks
+            next session, as we explore this lab.
+          </p>
+          <br />
+        </Col>
+      </Row>
+      <br />
+      <Row>
+        <Col>
+          <h2>◊ September 21, 2026</h2>
+          <p>
+            I ADDED A <i>comic</i> TAG!!!!!!! ALSO SOME TAGS FOR ZOMBIES AND
+            JIANGSHIS!!! and some music I guess
+            <br />
+          </p>
+          <br />
+        </Col>
+      </Row>
+      <br />
+      <Row>
+        <Col>
           <h2>◊ July 28, 2026</h2>
           <p>
             <b>Art:</b> Added Wasp's eldritch cannon art, along with a new tag:{" "}

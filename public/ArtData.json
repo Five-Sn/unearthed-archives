@@ -1,6 +1,55 @@
 {
     "works": [
         {
+            "fileName": "original_scans_h26.jpg",
+            "alt": "Greyscale scans of Scelo's halloween art",
+            "artist": ["Scelo"],
+            "shareDate": 20261101,
+            "tags": ["1color", "bear", "Embers", "Emiloxa", "halloween", "halloween_outfit", "Isaac", "monochrome", "Nazera", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait", "scene", "vampire", "zombie"]
+        },
+        {
+            "fileName": "Symon_Halloween_2026.png",
+            "alt": "Symon dressed as a mouse... kinda",
+            "artist": ["Scelo"],
+            "shareDate": 20261031,
+            "tags": ["color", "Embers", "Emiloxa", "halloween", "halloween_outfit", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait", "scene", "vampire", "zombie"]
+        },
+        {
+            "fileName": "Isaac_Halloween_2026.png",
+            "alt": "Isaac dressed as a bear",
+            "artist": ["Scelo"],
+            "shareDate": 20261028,
+            "tags": ["bear", "color", "full", "full_body", "halloween", "halloween_outfit", "Isaac", "Nazera", "party_member", "pc", "player_character"]
+        },
+        {
+            "fileName": "Nikte_Sword_1_small.jpg",
+            "alt": "Nikté season 2 full art",
+            "artist": ["Scelo"],
+            "shareDate": 20261025,
+            "tags": ["color", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character", "sword"]
+        },
+        {
+            "fileName": "PXL_20260927_071743347.jpg",
+            "alt": "Sketch of Nikté in her season 2 outfit",
+            "artist": ["Scelo"],
+            "shareDate": 20261025,
+            "tags": ["1color", "full", "full_body", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character", "sword"]
+        },
+        {
+            "fileName": "Embers_Halloween_2026.png",
+            "alt": "Embers as a zombie or slasher character",
+            "artist": ["Scelo"],
+            "shareDate": 20261019,
+            "tags": ["color", "Embers", "Emiloxa", "full", "full_body", "halloween", "halloween_outfit", "party_member", "pc", "player_character", "zombie"]
+        },
+        {
+            "fileName": "Vespa2.png",
+            "alt": "Vespa full art (season 2 outfit)",
+            "artist": ["Wasp"],
+            "shareDate": 20261011,
+            "tags": ["color", "full", "full_body", "party_member", "pc", "player_character", "Vespa"]
+        },
+        {
             "fileName": "Symons Crit v2 small.gif",
             "alt": "Symon's crit against the zombie",
             "artist": ["Scelo"],
@@ -96,14 +145,14 @@
             "alt": "Vespa and Symon fighting Erika",
             "artist": ["Scelo"],
             "shareDate": 20260306,
-            "tags": ["ball_outfit", "color", "enemy", "Erika", "mask", "masked_Symon", "npc", "party_member", "pc", "player_character", "scene", "Symon", "Vespa"]
+            "tags": ["ball_outfit", "color", "enemy", "Erika", "mask", "masked_Symon", "npc", "party_member", "pc", "player_character", "scene", "sword", "Symon", "Vespa"]
         },
         {
             "fileName": "waltz_of_the_espers.png",
             "alt": "Amaryllis and Morgan dancing at the ball",
             "artist": ["Wasp"],
             "shareDate": 20260222,
-            "tags": ["Amy", "Amaryllis", "Amaryllis_Genista_Dahlia", "ball_outfit", "color", "Morgan", "Morgan_Amberson", "npc", "portrait"]
+            "tags": ["Amy", "Amaryllis", "Amaryllis_Genista_Dahlia", "ball_outfit", "color", "Morgan", "Morgan_Amberson", "npc", "portrait", "scene"]
         },
         {
             "fileName": "ballgowns.jpg",
@@ -187,14 +236,14 @@
             "alt": "\"Her\" full art with a wing",
             "artist": ["Wasp"],
             "shareDate": 20251214,
-            "tags": ["color", "enemy", "full", "full_body", "Her", "npc"]
+            "tags": ["color", "enemy", "full", "full_body", "Her", "npc", "sword"]
         },
         {
             "fileName": "her.png",
             "alt": "\"Her\" full art",
             "artist": ["Wasp"],
             "shareDate": 20251214,
-            "tags": ["color", "enemy", "full", "full_body", "Her", "npc"]
+            "tags": ["color", "enemy", "full", "full_body", "Her", "npc", "sword"]
         },
         {
             "fileName": "Uridi_300.png",
@@ -313,7 +362,7 @@
             "alt": "Isaac throwing Momoko out a window",
             "artist": ["Opharim"],
             "shareDate": 20250630,
-            "tags": ["color", "feline_Momoko", "Isaac", "Momoko", "Nazera", "party_member", "pc", "player_character"]
+            "tags": ["color", "comic", "feline_Momoko", "Isaac", "meme", "Momoko", "Nazera", "party_member", "pc", "player_character"]
         },
         {
             "fileName": "Atlas_Picmix.gif",
@@ -656,7 +705,7 @@
             "alt": "Symon defending Momoko from Embers",
             "artist": ["Wasp"],
             "shareDate": 20240718,
-            "tags": ["1color", "Embers", "Emiloxa", "feline_Momoko", "humanoid_Momoko", "Momoko", "monochrome", "no_mask", "npc", "party_member", "pc", "player_character", "scene", "Symon", "unmasked_Symon"]
+            "tags": ["1color", "comic", "Embers", "Emiloxa", "feline_Momoko", "humanoid_Momoko", "Momoko", "monochrome", "no_mask", "npc", "party_member", "pc", "player_character", "scene", "Symon", "unmasked_Symon"]
         },
         {
             "fileName": "Fawning_Over_Flora.jpg",
@@ -810,7 +859,7 @@
             "alt": "Nikté perturbed by a goon",
             "artist": ["Scelo"],
             "shareDate": 20240509,
-            "tags": ["1color", "goon", "meme", "monochrome", "Nikte", "Nikté", "npc", "party_member", "pc", "player_character", "scene", "villager"]
+            "tags": ["1color", "comic", "goon", "meme", "monochrome", "Nikte", "Nikté", "npc", "party_member", "pc", "player_character", "scene", "villager"]
         },
         {
             "fileName": "PXL_20240506_035449275.jpg",
@@ -999,7 +1048,7 @@
             "alt": "Isaac vs Venturo",
             "artist": ["Opharim"],
             "shareDate": 20240325,
-            "tags": ["color", "Isaac", "meme", "Nazera", "party_member", "pc", "player_character", "unique_outfit", "Venturo"]
+            "tags": ["color", "comic", "Isaac", "meme", "Nazera", "party_member", "pc", "player_character", "unique_outfit", "Venturo"]
         },
         {
             "fileName": "invasive_speck.png",
@@ -1118,7 +1167,7 @@
             "alt": "Various Vespa doodles",
             "artist": ["Wasp"],
             "shareDate": 20240220,
-            "tags": ["color", "construct", "enemy", "full", "full_body", "party_member", "pc", "player_character", "shark", "swimwear", "unique_outfit", "Vespa"]
+            "tags": ["color", "construct", "enemy", "full", "full_body", "party_member", "pc", "player_character", "shark", "swimwear", "sword", "unique_outfit", "Vespa"]
         },
         {
             "fileName": "15.png",
@@ -1202,7 +1251,7 @@
             "alt": "Sketches of Nikté's lilies and other stuff",
             "artist": ["Scelo"],
             "shareDate": 20240105,
-            "tags": ["2colors", "color", "construct", "Nikte", "Nikté", "party_member", "pc", "player_character", "shadow_tool"]
+            "tags": ["2colors", "color", "construct", "Nikte", "Nikté", "party_member", "pc", "player_character", "shadow_tool", "sword"]
         },
         {
             "fileName": "IMG_1895.jpg",
@@ -1587,7 +1636,7 @@
             "alt": "Raksha on a pile of corpses",
             "artist": ["outside_artist", "unknown_artist"],
             "shareDate": 20230730,
-            "tags": ["2colors", "color", "commission", "full", "full_body", "mask", "masked_Raksha", "npc", "party_member", "Raksha"]
+            "tags": ["2colors", "color", "commission", "full", "full_body", "mask", "masked_Raksha", "npc", "party_member", "Raksha", "sword"]
         }
     ]
 }

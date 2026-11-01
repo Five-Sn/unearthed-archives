@@ -166,6 +166,8 @@ const ArtTags = () => {
             <br />
             desert_outfit
             <br />
+            halloween, halloween_outfit
+            <br />
             mask, no_mask
             <br />
             unique_outfit
@@ -177,6 +179,8 @@ const ArtTags = () => {
           </h4>
           <p>
             animated
+            <br />
+            comic
             <br />
             commission
             <br />
@@ -214,6 +218,8 @@ const ArtTags = () => {
             </b>
           </h2>
           <p>
+            bear
+            <br />
             black_pudding
             <br />
             bulette
@@ -253,6 +259,8 @@ const ArtTags = () => {
             rat
             <br />
             shark
+            <br />
+            vampire
             <br />
             zombie
           </p>
