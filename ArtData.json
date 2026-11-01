@@ -26,14 +26,14 @@
             "alt": "Nikté season 2 full art",
             "artist": ["Scelo"],
             "shareDate": 20261025,
-            "tags": ["color", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["color", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character", "sword"]
         },
         {
             "fileName": "PXL_20260927_071743347.jpg",
             "alt": "Sketch of Nikté in her season 2 outfit",
             "artist": ["Scelo"],
             "shareDate": 20261025,
-            "tags": ["1color", "full", "full_body", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+            "tags": ["1color", "full", "full_body", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character", "sword"]
         },
         {
             "fileName": "Embers_Halloween_2026.png",
@@ -145,7 +145,7 @@
             "alt": "Vespa and Symon fighting Erika",
             "artist": ["Scelo"],
             "shareDate": 20260306,
-            "tags": ["ball_outfit", "color", "enemy", "Erika", "mask", "masked_Symon", "npc", "party_member", "pc", "player_character", "scene", "Symon", "Vespa"]
+            "tags": ["ball_outfit", "color", "enemy", "Erika", "mask", "masked_Symon", "npc", "party_member", "pc", "player_character", "scene", "sword", "Symon", "Vespa"]
         },
         {
             "fileName": "waltz_of_the_espers.png",
@@ -236,14 +236,14 @@
             "alt": "\"Her\" full art with a wing",
             "artist": ["Wasp"],
             "shareDate": 20251214,
-            "tags": ["color", "enemy", "full", "full_body", "Her", "npc"]
+            "tags": ["color", "enemy", "full", "full_body", "Her", "npc", "sword"]
         },
         {
             "fileName": "her.png",
             "alt": "\"Her\" full art",
             "artist": ["Wasp"],
             "shareDate": 20251214,
-            "tags": ["color", "enemy", "full", "full_body", "Her", "npc"]
+            "tags": ["color", "enemy", "full", "full_body", "Her", "npc", "sword"]
         },
         {
             "fileName": "Uridi_300.png",
@@ -1167,7 +1167,7 @@
             "alt": "Various Vespa doodles",
             "artist": ["Wasp"],
             "shareDate": 20240220,
-            "tags": ["color", "construct", "enemy", "full", "full_body", "party_member", "pc", "player_character", "shark", "swimwear", "unique_outfit", "Vespa"]
+            "tags": ["color", "construct", "enemy", "full", "full_body", "party_member", "pc", "player_character", "shark", "swimwear", "sword", "unique_outfit", "Vespa"]
         },
         {
             "fileName": "15.png",
@@ -1251,7 +1251,7 @@
             "alt": "Sketches of Nikté's lilies and other stuff",
             "artist": ["Scelo"],
             "shareDate": 20240105,
-            "tags": ["2colors", "color", "construct", "Nikte", "Nikté", "party_member", "pc", "player_character", "shadow_tool"]
+            "tags": ["2colors", "color", "construct", "Nikte", "Nikté", "party_member", "pc", "player_character", "shadow_tool", "sword"]
         },
         {
             "fileName": "IMG_1895.jpg",
@@ -1636,7 +1636,7 @@
             "alt": "Raksha on a pile of corpses",
             "artist": ["outside_artist", "unknown_artist"],
             "shareDate": 20230730,
-            "tags": ["2colors", "color", "commission", "full", "full_body", "mask", "masked_Raksha", "npc", "party_member", "Raksha"]
+            "tags": ["2colors", "color", "commission", "full", "full_body", "mask", "masked_Raksha", "npc", "party_member", "Raksha", "sword"]
         }
     ]
 }
