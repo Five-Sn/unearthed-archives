@@ -1,6 +1,55 @@
 {
     "works": [
         {
+            "fileName": "original_scans_h26.jpg",
+            "alt": "Greyscale scans of Scelo's halloween art",
+            "artist": ["Scelo"],
+            "shareDate": 20261101,
+            "tags": ["1color", "bear", "Embers", "Emiloxa", "halloween", "halloween_outfit", "Isaac", "monochrome", "Nazera", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait", "scene", "vampire", "zombie"]
+        },
+        {
+            "fileName": "Symon_Halloween_2026.png",
+            "alt": "Symon dressed as a mouse... kinda",
+            "artist": ["Scelo"],
+            "shareDate": 20261031,
+            "tags": ["color", "Embers", "Emiloxa", "halloween", "halloween_outfit", "Nikte", "Nikté", "party_member", "pc", "player_character", "portrait", "scene", "vampire", "zombie"]
+        },
+        {
+            "fileName": "Isaac_Halloween_2026.png",
+            "alt": "Isaac dressed as a bear",
+            "artist": ["Scelo"],
+            "shareDate": 20261028,
+            "tags": ["bear", "color", "full", "full_body", "halloween", "halloween_outfit", "Isaac", "Nazera", "party_member", "pc", "player_character"]
+        },
+        {
+            "fileName": "Nikte_Sword_1_small.jpg",
+            "alt": "Nikté season 2 full art",
+            "artist": ["Scelo"],
+            "shareDate": 20261025,
+            "tags": ["color", "full", "full_body", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+        },
+        {
+            "fileName": "PXL_20260927_071743347.jpg",
+            "alt": "Sketch of Nikté in her season 2 outfit",
+            "artist": ["Scelo"],
+            "shareDate": 20261025,
+            "tags": ["1color", "full", "full_body", "monochrome", "Nikte", "Nikté", "party_member", "pc", "player_character"]
+        },
+        {
+            "fileName": "Embers_Halloween_2026.png",
+            "alt": "Embers as a zombie or slasher character",
+            "artist": ["Scelo"],
+            "shareDate": 20261019,
+            "tags": ["color", "Embers", "Emiloxa", "full", "full_body", "halloween", "halloween_outfit", "party_member", "pc", "player_character", "zombie"]
+        },
+        {
+            "fileName": "Vespa2.png",
+            "alt": "Vespa full art (season 2 outfit)",
+            "artist": ["Wasp"],
+            "shareDate": 20261011,
+            "tags": ["color", "full", "full_body", "party_member", "pc", "player_character", "Vespa"]
+        },
+        {
             "fileName": "Symons Crit v2 small.gif",
             "alt": "Symon's crit against the zombie",
             "artist": ["Scelo"],

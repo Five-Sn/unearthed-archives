@@ -185,6 +185,14 @@
             "tags": ["Character", "Morgan"]
         },
         {
+            "fileName": "Laboratory11.mp3",
+            "coverFileName": "Generic_Album_Drab.png",
+            "title": "Laboratory11",
+            "artist": "Vespidia",
+            "description": "Azurite research lab",
+            "tags": ["Area", "Azurite"]
+        },
+        {
             "fileName": "Laying Back at Camp.mp3",
             "coverFileName": "Azure Wishes.jpg",
             "title": "Laying Back at Camp",
