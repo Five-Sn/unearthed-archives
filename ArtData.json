@@ -1,6 +1,27 @@
 {
     "works": [
         {
+            "fileName": "AROScr.gif",
+            "alt": "AROS, Labroatory 11's security system",
+            "artist": ["Wasp"],
+            "shareDate": 20261101,
+            "tags": ["animated", "AROS", "azurite", "enemy", "monster"]
+        },
+        {
+            "fileName": "polluxcr.gif",
+            "alt": "An azurite eye creature",
+            "artist": ["Wasp"],
+            "shareDate": 20261101,
+            "tags": ["animated", "azurite", "enemy", "monster", "pollux"]
+        },
+        {
+            "fileName": "castorcr.gif",
+            "alt": "An azurite eye creature",
+            "artist": ["Wasp"],
+            "shareDate": 20261101,
+            "tags": ["animated", "azurite", "castor", "enemy", "monster"]
+        },
+        {
             "fileName": "original_scans_h26.jpg",
             "alt": "Greyscale scans of Scelo's halloween art",
             "artist": ["Scelo"],

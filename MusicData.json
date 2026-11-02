@@ -25,6 +25,14 @@
             "tags": ["Area"]
         },
         {
+            "fileName": "AROS.mp3",
+            "coverFileName": "Generic_Album_Drab.png",
+            "title": "AROS",
+            "artist": "Vespidia",
+            "description": "AROS battle theme",
+            "tags": ["Battle", "Azurite"]
+        },
+        {
             "fileName": "babel.mp3",
             "coverFileName": "Generic_Album_Flesh.png",
             "title": "babel",
@@ -63,6 +71,14 @@
             "artist": "Vespidia",
             "description": "A fight broke out at the ball!",
             "tags": ["Battle", "Ball"]
+        },
+        {
+            "fileName": "diffraction.mp3",
+            "coverFileName": "Generic_Album_Drab.png",
+            "title": "diffraction",
+            "artist": "Vespidia",
+            "description": "Castor and Pollux battle",
+            "tags": ["Battle", "Azurite"]
         },
         {
             "fileName": "finding our footing.mp3",
@@ -231,6 +247,14 @@
             "artist": "Vespidia",
             "description": "Momoko's Shop",
             "tags": ["Character", "Momoko"]
+        },
+        {
+            "fileName": "musings.mp3",
+            "coverFileName": "Generic_Album_Drab.png",
+            "title": "musings",
+            "artist": "Vespidia",
+            "description": "Azurite information theme",
+            "tags": ["Azurite"]
         },
         {
             "fileName": "Nagas With Attitude.mp3",
